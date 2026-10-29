@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="500" height="500">
+<!-- PenroseTriangle: triangulo imposible (reemplazo propio). [0] cuadro blanco, [1] caras visibles de 3 vigas -->
+<path fill="#FFFFFF" stroke="none" d="M 0 0 L 100 0 L 100 100 L 0 100 Z"/>
+<path fill="#333333" stroke="none" d="M 23.405 4 L 36.787 11.667 L 23.405 19.333 L 10.163 11.667 Z M 23.405 19.473 L 23.405 96 L 10.163 88.333 L 10.163 11.806 Z M 36.787 88.333 L 23.545 95.861 L 23.545 19.333 L 36.787 11.806 Z M 36.926 72.861 L 37.066 57.388 L 76.514 34.667 L 89.896 42.333 Z M 89.757 57.806 L 36.926 88.194 L 36.926 73 L 89.896 42.473 Z M 76.375 34.667 L 62.993 42.194 L 37.066 27.279 L 36.926 11.806 Z M 62.993 42.333 L 50.029 49.861 L 37.066 42.612 L 36.926 27.279 Z"/>
+</svg>

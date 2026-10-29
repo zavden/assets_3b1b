@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="500" height="500">
+<!-- woman_icon: figura femenina de pie (reemplazo propio). [0] cuadro blanco, [1] cabeza, [2] cuerpo -->
+<path fill="#FFFFFF" stroke="none" d="M 0 0 L 100 0 L 100 100 L 0 100 Z"/>
+<path fill="#333333" stroke="none" d="M 61 15 C 61 21.075 56.075 26 50 26 C 43.925 26 39 21.075 39 15 C 39 8.925 43.925 4 50 4 C 56.075 4 61 8.925 61 15 Z"/>
+<path fill="#333333" stroke="none" d="M 45 31 L 55 31 C 57.761 31 60.981 33.012 62.192 35.494 L 78.246 68.405 C 79.215 70.39 78.209 72 76 72 L 59 72 L 59 91 C 59 92.657 57.657 94 56 94 L 44 94 C 42.343 94 41 92.657 41 91 L 41 72 L 24 72 C 21.791 72 20.785 70.39 21.754 68.405 L 37.808 35.494 C 39.019 33.012 42.239 31 45 31 Z"/>
+</svg>

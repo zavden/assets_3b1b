@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 100" width="400" height="500">
+<!-- diamonds: rombo con borde (reemplazo propio, mismo estilo que hearts) -->
+<path fill="#e0383e" stroke="#9c1c24" stroke-width="2.2" stroke-linejoin="round" d="M 40 2 C 34 22 7 38 2 50 C 7 62 34 78 40 98 C 46 78 73 62 78 50 C 73 38 46 22 40 2 Z"/>
+</svg>

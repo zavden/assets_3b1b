@@ -1,0 +1,4 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 98" width="500" height="490">
+<!-- hearts: corazon con borde (reemplazo propio) -->
+<path fill="#e0383e" stroke="#9c1c24" stroke-width="2.2" stroke-linejoin="round" d="M 50 96 C 22 74 2 56 2 31 C 2 14 14 2 27 2 C 38 2 46 9 50 20 C 54 9 62 2 73 2 C 86 2 98 14 98 31 C 98 56 78 74 50 96 Z"/>
+</svg>
