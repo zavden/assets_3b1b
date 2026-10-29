@@ -5,6 +5,9 @@ Images, SVGs, sounds, 3D models and fonts that the scenes of the repository
 `animations_3b1b/assets_3b1b/`) or next to it (`../assets_3b1b`); any folder given through the `THREEB1B_ASSETS`
 variable also works.
 
+The scenes run on the ManimGL fork [`manimgl_3b1b`](https://github.com/zavden/manimgl_3b1b), and their rendered videos
+are on [Google Drive](https://drive.google.com/drive/folders/1BCGrsZvolya2Jwur21eW9Irj0JhkhujV?usp=sharing).
+
 | Folder | Contents |
 |---|---|
 | `PiCreature/` | The original Π character (3Blue1Brown's pi creatures are not redistributed) |
