@@ -1,0 +1,1995 @@
+{
+ "svg_images/electricity.svg": {
+  "asset": "svg_images/electricity.svg",
+  "name": "electricity.svg",
+  "subject": "Lightning bolt icon (one polygon)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:14:59.987742+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/AboutToyPuzzles.py",
+   "matches": [
+    {
+     "line": 25,
+     "context": "                it.count(),\n                [\"fire\", \"electricity\", \"water\"], \n                [RED_D, YELLOW_C, BLUE_D]\n            )\n        ])\n        utilities.move_to(self.v_distance*DOWN/2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "2ef28ee77bdac870076db6eac1e34e711458378882a712733338ac442d4a6f71",
+  "final_size_bytes": 320
+ },
+ "svg_images/ethereum_logo.svg": {
+  "asset": "svg_images/ethereum_logo.svg",
+  "name": "ethereum_logo.svg",
+  "subject": "Own generic gem: a diamond made of 4 coloured facets (grey shades) without the Ethereum proportions, 4 sub-shapes (EthereumLogo recolors its parts)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:13:33.310582+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/BigDifferenceBetweenLDAndCryptocurrencies.py",
+   "matches": [
+    {
+     "line": 5,
+     "context": "    CONFIG = {\n        \"file_name\" : \"ethereum_logo\",\n        \"stroke_width\" : 0,\n        \"fill_opacity\" : 1,\n        \"color_chars\" : \"8B8B48\",\n        \"height\" : 0.5,"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c23436eeb7b310326e50bd57731fbf4279525d2ab18f020657ed087f449de99d",
+  "final_size_bytes": 686
+ },
+ "svg_images/fire.svg": {
+  "asset": "svg_images/fire.svg",
+  "name": "fire.svg",
+  "subject": "Flame icon: one teardrop silhouette with a notch",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:14:59.994040+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/AboutToyPuzzles.py",
+   "matches": [
+    {
+     "line": 25,
+     "context": "                it.count(),\n                [\"fire\", \"electricity\", \"water\"], \n                [RED_D, YELLOW_C, BLUE_D]\n            )\n        ])\n        utilities.move_to(self.v_distance*DOWN/2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "cdceb31dfc8e7dccd0e275d5e7a5622a06200342b919f80c890aa164759f08a0",
+  "final_size_bytes": 371
+ },
+ "svg_images/house.svg": {
+  "asset": "svg_images/house.svg",
+  "name": "house.svg",
+  "subject": "House icon: a pentagon-shaped silhouette with a door cut-out (valid closed paths only: the current file ends with a degenerate `M x,y` path that GL cannot parse; CL17-D shims it)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.000550+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/AboutToyPuzzles.py",
+   "matches": [
+    {
+     "line": 11,
+     "context": "    def setup_configuration(self):\n        houses = VGroup()\n        for x in range(3):\n            house = SVGMobject(file_name = \"house\")\n            house.set_stroke(BLACK, 5, background=True)\n            house.set_height(self.object_height)"
+    },
+    {
+     "line": 13,
+     "context": "        for x in range(3):\n            house = SVGMobject(file_name = \"house\")\n            house.set_stroke(BLACK, 5, background=True)\n            house.set_height(self.object_height)\n            house.set_fill(GREY_B)\n            house.move_to(x*self.h_distance*RIGHT)"
+    },
+    {
+     "line": 14,
+     "context": "            house = SVGMobject(file_name = \"house\")\n            house.set_stroke(BLACK, 5, background=True)\n            house.set_height(self.object_height)\n            house.set_fill(GREY_B)\n            house.move_to(x*self.h_distance*RIGHT)\n            houses.add(house)"
+    },
+    {
+     "line": 15,
+     "context": "            house.set_stroke(BLACK, 5, background=True)\n            house.set_height(self.object_height)\n            house.set_fill(GREY_B)\n            house.move_to(x*self.h_distance*RIGHT)\n            houses.add(house)\n        houses.move_to(self.v_distance*UP/2)"
+    },
+    {
+     "line": 16,
+     "context": "            house.set_height(self.object_height)\n            house.set_fill(GREY_B)\n            house.move_to(x*self.h_distance*RIGHT)\n            houses.add(house)\n        houses.move_to(self.v_distance*UP/2)\n"
+    },
+    {
+     "line": 17,
+     "context": "            house.set_fill(GREY_B)\n            house.move_to(x*self.h_distance*RIGHT)\n            houses.add(house)\n        houses.move_to(self.v_distance*UP/2)\n\n        utilities = VGroup(*["
+    },
+    {
+     "line": 18,
+     "context": "            house.move_to(x*self.h_distance*RIGHT)\n            houses.add(house)\n        houses.move_to(self.v_distance*UP/2)\n\n        utilities = VGroup(*[\n            self.get_utility(u, c).move_to(x*self.h_distance*RIGHT)"
+    },
+    {
+     "line": 19,
+     "context": "            houses.add(house)\n        houses.move_to(self.v_distance*UP/2)\n\n        utilities = VGroup(*[\n            self.get_utility(u, c).move_to(x*self.h_distance*RIGHT)\n            for x, u, c in zip("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "60785b5a02add2eebf31f6124a85e776f4bf0897a3fed470b9764fb927a7a6f0",
+  "final_size_bytes": 510
+ },
+ "svg_images/litecoin_logo.svg": {
+  "asset": "svg_images/litecoin_logo.svg",
+  "name": "litecoin_logo.svg",
+  "subject": "Own coin icon: silver disc with a bold 'L' with a diagonal bar; not the Litecoin logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.007981+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/BigDifferenceBetweenLDAndCryptocurrencies.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "    CONFIG = {\n        \"file_name\" : \"litecoin_logo\",\n        \"stroke_width\" : 0,\n        \"fill_opacity\" : 1,\n        \"fill_color\" : GREY_B,\n        \"height\" : 0.5,"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "dbcef347ee3562939f5aae8bae85006855a69c0c6692cf621f8fb13f06c04694",
+  "final_size_bytes": 6510
+ },
+ "svg_images/paint_bucket.svg": {
+  "asset": "svg_images/paint_bucket.svg",
+  "name": "paint_bucket.svg",
+  "subject": "Paint bucket icon: tilted bucket with handle and a drip",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.017615+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/AskAboutRegions.py",
+   "matches": [
+    {
+     "line": 164,
+     "context": "        ##Paint bucket\n        paint_bucket = SVGMobject(\n            file_name = \"paint_bucket\",\n            height = 0.5,\n        )\n        paint_bucket.flip()"
+    },
+    {
+     "line": 165,
+     "context": "        paint_bucket = SVGMobject(\n            file_name = \"paint_bucket\",\n            height = 0.5,\n        )\n        paint_bucket.flip()\n        paint_bucket.move_to(8*LEFT + 5*UP)"
+    },
+    {
+     "line": 168,
+     "context": "        )\n        paint_bucket.flip()\n        paint_bucket.move_to(8*LEFT + 5*UP)\n\n        def click(region):\n            self.play("
+    },
+    {
+     "line": 169,
+     "context": "        paint_bucket.flip()\n        paint_bucket.move_to(8*LEFT + 5*UP)\n\n        def click(region):\n            self.play(\n                UpdateFromAlphaFunc("
+    },
+    {
+     "line": 178,
+     "context": "                ApplyMethod(\n                    paint_bucket.scale, 0.5,\n                    rate_func = there_and_back,\n                ),\n                run_time = 0.25,\n            )"
+    },
+    {
+     "line": 185,
+     "context": "        self.play(\n            paint_bucket.next_to, utilities, DOWN+LEFT, SMALL_BUFF\n        )\n        click(regions[1])\n        self.play(paint_bucket.next_to, utilities[1], UP+RIGHT, SMALL_BUFF)\n        click(regions[2])"
+    },
+    {
+     "line": 188,
+     "context": "        click(regions[1])\n        self.play(paint_bucket.next_to, utilities[1], UP+RIGHT, SMALL_BUFF)\n        click(regions[2])\n        self.play(paint_bucket.next_to, houses[1], RIGHT)\n        click(regions[3])\n        self.play(paint_bucket.move_to, 4*LEFT + 2*UP)"
+    },
+    {
+     "line": 190,
+     "context": "        click(regions[2])\n        self.play(paint_bucket.next_to, houses[1], RIGHT)\n        click(regions[3])\n        self.play(paint_bucket.move_to, 4*LEFT + 2*UP)\n        self.add_foreground_mobjects(front_regions, lines, objects)\n        click(back_region)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "440288f4836e1755db5e8cb57ed257e41a72ceab2bc07cfe3afe2f2572981e1e",
+  "final_size_bytes": 2712
+ },
+ "svg_images/water.svg": {
+  "asset": "svg_images/water.svg",
+  "name": "water.svg",
+  "subject": "Water drop icon",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.025201+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/AboutToyPuzzles.py",
+   "matches": [
+    {
+     "line": 25,
+     "context": "                it.count(),\n                [\"fire\", \"electricity\", \"water\"], \n                [RED_D, YELLOW_C, BLUE_D]\n            )\n        ])\n        utilities.move_to(self.v_distance*DOWN/2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "b9dd400af0fb24cd7b27929f58a31e7a30fce897588487421acb63d1fa764c85",
+  "final_size_bytes": 341
+ },
+ "raster_images/Astrolabe.jpg": {
+  "asset": "raster_images/Astrolabe.jpg",
+  "name": "Astrolabe.jpg",
+  "subject": "Free-licence image of the subject (Astrolabe) from Wikimedia Commons, only used as a small training-example picture",
+  "author": "Michael Peel",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Astrolabes,_circa_1400_and_1625.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:08.565271+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part2/RandomlyLabeledImageData.py",
+   "matches": [
+    {
+     "line": 40,
+     "context": "            (\"Puppy\", \"Puppy\"),\n            (\"Astrolabe\", \"Astrolabe\"),\n            (\"Adele\", \"Songbird of \\\\\\\\ our generation\"),\n            (\"Cow\", \"Cow\"),\n            (\"Sculling\", \"Sculling\"),\n            (\"Pierre_de_Fermat\", \"Tease\"),"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "1c12a2f61efd3439182e222b4beeaddba76722e1591c109e34882fb5062cbf4d",
+  "previous_download": true,
+  "commons_title": "File:Astrolabes, circa 1400 and 1625.jpg",
+  "source_author_credit": "Michael Peel",
+  "source_credit": "Own work Photograph by Mike Peel ( www.mikepeel.net ).  2009-07-11",
+  "source_description": "English: French and Italian Astrolabe, plates about 1400, mater and rete about 1625. AST0554. On display at the National Maritime Museum.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/77/Astrolabes%2C_circa_1400_and_1625.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "5e06db2d5e4eaa57d9257dd4df042eaa9c2cefe9b9669f7cc8dcce3ea55e57a1",
+  "source_sha256": "3b01d1f44ea5ac2ff95393b9a60c2aec3da4a6068ec3b35c7d3ece326c3e0b5e",
+  "source_size_bytes": 2721128,
+  "download_size_bytes": 2721128,
+  "source_width": 2592,
+  "source_height": 3888,
+  "delivery_state": "done",
+  "sha256": "1c12a2f61efd3439182e222b4beeaddba76722e1591c109e34882fb5062cbf4d",
+  "final_size_bytes": 51484
+ },
+ "raster_images/Pierre_de_Fermat.png": {
+  "asset": "raster_images/Pierre_de_Fermat.png",
+  "name": "Pierre_de_Fermat.png",
+  "subject": "Retrato de Pierre de Fermat",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg",
+  "status": "kept",
+  "changes": "Alias del reemplazo libre de Fermat de 2019, ajustado a PNG RGBA y tamaño exacto; se revalida en vivo la licencia de su fuente.",
+  "via": "download",
+  "note": "Se reutiliza el retrato libre de Fermat de 2019. No se usa Pierre_de_Fermat original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:08.679551+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part2/RandomlyLabeledImageData.py",
+   "matches": [
+    {
+     "line": 44,
+     "context": "            (\"Sculling\", \"Sculling\"),\n            (\"Pierre_de_Fermat\", \"Tease\"),\n        ]\n    }\n    def construct(self):\n        groups = Group()"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "37fcc1677d03cbe139905543438bfdededd906c1dcbfa7867edab251e354d9d7",
+  "previous_download": true,
+  "commons_title": "File:Pierre de Fermat.jpg",
+  "source_author_credit": "Unknown author Unknown author",
+  "source_credit": "https://web.archive.org/web/20191028044928/http://www-groups.dcs.st-and.ac.uk/~history/PictDisplay/Fermat.html",
+  "source_description": "English: A portrait of Pierre de Fermat , French lawyer and mathematician Deutsch: Ein Porträt des französischen Mathematikers und Jurist Pierre de Fermat",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "2807a5ec84cfbf58d88982a80e2759bd94769790ea7db643d1d5eea41433e79a",
+  "source_sha256": "891ec07bd6fb11166ac274bec6299138962b7a8948813f3615372f557c3fbc0f",
+  "source_size_bytes": 37723,
+  "download_size_bytes": 37723,
+  "reused_asset": "raster_images/Fermat.jpg",
+  "reused_asset_sha256": "f7cb813199bb88b57d6c1d30bf6e312d0555d64f92896371db015d40087515ed",
+  "delivery_state": "done",
+  "sha256": "37fcc1677d03cbe139905543438bfdededd906c1dcbfa7867edab251e354d9d7",
+  "final_size_bytes": 1133297
+ },
+ "raster_images/Sculling.jpg": {
+  "asset": "raster_images/Sculling.jpg",
+  "name": "Sculling.jpg",
+  "subject": "Free-licence image of the subject (Sculling) from Wikimedia Commons, only used as a small training-example picture",
+  "author": "John Sutton",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Sculling_past_Stourbridge_Common_-_geograph.org.uk_-_5589384.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:08.720297+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part2/RandomlyLabeledImageData.py",
+   "matches": [
+    {
+     "line": 43,
+     "context": "            (\"Cow\", \"Cow\"),\n            (\"Sculling\", \"Sculling\"),\n            (\"Pierre_de_Fermat\", \"Tease\"),\n        ]\n    }\n    def construct(self):"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "60aefba46f06e384db5005eafc41ddd131be87638be3647e4d6274621b9ade43",
+  "previous_download": true,
+  "commons_title": "File:Sculling past Stourbridge Common - geograph.org.uk - 5589384.jpg",
+  "source_author_credit": "John Sutton",
+  "source_credit": "Geograph Britain and Ireland",
+  "source_description": "English: Sculling past Stourbridge Common",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Sculling_past_Stourbridge_Common_-_geograph.org.uk_-_5589384.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "640c4657b493c0fc6985890d41818d61c1389c82c897fc52df079ad6cad237c8",
+  "source_sha256": "df37ffe43eb60fb3f2651d00db701296f15c891fba9f422e6187b9bd7bec571f",
+  "source_size_bytes": 975733,
+  "download_size_bytes": 975733,
+  "source_width": 1024,
+  "source_height": 768,
+  "delivery_state": "done",
+  "sha256": "60aefba46f06e384db5005eafc41ddd131be87638be3647e4d6274621b9ade43",
+  "final_size_bytes": 64353
+ },
+ "raster_images/Trilobite.jpg": {
+  "asset": "raster_images/Trilobite.jpg",
+  "name": "Trilobite.jpg",
+  "subject": "Free-licence image of the subject (Trilobite) from Wikimedia Commons, only used as a small training-example picture",
+  "author": "Gary Todd from Xinzheng, China",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Fossil_Trilobite_(9964973146).jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:08.754008+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part2/RandomlyLabeledImageData.py",
+   "matches": [
+    {
+     "line": 38,
+     "context": "            (\"Fork\", \"Fork\"),\n            (\"Trilobite\", \"Trilobite\"),\n            (\"Puppy\", \"Puppy\"),\n            (\"Astrolabe\", \"Astrolabe\"),\n            (\"Adele\", \"Songbird of \\\\\\\\ our generation\"),\n            (\"Cow\", \"Cow\"),"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "1ce3dacd72726799ff45957da4b5c89fa293e7ec377df3d68886aaf08501f8bb",
+  "previous_download": true,
+  "commons_title": "File:Fossil Trilobite (9964973146).jpg",
+  "source_author_credit": "Gary Todd from Xinzheng, China",
+  "source_credit": "Fossil Trilobite",
+  "source_description": "Kunming City Museum, Yunnan. Complete indexed photo collection at WorldHistoryPics.com.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Fossil_Trilobite_%289964973146%29.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "8756f4d59f77de0f9d0aec521989768b9f4193b563b1470ac47c17fe0e438392",
+  "source_sha256": "227a0d4fd26134028c18cdbe27fed54280620bc8f539dd32c821060081841746",
+  "source_size_bytes": 1889521,
+  "download_size_bytes": 1889521,
+  "source_width": 3888,
+  "source_height": 2592,
+  "delivery_state": "done",
+  "sha256": "1ce3dacd72726799ff45957da4b5c89fa293e7ec377df3d68886aaf08501f8bb",
+  "final_size_bytes": 45897
+ },
+ "raster_images/ripple_logo.png": {
+  "asset": "raster_images/ripple_logo.png",
+  "name": "ripple_logo.png",
+  "subject": "Own generic mark (three small dots joined by arcs in a circle) in the same size; not the Ripple logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Ilustración propia por código, sin marcas, personas ni material original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:13:50.931098+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/CompareBlockTimes.py",
+   "matches": [
+    {
+     "line": 54,
+     "context": "            EthereumLogo(),\n            ImageMobject(\"ripple_logo\"),\n            LitecoinLogo(),\n        )\n        colors = [BITCOIN_COLOR, GREEN, BLUE_B, GREY_B]\n        for logo, example, color in zip(logos, examples, colors):"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "bfa7d03d1d94c95b99a8d8a10b66e563a23f7884fa97fea550030db29e9bd744",
+  "final_size_bytes": 3556
+ },
+ "svg_images/Norway.svg": {
+  "asset": "svg_images/Norway.svg",
+  "name": "Norway.svg",
+  "subject": "SIN FILA en los CSV de los agentes (lo detectó el chequeo estático); decide tú el tipo y los derechos.",
+  "author": "Natural Earth; Tom Patterson, Nathaniel Vaughn Kelso y colaboradores",
+  "license": "Public domain",
+  "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "page_url": "https://www.naturalearthdata.com/",
+  "status": "kept",
+  "changes": "Datos Natural Earth 50m v5.1.2: costa continental más larga de Noruega; sin frontera terrestre ni islas, simplificación 0.006 grados, proyección local y ajuste al viewBox, un solo trazo abierto.",
+  "via": "download",
+  "note": "Costa continental de Natural Earth; una ruta continua abierta, sin frontera terrestre. Ilustración simplificada, no sirve para medir una dimensión fractal real.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:08.834941+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/fractal_dimension/CompareBritainAndNorway.py",
+   "matches": [
+    {
+     "line": 20,
+     "context": "\nclass Norway(Britain):\n    CONFIG = {\n        \"file_name\" : \"Norway\",\n        \"mark_paths_closed\" : False\n    }"
+    },
+    {
+     "line": 22,
+     "context": "    CONFIG = {\n        \"file_name\" : \"Norway\",\n        \"mark_paths_closed\" : False\n    }\n\n"
+    },
+    {
+     "line": 27,
+     "context": "\nclass CompareBritainAndNorway(Scene):\n    def construct(self):\n        norway = Norway(\n            fill_opacity = 0,\n            stroke_width = 2,"
+    },
+    {
+     "line": 29,
+     "context": "    def construct(self):\n        norway = Norway(\n            fill_opacity = 0,\n            stroke_width = 2,\n        )\n        norway.to_corner(UP+RIGHT, buff = 0)"
+    },
+    {
+     "line": 33,
+     "context": "        )\n        norway.to_corner(UP+RIGHT, buff = 0)\n        fractalify(norway, order = 1, dimension = 1.5)\n        anchors = list(norway.get_anchors())\n        anchors.append(FRAME_X_RADIUS*RIGHT+FRAME_Y_RADIUS*UP)\n        norway.set_points_as_corners(anchors)"
+    },
+    {
+     "line": 34,
+     "context": "        norway.to_corner(UP+RIGHT, buff = 0)\n        fractalify(norway, order = 1, dimension = 1.5)\n        anchors = list(norway.get_anchors())\n        anchors.append(FRAME_X_RADIUS*RIGHT+FRAME_Y_RADIUS*UP)\n        norway.set_points_as_corners(anchors)\n"
+    },
+    {
+     "line": 35,
+     "context": "        fractalify(norway, order = 1, dimension = 1.5)\n        anchors = list(norway.get_anchors())\n        anchors.append(FRAME_X_RADIUS*RIGHT+FRAME_Y_RADIUS*UP)\n        norway.set_points_as_corners(anchors)\n\n        britain = Britain("
+    },
+    {
+     "line": 37,
+     "context": "        anchors.append(FRAME_X_RADIUS*RIGHT+FRAME_Y_RADIUS*UP)\n        norway.set_points_as_corners(anchors)\n\n        britain = Britain(\n            fill_opacity = 0,\n            stroke_width = 2"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "672d91a426343edf58e937d6cf9aa98bd5faa46674706659efd6d400009bf390",
+  "previous_download": true,
+  "file_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_coastline.geojson",
+  "source_sha256": "271f1c4c1908312bac6b29d158ea1356544beafc129f260005300913aa5ea283",
+  "source_files": [
+   {
+    "file_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_0_countries.geojson",
+    "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+    "bytes": 3083490
+   },
+   {
+    "file_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_coastline.geojson",
+    "sha256": "271f1c4c1908312bac6b29d158ea1356544beafc129f260005300913aa5ea283",
+    "bytes": 1640858
+   }
+  ],
+  "evidence_sha256": "e1da8c495fccd60fdddc9c79663ecdfc3d4688e45cfe5fdbc36c4dc7d13bc5fc",
+  "license_evidence": "Términos oficiales de Natural Earth consultados en esta ejecución; todos sus datos vectoriales son de dominio público.",
+  "coast_points": 706,
+  "delivery_state": "done",
+  "sha256": "672d91a426343edf58e937d6cf9aa98bd5faa46674706659efd6d400009bf390",
+  "final_size_bytes": 12629
+ },
+ "svg_images/bank_building.svg": {
+  "asset": "svg_images/bank_building.svg",
+  "name": "bank_building.svg",
+  "subject": "Simple classical building icon: triangular pediment, four columns and a base, one connected silhouette, 1 colour",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.055881+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/FromBankToDecentralizedSystem.py",
+   "matches": [
+    {
+     "line": 296,
+     "context": "        bank = SVGMobject(\n            file_name = \"bank_building\",\n            color = GREY_B,\n            height = 3,\n        )\n        cross = Cross(bank)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "fc35b0dd42c80a4edc5f1e73db4a3070d360e16f58fe15d402c5e81fe62f7960",
+  "final_size_bytes": 967
+ },
+ "svg_images/euro_symbol.svg": {
+  "asset": "svg_images/euro_symbol.svg",
+  "name": "euro_symbol.svg",
+  "subject": "Euro sign drawn by code (a 'C'-shaped arc with two horizontal bars)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.703784+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/ShowLDAndOtherCurrencyExchanges.py",
+   "matches": [
+    {
+     "line": 148,
+     "context": "            SVGMobject(\n                file_name = \"euro_symbol\",\n                stroke_width = 0,\n                fill_opacity = 1,\n                fill_color = BLUE,\n            ),"
+    },
+    {
+     "line": 168,
+     "context": "        euro = SVGMobject(\n            file_name = \"euro_symbol\",\n            stroke_width = 0,\n            fill_opacity = 1,\n            fill_color = BLUE,\n        )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "a657165c919826a7b8b930e6d039bfab3068969b8ca688d953fffc77126fdb39",
+  "final_size_bytes": 3183
+ },
+ "svg_images/gpu.svg": {
+  "asset": "svg_images/gpu.svg",
+  "name": "gpu.svg",
+  "subject": "Graphics card icon: rectangle with two fans (circles with blades) and a row of connector pins",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.714720+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/256/MainBreakdown.py",
+   "matches": [
+    {
+     "line": 23,
+     "context": "        self.add_four_billions()\n        self.gpu_packed_computer()\n        self.kilo_google()\n        self.half_all_people_on_earth()\n        self.four_billion_earths()\n        self.four_billion_galxies()"
+    },
+    {
+     "line": 50,
+     "context": "\n    def gpu_packed_computer(self):\n        self.show_gpu()\n        self.cram_computer_with_gpus()\n\n    def show_gpu(self):"
+    },
+    {
+     "line": 51,
+     "context": "    def gpu_packed_computer(self):\n        self.show_gpu()\n        self.cram_computer_with_gpus()\n\n    def show_gpu(self):\n        gpu = SVGMobject("
+    },
+    {
+     "line": 52,
+     "context": "        self.show_gpu()\n        self.cram_computer_with_gpus()\n\n    def show_gpu(self):\n        gpu = SVGMobject(\n            file_name = \"gpu\","
+    },
+    {
+     "line": 54,
+     "context": "\n    def show_gpu(self):\n        gpu = SVGMobject(\n            file_name = \"gpu\",\n            height = 1,\n            fill_color = GREY_B,"
+    },
+    {
+     "line": 55,
+     "context": "    def show_gpu(self):\n        gpu = SVGMobject(\n            file_name = \"gpu\",\n            height = 1,\n            fill_color = GREY_B,\n        )"
+    },
+    {
+     "line": 56,
+     "context": "        gpu = SVGMobject(\n            file_name = \"gpu\",\n            height = 1,\n            fill_color = GREY_B,\n        )\n        name = OldTexText(\"Graphics\", \"Processing\", \"Unit\")"
+    },
+    {
+     "line": 64,
+     "context": "        name.to_edge(LEFT)\n        gpu.next_to(name, UP)\n\n        hash_names = VGroup(*[\n            OldTexText(\"hash\")\n            for x in range(10)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "de51a0aa46997a5e69f12bbb7b31bac3994b1eac9528f46c1a1042c9ba2aaff2",
+  "final_size_bytes": 13204
+ },
+ "svg_images/yen_symbol.svg": {
+  "asset": "svg_images/yen_symbol.svg",
+  "name": "yen_symbol.svg",
+  "subject": "Yen sign drawn by code (a 'Y' with two horizontal bars)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:00.727816+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/ShowLDAndOtherCurrencyExchanges.py",
+   "matches": [
+    {
+     "line": 154,
+     "context": "            SVGMobject(\n                file_name = \"yen_symbol\",\n                stroke_width = 0,\n                fill_opacity = 1,\n                fill_color = RED,\n            )"
+    },
+    {
+     "line": 178,
+     "context": "            SVGMobject(\n                file_name = \"yen_symbol\",\n                stroke_width = 0,\n                fill_opacity = 1,\n                fill_color = RED,\n            ),"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "8063c955709a5e2c6ed17736a18665b9a97bfcf4b5f1e027c39c74d1e94df7b1",
+  "final_size_bytes": 1949
+ },
+ "raster_images/Barrow.jpg": {
+  "asset": "raster_images/Barrow.jpg",
+  "name": "Barrow.jpg",
+  "subject": "Retrato de Isaac Barrow",
+  "author": "Mary Beale",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Isaac_Barrow_by_Mary_Beale.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:09.373960+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/eoc/chapter2/FathersOfCalculus.py",
+   "matches": [
+    {
+     "line": 6,
+     "context": "        \"names\" : [\n            \"Barrow\",\n            \"Newton\", \n            \"Leibniz\",\n            \"Cauchy\",\n            \"Weierstrass\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "78eca67d83fe556d34e9c0b999df18f94f03d861c4dcd18d357e87d894696d5a",
+  "previous_download": true,
+  "commons_title": "File:Isaac Barrow by Mary Beale.jpg",
+  "source_author_credit": "Mary Beale",
+  "source_credit": "https://artuk.org/discover/artworks/isaac-barrow-16301677-master-16731677-mathematician-and-theologian-134861",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Isaac_Barrow_by_Mary_Beale.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "68ab08b05e39a9631f222add955059bf8d6037424e9ca765e45c5017076e190a",
+  "source_sha256": "ca24843b9f9ff832e62de1d0bdd3b51afc2522feb5a8e3efe286502c4cc05ef2",
+  "source_size_bytes": 65841,
+  "download_size_bytes": 65841,
+  "source_width": 725,
+  "source_height": 944,
+  "delivery_state": "done",
+  "sha256": "78eca67d83fe556d34e9c0b999df18f94f03d861c4dcd18d357e87d894696d5a",
+  "final_size_bytes": 51142
+ },
+ "raster_images/Mandelbrot.jpg": {
+  "asset": "raster_images/Mandelbrot.jpg",
+  "name": "Mandelbrot.jpg",
+  "subject": "SIN FILA en los CSV de los agentes (lo detectó el chequeo estático); decide tú el tipo y los derechos.",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Ilustración propia por código, sin marcas, personas ni material original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:49.278543+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/fractal_dimension/WhatAreFractals.py",
+   "matches": [
+    {
+     "line": 14,
+     "context": "\n        name = OldTexText(\"Benoit Mandelbrot\")\n        name.to_corner(UP+LEFT)\n        # picture = Rectangle(height = 4, width = 3)\n        picture = ImageMobject(\"Mandelbrot\")\n        picture.set_height(4)"
+    },
+    {
+     "line": 17,
+     "context": "        # picture = Rectangle(height = 4, width = 3)\n        picture = ImageMobject(\"Mandelbrot\")\n        picture.set_height(4)\n        picture.next_to(name, DOWN)\n        self.play(\n            Write(name, run_time = 2),"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "e46e4c42a322e021d67be9c58982921e5396da56a060ea473216601053f772b6",
+  "final_size_bytes": 60255
+ },
+ "raster_images/Weierstrass.jpg": {
+  "asset": "raster_images/Weierstrass.jpg",
+  "name": "Weierstrass.jpg",
+  "subject": "Retrato de Karl Weierstrass",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Karl_Weierstrass.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:18:09.389585+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/eoc/chapter2/FathersOfCalculus.py",
+   "matches": [
+    {
+     "line": 10,
+     "context": "            \"Cauchy\",\n            \"Weierstrass\",\n        ],\n        \"picture_height\" : 2.5,\n    }\n    def construct(self):"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "2eb794c46644a60fdee7f86f732ea1a8a20cb3b74c9d018af81a10cb8f358ed4",
+  "previous_download": true,
+  "commons_title": "File:Karl Weierstrass.jpg",
+  "source_author_credit": "",
+  "source_credit": "",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Karl_Weierstrass.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio.",
+  "evidence_sha256": "c1007759d2f5983314608856eff50949d581227158c3af30c8a939028e75d125",
+  "source_sha256": "697f066b606943f67484ac4233c1a8176fa48644426c7847ab0250f9b142eee9",
+  "source_size_bytes": 128938,
+  "download_size_bytes": 128938,
+  "source_width": 901,
+  "source_height": 1322,
+  "delivery_state": "done",
+  "sha256": "2eb794c46644a60fdee7f86f732ea1a8a20cb3b74c9d018af81a10cb8f358ed4",
+  "final_size_bytes": 71649
+ },
+ "raster_images/bitcoin_mining_graphic.png": {
+  "asset": "raster_images/bitcoin_mining_graphic.png",
+  "name": "bitcoin_mining_graphic.png",
+  "subject": "CODEX: illustration of a crypto-mining rig: a rack/shelf of GPU cards with fans and cables, flat vector style, transparent background, about 1200x800",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Ilustración propia por código, sin marcas, personas ni material original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:55.285482+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/NoCommentOnSpeculation.py",
+   "matches": [
+    {
+     "line": 27,
+     "context": "\n        mining_graphic = ImageMobject(\"bitcoin_mining_graphic\")\n        mining_graphic.set_height(2)\n        mining_graphic.next_to(self.teacher, UP+LEFT)\n        mining_cross = Cross(mining_graphic)\n        mining_cross.set_stroke(RED, 8)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "4ee03c65a9a3fa8925bc8de55191f3fbc06ccf8faeda38cded1745569710d533",
+  "final_size_bytes": 45779
+ },
+ "raster_images/eater.jpg": {
+  "asset": "raster_images/eater.jpg",
+  "name": "eater.jpg",
+  "subject": "Paisaje neutro difuminado sin figura humana",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Ilustración propia por código, sin marcas, personas ni material original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:55.388168+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/qa_round_two/Thumbnail.py",
+   "matches": [
+    {
+     "line": 93,
+     "context": "\n        eater = ImageMobject(\"eater\", height = 3)\n        eater.to_corner(UP+RIGHT, buff = 0)\n\n        confetti_anims = get_confetti_animations(100)\n        for anim in confetti_anims:"
+    },
+    {
+     "line": 94,
+     "context": "        eater = ImageMobject(\"eater\", height = 3)\n        eater.to_corner(UP+RIGHT, buff = 0)\n\n        confetti_anims = get_confetti_animations(100)\n        for anim in confetti_anims:\n            anim.update(0.5)"
+    },
+    {
+     "line": 101,
+     "context": "\n        self.add(equation, q_and_a, eater)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "2b656da3f733a8e2be61b7e9a511a57803e5399b41ab33c4daf422bddef8950b",
+  "final_size_bytes": 2942
+ },
+ "raster_images/milky_way.jpg": {
+  "asset": "raster_images/milky_way.jpg",
+  "name": "milky_way.jpg",
+  "subject": "Own Milky Way look-alike generated by code: dark blue gradient with a bright diagonal band and random star dots, 1920x1080",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Ilustración propia por código, sin marcas, personas ni material original de Grant.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:55.403114+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/256/MainBreakdown.py",
+   "matches": [
+    {
+     "line": 265,
+     "context": "        )\n        milky_way = ImageMobject(\"milky_way\")\n        milky_way.set_height(3)\n        milky_way.to_edge(LEFT, buff = 0)\n        milky_way.shift(DOWN)\n"
+    },
+    {
+     "line": 266,
+     "context": "        milky_way = ImageMobject(\"milky_way\")\n        milky_way.set_height(3)\n        milky_way.to_edge(LEFT, buff = 0)\n        milky_way.shift(DOWN)\n\n        n_stars_estimate = OldTexText(\"100 to 400 \\\\\\\\ billion stars\")"
+    },
+    {
+     "line": 267,
+     "context": "        milky_way.set_height(3)\n        milky_way.to_edge(LEFT, buff = 0)\n        milky_way.shift(DOWN)\n\n        n_stars_estimate = OldTexText(\"100 to 400 \\\\\\\\ billion stars\")\n        n_stars_estimate.next_to(milky_way, RIGHT)"
+    },
+    {
+     "line": 268,
+     "context": "        milky_way.to_edge(LEFT, buff = 0)\n        milky_way.shift(DOWN)\n\n        n_stars_estimate = OldTexText(\"100 to 400 \\\\\\\\ billion stars\")\n        n_stars_estimate.next_to(milky_way, RIGHT)\n        n_stars_estimate.shift(UP)"
+    },
+    {
+     "line": 271,
+     "context": "        n_stars_estimate = OldTexText(\"100 to 400 \\\\\\\\ billion stars\")\n        n_stars_estimate.next_to(milky_way, RIGHT)\n        n_stars_estimate.shift(UP)\n\n        earth, h_line, denom = self.get_fraction(\n            3, self.get_earth(), self.get_galaxy()"
+    },
+    {
+     "line": 279,
+     "context": "        self.revert_to_original_skipping_status()\n        self.play(FadeIn(milky_way))\n        self.play(Write(n_stars_estimate))\n        self.wait()\n        self.play(LaggedStartMap(\n            Indicate, self.group_of_four_billion_things,"
+    },
+    {
+     "line": 297,
+     "context": "            self.four_billions[3].restore,\n            FadeOut(milky_way),\n            FadeOut(n_stars_estimate),\n        )\n        self.wait()\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "9bff1b322523bd921b5ab095525eb2d2d075006c886a20d17223b8291f495281",
+  "final_size_bytes": 211765
+ },
+ "svg_images/circuit.svg": {
+  "asset": "svg_images/circuit.svg",
+  "name": "circuit.svg",
+  "subject": "Simple circuit-board icon: a few right-angle traces ending in circles",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:15:55.560166+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/256/StateOfBitcoin.py",
+   "matches": [
+    {
+     "line": 62,
+     "context": "        asic = OldTexText(\n            \"Application\", \"Specific\\\\\\\\\", \"Integrated\", \"Circuit\"\n        )\n        for word in asic:\n            word[0].set_color(YELLOW)\n        asic.move_to(gpu)"
+    },
+    {
+     "line": 69,
+     "context": "        asic.shift(LEFT)\n        circuit = SVGMobject(\n            file_name = \"circuit\",\n            height = asic.get_height(),\n            fill_color = WHITE,\n        )"
+    },
+    {
+     "line": 70,
+     "context": "        circuit = SVGMobject(\n            file_name = \"circuit\",\n            height = asic.get_height(),\n            fill_color = WHITE,\n        )\n        random.shuffle(circuit.submobjects)"
+    },
+    {
+     "line": 74,
+     "context": "        )\n        random.shuffle(circuit.submobjects)\n        circuit.set_color_by_gradient(WHITE, GREY)\n        circuit.next_to(asic, RIGHT)\n        asic_rate = OldTexText(\"Trillion hashes/sec\")\n        asic_rate.next_to(asic, DOWN, MED_LARGE_BUFF)"
+    },
+    {
+     "line": 75,
+     "context": "        random.shuffle(circuit.submobjects)\n        circuit.set_color_by_gradient(WHITE, GREY)\n        circuit.next_to(asic, RIGHT)\n        asic_rate = OldTexText(\"Trillion hashes/sec\")\n        asic_rate.next_to(asic, DOWN, MED_LARGE_BUFF)\n        asic_rate.set_color(GREEN)"
+    },
+    {
+     "line": 76,
+     "context": "        circuit.set_color_by_gradient(WHITE, GREY)\n        circuit.next_to(asic, RIGHT)\n        asic_rate = OldTexText(\"Trillion hashes/sec\")\n        asic_rate.next_to(asic, DOWN, MED_LARGE_BUFF)\n        asic_rate.set_color(GREEN)\n"
+    },
+    {
+     "line": 118,
+     "context": "        self.play(LaggedStartMap(\n            FadeIn, circuit,\n            run_time = 3,\n            lag_ratio = 0.2,\n        ))\n        self.wait()"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "ed620e0a1c426ad24a009b4a1470fb1f03bcf9c4e708064ce48885ce4c12c209",
+  "final_size_bytes": 17292
+ },
+ "svg_images/credit_card.svg": {
+  "asset": "svg_images/credit_card.svg",
+  "name": "credit_card.svg",
+  "subject": "Credit card icon: rounded rectangle with a stripe and a small chip",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.822851+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/UnderlyingSystemVsUserFacing.py",
+   "matches": [
+    {
+     "line": 29,
+     "context": "        card = SVGMobject(\n            file_name = \"credit_card\",\n            fill_color = GREY_B,\n            fill_opacity = 1,\n            stroke_width = 0,\n            height = 1"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "4490edd7aae5fe5a78cfc87a9b533b32ecaaf445c5314566de25d6337b736b45",
+  "final_size_bytes": 2557
+ },
+ "svg_images/galaxy.svg": {
+  "asset": "svg_images/galaxy.svg",
+  "name": "galaxy.svg",
+  "subject": "Spiral galaxy icon: logarithmic spiral with 2 arms made of dots/strokes",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.833037+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/256/MainBreakdown.py",
+   "matches": [
+    {
+     "line": 275,
+     "context": "        earth, h_line, denom = self.get_fraction(\n            3, self.get_earth(), self.get_galaxy()\n        )\n\n        self.revert_to_original_skipping_status()\n        self.play(FadeIn(milky_way))"
+    },
+    {
+     "line": 303,
+     "context": "    def four_billion_galxies(self):\n        self.create_four_billion_copies(4, self.get_galaxy())\n        num, h_line, denom = fraction = self.get_fraction(\n            4, self.get_galaxy(), OldTexText(\"GGSC\").set_color(BLUE)\n        )\n"
+    },
+    {
+     "line": 305,
+     "context": "        num, h_line, denom = fraction = self.get_fraction(\n            4, self.get_galaxy(), OldTexText(\"GGSC\").set_color(BLUE)\n        )\n\n        name = OldTexText(\n            \"Giga\", \"Galactic \\\\\\\\\", \" Super\", \" Computer\","
+    },
+    {
+     "line": 470,
+     "context": "\n    def get_galaxy(self):\n        return SVGMobject(\n            file_name = \"galaxy\",\n            fill_opacity = 0,\n            stroke_width = 3,"
+    },
+    {
+     "line": 472,
+     "context": "        return SVGMobject(\n            file_name = \"galaxy\",\n            fill_opacity = 0,\n            stroke_width = 3,\n            stroke_color = WHITE,\n            height = 1,"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "863fd172815d48a8beb02a16f252ffcd1b4673b1130b3ebce567e57d21ea2bde",
+  "final_size_bytes": 26458
+ },
+ "svg_images/government_building.svg": {
+  "asset": "svg_images/government_building.svg",
+  "name": "government_building.svg",
+  "subject": "Simple capitol-style icon: dome on a wide base with steps, one silhouette, 1 colour",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.844230+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/ListOfAttributes.py",
+   "matches": [],
+   "indirect_name": "government building"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "76635ef90bc73864979ef401326fcf68d970ce96e2937e287e7d5efa9b17ce0c",
+  "final_size_bytes": 1942
+ },
+ "svg_images/phone.svg": {
+  "asset": "svg_images/phone.svg",
+  "name": "phone.svg",
+  "subject": "Smartphone icon: rounded rectangle with a screen and a home button",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.852995+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/UnderlyingSystemVsUserFacing.py",
+   "matches": [
+    {
+     "line": 20,
+     "context": "\n        phone = SVGMobject(\n            file_name = \"phone\",\n            fill_color = WHITE,\n            fill_opacity = 1,\n            height = 1,"
+    },
+    {
+     "line": 21,
+     "context": "        phone = SVGMobject(\n            file_name = \"phone\",\n            fill_color = WHITE,\n            fill_opacity = 1,\n            height = 1,\n            stroke_width = 0,"
+    },
+    {
+     "line": 27,
+     "context": "        )\n        phone.next_to(protocol, UP, LARGE_BUFF)\n        card = SVGMobject(\n            file_name = \"credit_card\",\n            fill_color = GREY_B,\n            fill_opacity = 1,"
+    },
+    {
+     "line": 38,
+     "context": "        btc = BitcoinLogo()\n        btc.next_to(phone, UP, MED_LARGE_BUFF)\n        dollar = OldTex(\"\\\\$\")\n        dollar.set_height(1)\n        dollar.set_color(GREEN)\n        dollar.next_to(card, UP, MED_LARGE_BUFF)"
+    },
+    {
+     "line": 71,
+     "context": "        self.wait(2)\n        self.play(DrawBorderThenFill(phone))\n        self.wait(2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "9610f83aeffdeb4b15e993f00dc7b84d019b00af9020cf838232187f418e5fa1",
+  "final_size_bytes": 4307
+ },
+ "svg_images/shield_locked.svg": {
+  "asset": "svg_images/shield_locked.svg",
+  "name": "shield_locked.svg",
+  "subject": "Shield icon with a padlock in the middle",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.860706+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/256/Thumbnail.py",
+   "matches": [
+    {
+     "line": 349,
+     "context": "        lock = SVGMobject(\n            file_name = \"shield_locked\",\n            fill_color = WHITE,\n        )\n        lock.set_height(6)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "af08e7b384d8e4363b9d142b3f82faeb597fea8bd7208610082f35f0e063b7e5",
+  "final_size_bytes": 5599
+ },
+ "svg_images/visa_logo.svg": {
+  "asset": "svg_images/visa_logo.svg",
+  "name": "visa_logo.svg",
+  "subject": "Own generic card mark: a rounded blue card with the plain word 'CARD' (not the Visa logo)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2017-independent-v1",
+  "verified_at": "2026-10-28T19:16:28.869956+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/ShowBitcoinBlockSize.py",
+   "matches": [
+    {
+     "line": 240,
+     "context": "\n        visa_logo = SVGMobject(\n            file_name = \"visa_logo\",\n            height = 0.5,\n            stroke_width = 0,\n            fill_color = BLUE_D,"
+    },
+    {
+     "line": 241,
+     "context": "        visa_logo = SVGMobject(\n            file_name = \"visa_logo\",\n            height = 0.5,\n            stroke_width = 0,\n            fill_color = BLUE_D,\n            fill_opacity = 1,"
+    },
+    {
+     "line": 247,
+     "context": "        )\n        visa_logo[-1].set_color(\"#faa61a\")\n        visa_logo.sort()\n        avg_rate = OldTexText(\"Avg: $1{,}700$/second\")\n        max_rate = OldTexText(\"Max: $>24{,}000$/second\")\n        rates = VGroup(avg_rate, max_rate)"
+    },
+    {
+     "line": 248,
+     "context": "        visa_logo[-1].set_color(\"#faa61a\")\n        visa_logo.sort()\n        avg_rate = OldTexText(\"Avg: $1{,}700$/second\")\n        max_rate = OldTexText(\"Max: $>24{,}000$/second\")\n        rates = VGroup(avg_rate, max_rate)\n        rates.scale(0.8)"
+    },
+    {
+     "line": 254,
+     "context": "        rates.arrange(DOWN, aligned_edge = LEFT)\n        rates.next_to(visa_logo, RIGHT, buff = MED_SMALL_BUFF)\n        visa = VGroup(visa_logo, rates)\n        visa.to_corner(UP+RIGHT)\n\n        self.play(LaggedStartMap(DrawBorderThenFill, visa_logo))"
+    },
+    {
+     "line": 255,
+     "context": "        rates.next_to(visa_logo, RIGHT, buff = MED_SMALL_BUFF)\n        visa = VGroup(visa_logo, rates)\n        visa.to_corner(UP+RIGHT)\n\n        self.play(LaggedStartMap(DrawBorderThenFill, visa_logo))\n        self.play(LaggedStartMap(FadeIn, avg_rate))"
+    },
+    {
+     "line": 258,
+     "context": "\n        self.play(LaggedStartMap(DrawBorderThenFill, visa_logo))\n        self.play(LaggedStartMap(FadeIn, avg_rate))\n        self.wait()\n        self.play(LaggedStartMap(FadeIn, max_rate))\n        self.wait(2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "d7af8996f4270019ec3e85bda375c095275901908ab74b235ef8dd9b186d13d4",
+  "final_size_bytes": 2576
+ },
+ "raster_images/handwritten_eight.png": {
+  "asset": "raster_images/handwritten_eight.png",
+  "name": "handwritten_eight.png",
+  "subject": "Creación propia: handwritten_eight",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.593258+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 686,
+     "context": "        \"prefixes\" : [\n            \"nine\", \"eight\", \"four\",\n            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "bc3c0eacf81e2c9f55df50d3da349e8ae27c52a0a51fff4dcdf12ec99ce19c70",
+  "final_size_bytes": 951
+ },
+ "raster_images/handwritten_four.png": {
+  "asset": "raster_images/handwritten_four.png",
+  "name": "handwritten_four.png",
+  "subject": "Creación propia: handwritten_four",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.619722+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 686,
+     "context": "        \"prefixes\" : [\n            \"nine\", \"eight\", \"four\",\n            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "95198df9ddc6fbe588a85f5d86a3301680584b57f43ba2fd97400acfe2ef1b91",
+  "final_size_bytes": 730
+ },
+ "raster_images/handwritten_horizontal_line.png": {
+  "asset": "raster_images/handwritten_horizontal_line.png",
+  "name": "handwritten_horizontal_line.png",
+  "subject": "Creación propia: handwritten_horizontal_line",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.634405+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 688,
+     "context": "            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]\n    }\n    def construct(self):"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "3d91d303f9e0b574a78b86ebe5acda91c9ac6a205078e7f423116edaea050f1f",
+  "final_size_bytes": 310
+ },
+ "raster_images/handwritten_lower_loop.png": {
+  "asset": "raster_images/handwritten_lower_loop.png",
+  "name": "handwritten_lower_loop.png",
+  "subject": "Creación propia: handwritten_lower_loop",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.649032+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 688,
+     "context": "            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]\n    }\n    def construct(self):"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c1086956a24ff64108c435a37c11bffbcb90103375448fe2be0cad827a3c9239",
+  "final_size_bytes": 734
+ },
+ "raster_images/handwritten_nine.png": {
+  "asset": "raster_images/handwritten_nine.png",
+  "name": "handwritten_nine.png",
+  "subject": "Creación propia: handwritten_nine",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.663470+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 686,
+     "context": "        \"prefixes\" : [\n            \"nine\", \"eight\", \"four\",\n            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "49cb1d92eee228fcbb1aaa98bd5f0ad931972d502a7b8c1979b088ad4f56c134",
+  "final_size_bytes": 777
+ },
+ "raster_images/handwritten_right_line.png": {
+  "asset": "raster_images/handwritten_right_line.png",
+  "name": "handwritten_right_line.png",
+  "subject": "Creación propia: handwritten_right_line",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.677777+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 687,
+     "context": "            \"nine\", \"eight\", \"four\",\n            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]\n    }"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "7f6d7a01fcc30beaf6c7b3c9516118a3a200b2749bbf3cf53d062d875018574c",
+  "final_size_bytes": 429
+ },
+ "raster_images/handwritten_upper_left_line.png": {
+  "asset": "raster_images/handwritten_upper_left_line.png",
+  "name": "handwritten_upper_left_line.png",
+  "subject": "Creación propia: handwritten_upper_left_line",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.692687+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 689,
+     "context": "            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]\n    }\n    def construct(self):\n        self.setup_network_mob()"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "7d9e8f7343a994e975c236f9e1e642c12c5318d5234e6258acd869d7a14170f1",
+  "final_size_bytes": 442
+ },
+ "raster_images/handwritten_upper_loop.png": {
+  "asset": "raster_images/handwritten_upper_loop.png",
+  "name": "handwritten_upper_loop.png",
+  "subject": "Creación propia: handwritten_upper_loop",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T19:59:52.707497+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMacroPatterns.py",
+   "matches": [
+    {
+     "line": 687,
+     "context": "            \"nine\", \"eight\", \"four\",\n            \"upper_loop\", \"right_line\",\n            \"lower_loop\", \"horizontal_line\",\n            \"upper_left_line\"\n        ]\n    }"
+    },
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "5f2ed5d8ce31fb398c1dec303fdedba87d30d1c4101d51212c5d9d6374589fd3",
+  "final_size_bytes": 691
+ },
+ "svg_images/VennDiagram_in_A_in_B.svg": {
+  "asset": "svg_images/VennDiagram_in_A_in_B.svg",
+  "name": "VennDiagram_in_A_in_B.svg",
+  "subject": "Creación propia: VennDiagram_in_A_in_B",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Solo la región booleana pedida; los círculos y rótulos ya los dibuja la escena. Un path cerrado continuo, viewBox exacto.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.520290+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/bell/ReEmphasizeVennDiagram.py",
+   "matches": [
+    {
+     "line": 638,
+     "context": "            SVGMobject(\n                file_name = \"VennDiagram_\" + s,\n                stroke_width = 0,\n                fill_opacity = 0.5,\n                fill_color = YELLOW,\n            )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "f03c28be27ff2d4732fbed8b22e0a165e6c9faf4de0ce612f40d8f9280a44804",
+  "final_size_bytes": 18635
+ },
+ "svg_images/VennDiagram_in_A_in_B_out_C.svg": {
+  "asset": "svg_images/VennDiagram_in_A_in_B_out_C.svg",
+  "name": "VennDiagram_in_A_in_B_out_C.svg",
+  "subject": "Creación propia: VennDiagram_in_A_in_B_out_C",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Solo la región booleana pedida; los círculos y rótulos ya los dibuja la escena. Un path cerrado continuo, viewBox exacto.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.532785+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/bell/ReEmphasizeVennDiagram.py",
+   "matches": [
+    {
+     "line": 638,
+     "context": "            SVGMobject(\n                file_name = \"VennDiagram_\" + s,\n                stroke_width = 0,\n                fill_opacity = 0.5,\n                fill_color = YELLOW,\n            )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c43861c718364bf60e6d54816b1a06a02fb23da0ac784f2629906bb08eba8d8b",
+  "final_size_bytes": 13267
+ },
+ "svg_images/VennDiagram_in_A_out_B.svg": {
+  "asset": "svg_images/VennDiagram_in_A_out_B.svg",
+  "name": "VennDiagram_in_A_out_B.svg",
+  "subject": "Creación propia: VennDiagram_in_A_out_B",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Solo la región booleana pedida; los círculos y rótulos ya los dibuja la escena. Un path cerrado continuo, viewBox exacto.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.542129+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/bell/ReEmphasizeVennDiagram.py",
+   "matches": [
+    {
+     "line": 638,
+     "context": "            SVGMobject(\n                file_name = \"VennDiagram_\" + s,\n                stroke_width = 0,\n                fill_opacity = 0.5,\n                fill_color = YELLOW,\n            )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c9e91af7a8767a2c99af575bb861a97cfcbcb9a7718b4758fd2a833abbb8df76",
+  "final_size_bytes": 22618
+ },
+ "svg_images/VennDiagram_in_A_out_C.svg": {
+  "asset": "svg_images/VennDiagram_in_A_out_C.svg",
+  "name": "VennDiagram_in_A_out_C.svg",
+  "subject": "Creación propia: VennDiagram_in_A_out_C",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Solo la región booleana pedida; los círculos y rótulos ya los dibuja la escena. Un path cerrado continuo, viewBox exacto.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.552365+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/bell/ReEmphasizeVennDiagram.py",
+   "matches": [
+    {
+     "line": 638,
+     "context": "            SVGMobject(\n                file_name = \"VennDiagram_\" + s,\n                stroke_width = 0,\n                fill_opacity = 0.5,\n                fill_color = YELLOW,\n            )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1211bd61aac24a70789ef33876785dc8da6ae0215306d29ff26c54455d3aaa2c",
+  "final_size_bytes": 22618
+ },
+ "raster_images/handwritten_loop.png": {
+  "asset": "raster_images/handwritten_loop.png",
+  "name": "handwritten_loop.png",
+  "subject": "Creación propia: handwritten_loop",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.562183+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 938,
+     "context": "        \"prefixes\" : [\n            \"loop\",\n            \"loop_edge1\",\n            \"loop_edge2\",\n            \"loop_edge3\",\n            \"loop_edge4\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "5f2ed5d8ce31fb398c1dec303fdedba87d30d1c4101d51212c5d9d6374589fd3",
+  "final_size_bytes": 691
+ },
+ "raster_images/handwritten_loop_edge1.png": {
+  "asset": "raster_images/handwritten_loop_edge1.png",
+  "name": "handwritten_loop_edge1.png",
+  "subject": "Creación propia: handwritten_loop_edge1",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.587684+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 939,
+     "context": "            \"loop\",\n            \"loop_edge1\",\n            \"loop_edge2\",\n            \"loop_edge3\",\n            \"loop_edge4\",\n            \"loop_edge5\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "83f118c8cc482f2d49f683e823441bfd1c618a4807e55b61ca37959cdac478f7",
+  "final_size_bytes": 254
+ },
+ "raster_images/handwritten_loop_edge2.png": {
+  "asset": "raster_images/handwritten_loop_edge2.png",
+  "name": "handwritten_loop_edge2.png",
+  "subject": "Creación propia: handwritten_loop_edge2",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.603280+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 940,
+     "context": "            \"loop_edge1\",\n            \"loop_edge2\",\n            \"loop_edge3\",\n            \"loop_edge4\",\n            \"loop_edge5\",\n            \"right_line\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "4c37a6c5618d8e0bb9f5f15583711710de7f0c78b4f8ad6e69c1a3c3983d583e",
+  "final_size_bytes": 234
+ },
+ "raster_images/handwritten_loop_edge3.png": {
+  "asset": "raster_images/handwritten_loop_edge3.png",
+  "name": "handwritten_loop_edge3.png",
+  "subject": "Creación propia: handwritten_loop_edge3",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:07.618969+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 941,
+     "context": "            \"loop_edge2\",\n            \"loop_edge3\",\n            \"loop_edge4\",\n            \"loop_edge5\",\n            \"right_line\",\n            \"right_line_edge1\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "0ff0a3b83222cc59ff8f92d11df1b5324bf94a267915ba35d348d31b17f0ed84",
+  "final_size_bytes": 249
+ },
+ "raster_images/handwritten_loop_edge4.png": {
+  "asset": "raster_images/handwritten_loop_edge4.png",
+  "name": "handwritten_loop_edge4.png",
+  "subject": "Creación propia: handwritten_loop_edge4",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.028458+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 942,
+     "context": "            \"loop_edge3\",\n            \"loop_edge4\",\n            \"loop_edge5\",\n            \"right_line\",\n            \"right_line_edge1\",\n            \"right_line_edge2\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "54ad041e44184e435f705aba5c998d58b16c68fea51ae76635208086b512dc9a",
+  "final_size_bytes": 255
+ },
+ "raster_images/handwritten_loop_edge5.png": {
+  "asset": "raster_images/handwritten_loop_edge5.png",
+  "name": "handwritten_loop_edge5.png",
+  "subject": "Creación propia: handwritten_loop_edge5",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.053151+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 943,
+     "context": "            \"loop_edge4\",\n            \"loop_edge5\",\n            \"right_line\",\n            \"right_line_edge1\",\n            \"right_line_edge2\",\n            \"right_line_edge3\","
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "528ea86a63d20ee7c38890df4401017cc9ff07943b1ff752bc791d936642697a",
+  "final_size_bytes": 261
+ },
+ "raster_images/handwritten_right_line_edge1.png": {
+  "asset": "raster_images/handwritten_right_line_edge1.png",
+  "name": "handwritten_right_line_edge1.png",
+  "subject": "Creación propia: handwritten_right_line_edge1",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.067939+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 945,
+     "context": "            \"right_line\",\n            \"right_line_edge1\",\n            \"right_line_edge2\",\n            \"right_line_edge3\",\n        ]\n    }"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "26a5db9c685aaee02a22b8ce8dfd0d8eb9429924265d01b1f803acf28189d55f",
+  "final_size_bytes": 222
+ },
+ "raster_images/handwritten_right_line_edge2.png": {
+  "asset": "raster_images/handwritten_right_line_edge2.png",
+  "name": "handwritten_right_line_edge2.png",
+  "subject": "Creación propia: handwritten_right_line_edge2",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.082663+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 946,
+     "context": "            \"right_line_edge1\",\n            \"right_line_edge2\",\n            \"right_line_edge3\",\n        ]\n    }\n    def construct(self):"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "67013dca5b95237dd882eae0b9e2c7c8ff152a755f587290126ae11cd33bf77d",
+  "final_size_bytes": 210
+ },
+ "raster_images/handwritten_right_line_edge3.png": {
+  "asset": "raster_images/handwritten_right_line_edge3.png",
+  "name": "handwritten_right_line_edge3.png",
+  "subject": "Creación propia: handwritten_right_line_edge3",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Trazos propios compartidos: componentes y dígitos encajan exactamente por máximo de intensidad. Fondo negro opaco; la escena convierte el canal rojo en activación.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.097515+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/nn/part1/BreakUpMicroPatterns.py",
+   "matches": [
+    {
+     "line": 707,
+     "context": "            np.array(Image.open(\n                get_full_raster_image_path(\"handwritten_\" + p),\n            ))[:,:,0].flatten()/255.0\n            for p in prefixes\n        ]\n        mobjects = list(map(MNistMobject, vects))"
+    },
+    {
+     "line": 947,
+     "context": "            \"right_line_edge2\",\n            \"right_line_edge3\",\n        ]\n    }\n    def construct(self):\n        self.setup_network_mob()"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "ed91b34a3fd6dc9cb33cc86c71edbcde71951d394e1c46e11bf9c5dd32dd98e2",
+  "final_size_bytes": 255
+ },
+ "raster_images/sci_youtubers_thumbnail.jpg": {
+  "asset": "raster_images/sci_youtubers_thumbnail.jpg",
+  "name": "sci_youtubers_thumbnail.jpg",
+  "subject": "Creación propia: sci_youtubers_thumbnail",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Miniatura propia: átomo, matraz y planeta; sin personas, siluetas humanas, logos ni texto.",
+  "recipe_version": "2017-round2-v1",
+  "verified_at": "2026-10-28T20:01:23.113423+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/mug/NewMugThumbnail.py",
+   "matches": [
+    {
+     "line": 11,
+     "context": "        title.to_edge(UP)\n        image = ImageMobject(\"sci_youtubers_thumbnail\")\n        image.set_height(5.5)\n        image.next_to(title, DOWN)\n        self.add(title, image)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "756f35190e6d2cbc4c80b09b521d2f8c35417a672812ab0ba1b7bac5ea2338b8",
+  "final_size_bytes": 43457
+ },
+ "svg_images/Bitcoin_logo.svg": {
+  "asset": "svg_images/Bitcoin_logo.svg",
+  "name": "Bitcoin_logo.svg",
+  "subject": "Moneda genérica propia sin marca",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Dos paths: disco exterior perforado y barra interior genérica; sin letras ni logotipo oficial.",
+  "recipe_version": "2017-round3-v1",
+  "verified_at": "2026-10-28T21:02:51.483486+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/crypto/BlockRewards.py",
+   "matches": [
+    {
+     "line": 7,
+     "context": "        title.scale(1.5)\n        logo = BitcoinLogo()\n        logo.set_height(0.75)\n        logo.next_to(title, LEFT)\n        title.add(logo)\n        title.to_edge(UP)"
+    }
+   ],
+   "indirect_name": "Bitcoin logo",
+   "consumer_class": {
+    "file": "_lib/custom/drawings.py",
+    "class": "BitcoinLogo",
+    "line": 493,
+    "context": "class BitcoinLogo(SVGMobject):\n    file_name = \"Bitcoin_logo\"\n    height = 1"
+   }
+  },
+  "old_sha256": null,
+  "structure_contract": [
+   "disco",
+   "marca"
+  ],
+  "delivery_state": "done",
+  "sha256": "9bca77406821bd876fc7fb29a62faeb614efe118e3498a5df6fdadb5a67de56c",
+  "final_size_bytes": 4407
+ },
+ "svg_images/party_hat.svg": {
+  "asset": "svg_images/party_hat.svg",
+  "name": "party_hat.svg",
+  "subject": "Gorro de fiesta propio de 14 piezas",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "14 paths: volantes 0–6, cono 7 y puntos 8–13; compatibles con PartyHat.",
+  "recipe_version": "2017-round3-v1",
+  "verified_at": "2026-10-28T21:02:51.496516+00:00",
+  "scene_review": {
+   "scene": "_work/_2017/efvgt/Anniversary.py",
+   "matches": [
+    {
+     "line": 142,
+     "context": "        hats = VGroup(*[\n            PartyHat(\n                pi_creature = pi,\n                height = 0.5*pi.get_height()\n            )\n            for pi in self.get_pi_creatures()"
+    }
+   ],
+   "indirect_name": "",
+   "consumer_class": {
+    "file": "_lib/custom/drawings.py",
+    "class": "PartyHat",
+    "line": 136,
+    "context": "class PartyHat(SVGMobject):\n    file_name = \"party_hat\"\n    height = 1.5\n    pi_creature = None\n    stroke_width = 0\n    fill_opacity = 1\n    frills_colors = [MAROON_B, PURPLE]\n    cone_color = GREEN\n    dots_colors = [YELLOW]\n    NUM_FRILLS = 7\n    NUM_DOTS = 6\n\n    def __init__(self, **kwargs):\n        SVGMobject.__init__(self, **kwargs)\n        self.set_height(self.height)\n        if self.pi_creature is not None:\n            self.next_to(self.pi_creature.eyes, UP, buff=0)\n\n        self.frills = VGroup(*self[:self.NUM_FRILLS])\n        self.cone = self[self.NUM_FRILLS]\n        self.dots = VGroup(*self[self.NUM_FRILLS + 1:])\n\n        self.frills.set_color_by_gradient(*self.frills_colors)\n        self.cone.set_color(self.cone_color)\n        self.dots.set_color_by_gradient(*self.dots_colors)\n\n"
+   }
+  },
+  "old_sha256": null,
+  "structure_contract": [
+   "volante",
+   "volante",
+   "volante",
+   "volante",
+   "volante",
+   "volante",
+   "volante",
+   "cono",
+   "punto",
+   "punto",
+   "punto",
+   "punto",
+   "punto",
+   "punto"
+  ],
+  "delivery_state": "done",
+  "sha256": "e8924bb208a9093f9b6d0b59ed889e519965bb6757d0174eea5abedb568e7637",
+  "final_size_bytes": 13805
+ }
+}

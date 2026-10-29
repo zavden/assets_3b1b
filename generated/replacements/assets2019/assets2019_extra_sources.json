@@ -1,0 +1,406 @@
+{
+ "svg_images/imo_logo.svg": {
+  "asset": "svg_images/imo_logo.svg",
+  "name": "imo_logo.svg",
+  "subject": "Own generic emblem of a \"mathematics olympiad\" drawn by code: laurel, shield with a π and a ribbon with the text MATH OLYMPIAD (vector sibling of raster_images/imo_logo.png); it does not imitate the IMO logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:08.090618+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/IntroduceIMO.py",
+   "matches": [
+    {
+     "line": 32,
+     "context": "        )\n        title.scale(1.25)\n        logo = ImageMobject(\"imo_logo\")\n        logo.set_height(1)\n"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/windmill.py::IntroduceIMO",
+   "_2019/windmill.py::Describe2011IMO",
+   "_2019/windmill.py::PerfectScoreData",
+   "_2019/windmill.py::SixOnSix",
+   "_2019/windmill.py::ShowTinyTao",
+   "_2019/windmill.py::USProcessAlt",
+   "_2019/windmill.py::Thumbnail2"
+  ],
+  "note": "viewBox 0 0 300 206 as in the original. The letter outlines come from JetBrains Mono Bold (SIL OFL 1.1, assets/fonts). No scene reads this SVG by name: ImageMobject(\"imo_logo\") resolves to raster_images/imo_logo.png (already replaced).",
+  "old_sha256": "c2b8871c368766b593ca55dd2b8ed5de4cba6af41eccdd713b36f5ab9f97600e",
+  "viewbox": "0 0 300 206",
+  "svg_paths": 97,
+  "delivery_state": "done",
+  "sha256": "400fcc45e4f929c12a701120a80c1673d9e71e1e4e9d3c8781cb253472bf63c4",
+  "final_size_bytes": 18218,
+  "original": {
+   "viewbox": "0 0 300 206",
+   "bytes": 4427
+  }
+ },
+ "svg_images/sun.svg": {
+  "asset": "svg_images/sun.svg",
+  "name": "sun.svg",
+  "subject": "Own generic sun drawn by code: disk with 16 triangular rays (8 long and 8 short), monochrome",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:08.092940+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/simple_scenes/ClacksSolution2Thumbnail.py",
+   "matches": [
+    {
+     "line": 188,
+     "context": "        ellipse = self.get_ellipse()\n        ellipse.set_stroke(BLUE, 6)\n        sun = ImageMobject(\"sun\", height=0.5)\n        sun.move_to(self.get_eccentricity_point())\n"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/clacks/solution2/simple_scenes.py::ClacksSolution2Thumbnail"
+  ],
+  "note": "viewBox 0 0 302.4 302.4 as in the original; no color of its own (black by default, the scene paints it). ImageMobject(\"sun\") resolves to raster_images/sun.png (NASA/SDO, already replaced); no 2019 scene reads this SVG.",
+  "old_sha256": "00050e3e3c7ab01fd7396eca01d7614c606a0805b0e2a95c78e19c4acc27bdec",
+  "viewbox": "0 0 302.4 302.4",
+  "svg_paths": 17,
+  "delivery_state": "done",
+  "sha256": "1c51c92bf13515b0c8a6e48b8bf356314dd419f5700b19d815fb13240abd4d5c",
+  "final_size_bytes": 1298,
+  "original": {
+   "viewbox": "0 0 302.4 302.4",
+   "bytes": 2225
+  }
+ },
+ "raster_images/windmill.svg": {
+  "asset": "raster_images/windmill.svg",
+  "name": "windmill.svg",
+  "subject": "Own generic windmill drawn by code: tower with a door and windows, dome and four blades of slats, black silhouette",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:08.094751+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/QuixoteReference.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "        rect.set_fill([GREY_D, GREY])\n\n        windmill = SVGMobject(\"windmill\")\n        windmill.set_fill([GREY_BROWN, WHITE], 1)\n        windmill.set_stroke(width=0)"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/windmill.py::QuixoteReference"
+  ],
+  "note": "100x100 as in the original. SVGMobject(\"windmill\") (QuixoteReference) reads svg_images/windmill.svg, not this duplicate that lived in raster_images/.",
+  "old_sha256": "7f66953eb3b406157ffc121d8f20b3cd471339e0f5dafe55aa5c91be107d85cf",
+  "viewbox": "0 0 100 100",
+  "svg_paths": 12,
+  "delivery_state": "done",
+  "sha256": "4c5480ef443752e910c2f82d06937f0dceb5584b1128d4d8081ca86b7e2b44a5",
+  "final_size_bytes": 2416,
+  "original": {
+   "viewbox": "0 0 100 100",
+   "bytes": 4137
+  }
+ },
+ "raster_images/google_logo.png": {
+  "asset": "raster_images/google_logo.png",
+  "name": "google_logo.png",
+  "subject": "Own monochrome \"G\" (piece at index 5 of svg_images/google_logo.svg) rasterized with a transparent background",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:08.987687+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/FourierGoogleG.py",
+   "matches": [
+    {
+     "line": 360,
+     "context": "\n    def get_shape(self):\n        g = SVGMobject(\"google_logo\")[5]\n        g.center()\n        self.add(g)"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/diffyq/part2/fourier_series.py::FourierGoogleG"
+  ],
+  "note": "Rasterized with rsvg-convert from svg_images/google_logo.svg (CC0, already replaced). FourierGoogleG reads SVGMobject(\"google_logo\")[5]: no 2019 scene reads this PNG.",
+  "old_sha256": "ac6050da7f571b4f64df148ee022758b0ee93ca3a3d6f31a8e3309477b2a6bbc",
+  "size": [
+   2223,
+   2268
+  ],
+  "mode": "RGBA",
+  "delivery_state": "done",
+  "sha256": "6781aa99ac9d07370f18e8fb66bb237e15903635e2556ee1bea3c524bb127f9b",
+  "final_size_bytes": 103203,
+  "original": {
+   "size": [
+    2223,
+    2268
+   ],
+   "mode": "RGBA",
+   "bytes": 73339
+  }
+ },
+ "raster_images/flags/us.png": {
+  "asset": "raster_images/flags/us.png",
+  "name": "us.png",
+  "subject": "US flag from flag-icons (MIT), with the official 1.9:1 proportions",
+  "author": "Panayiotis Lipiridis and flag-icons contributors",
+  "license": "MIT",
+  "license_url": "https://raw.githubusercontent.com/lipis/flag-icons/ac7e0eb3259eb62aa6100c435607e2fe03896a97/LICENSE",
+  "page_url": "https://github.com/lipis/flag-icons/blob/ac7e0eb3259eb62aa6100c435607e2fe03896a97/flags/4x3/us.svg",
+  "changes": "Free SVG enlarged to a 912x480 viewBox (background and stripes extended; canton untouched) and rasterized to 550x289 RGB on white with rsvg-convert.",
+  "status": "replaced",
+  "via": "download",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:09.724250+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/USProcessAlt.py",
+   "matches": [
+    {
+     "line": 22,
+     "context": "    def construct(self):\n        self.add_title()\n        self.show_flags()\n        self.show_students()\n        self.move_title()"
+    },
+    {
+     "line": 43,
+     "context": "        self.logo = logo\n\n    def show_flags(self):\n        flags = self.get_flags()\n        flags.set_height(6)"
+    },
+    {
+     "line": 44,
+     "context": "\n    def show_flags(self):\n        flags = self.get_flags()\n        flags.set_height(6)\n        flags.to_edge(DOWN)"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/windmill.py::IntroduceIMO",
+   "_2019/windmill.py::Describe2011IMO",
+   "_2019/windmill.py::ShowTinyTao",
+   "_2019/windmill.py::USProcessAlt",
+   "_2019/windmill.py::PerfectScoreData",
+   "_2019/windmill.py::SixOnSix"
+  ],
+  "note": "Same flag-icons commit as the rest of the flags (flags_sources.json). Replaces the 'already_exists' entry of us.png in assets2019_sources.json (it was Grant's file, not an own replacement).",
+  "old_sha256": "b5b0da5ae266460e1cb6084e6f48f18a0fbc3c7cd286ecd3f6386503326e698a",
+  "source_sha256": "e7be4240cf57987926673708f09233be1ab6bdf35acc7b86bd32a263f197a2a7",
+  "size": [
+   550,
+   289
+  ],
+  "mode": "RGB",
+  "delivery_state": "done",
+  "sha256": "a31485206891aa06fb577d3cb53010798ffe590e6834350404a6c270d0c7e234",
+  "final_size_bytes": 17116,
+  "original": {
+   "size": [
+    550,
+    289
+   ],
+   "mode": "RGB",
+   "bytes": 11584
+  }
+ },
+ "raster_images/Riemann.jpg": {
+  "asset": "raster_images/Riemann.jpg",
+  "name": "Riemann.jpg",
+  "subject": "Public domain portrait of Riemann (1863) (Commons)",
+  "author": "http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm according to the German Wikipedia.",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+  "changes": "Free source downloaded independently; \"cover\" crop 900x750 anchored at the top (so as not to cut off the head), rescaled without distortion and converted to RGB; no AI.",
+  "status": "replaced",
+  "via": "download",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T04:24:10.524643+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/FourierGainsImmortality.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "            \"Joseph Fourier\",\n            \"Gauss\",\n            \"Riemann\",\n            \"Cantor\",\n            \"Noether\","
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/diffyq/part4/staging.py::FourierGainsImmortality",
+   "_2019/diffyq/part4/staging.py::CommentOnFouriersImmortality"
+  ],
+  "note": "License consulted in this run. 1863 engraving/portrait (Commons: PD Old, CC-PD-Mark), different from the seated photograph of Grant's original.",
+  "old_sha256": "209927f6b7119f511c4a8ac019de81149a15a22d70bbd2dace9872384268a324",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg",
+  "date": "1863",
+  "source_size_bytes": 255626,
+  "source_width": 903,
+  "source_height": 986,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "commons_title": "File:Georg Friedrich Bernhard Riemann.jpeg",
+  "source_sha256": "945240277e351b4deacc64e0a8e0cbb5c8398a5d13ae322eafb55bfae91cabc6",
+  "size": [
+   900,
+   750
+  ],
+  "mode": "RGB",
+  "delivery_state": "done",
+  "sha256": "ec8a59a67fd4c1fb8112588d9c524b7ae874e96bf338aa6c9083473bde614cc5",
+  "final_size_bytes": 131328,
+  "original": {
+   "size": [
+    900,
+    750
+   ],
+   "mode": "RGB",
+   "bytes": 90979
+  }
+ },
+ "raster_images/IP_Sample_Page1.png": {
+  "asset": "raster_images/IP_Sample_Page1.png",
+  "name": "IP_Sample_Page1.png",
+  "subject": "Generic sample page 1 of a mathematics book (header \"Infinite Powers\", title \"Sample page 1\", paragraphs of gray bars; figure: none); it contains no text from the real book",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T05:17:39.376028+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/StrogatzMention.py",
+   "matches": [
+    {
+     "line": 74,
+     "context": "        book = self.book\n        pages = Group(*[\n            ImageMobject(\"IP_Sample_Page{}\".format(i))\n            for i in range(1, 4)\n        ])"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/diffyq/part2/staging.py::StrogatzMention"
+  ],
+  "note": "Own pages that replace the screenshots of the book \"Infinite Powers\" (StrogatzMention shows them with match_height(book) to the right of the generic cover InfinitePowers.jpg). Same card style as that cover: light beige-gray paper, frame #879C9C, JetBrains Mono and CMU Serif (OFL, assets/fonts). Fully opaque alpha.",
+  "old_sha256": "11ddfa5833ebac38fc67c5047aff4d5d770f58179da8f1cc744c7135f8e1471a",
+  "size": [
+   1582,
+   1868
+  ],
+  "mode": "RGBA",
+  "delivery_state": "done",
+  "sha256": "0ee7ca76fb896050cf5a17ddb1f81ecedab90081cf53912e3fc563e14973517f",
+  "final_size_bytes": 107021,
+  "original": {
+   "size": [
+    1582,
+    1868
+   ],
+   "mode": "RGBA",
+   "bytes": 371475
+  }
+ },
+ "raster_images/IP_Sample_Page2.png": {
+  "asset": "raster_images/IP_Sample_Page2.png",
+  "name": "IP_Sample_Page2.png",
+  "subject": "Generic sample page 2 of a mathematics book (header \"Infinite Powers\", title \"Sample page 2\", paragraphs of gray bars; figure: an S curve with its tangent and the axes); it contains no text from the real book",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T05:17:39.577195+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/StrogatzMention.py",
+   "matches": [
+    {
+     "line": 74,
+     "context": "        book = self.book\n        pages = Group(*[\n            ImageMobject(\"IP_Sample_Page{}\".format(i))\n            for i in range(1, 4)\n        ])"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/diffyq/part2/staging.py::StrogatzMention"
+  ],
+  "note": "Own pages that replace the screenshots of the book \"Infinite Powers\" (StrogatzMention shows them with match_height(book) to the right of the generic cover InfinitePowers.jpg). Same card style as that cover: light beige-gray paper, frame #879C9C, JetBrains Mono and CMU Serif (OFL, assets/fonts). Fully opaque alpha.",
+  "old_sha256": "7a6ccdd7b7c4a7ded4985aac206c2999c987d9b2ed29b3884780223ee87b22b2",
+  "size": [
+   1586,
+   1372
+  ],
+  "mode": "RGBA",
+  "delivery_state": "done",
+  "sha256": "8637833798f0f11861615aa30b4703d0cb050ca3615b9926f40a3cccd3d978f8",
+  "final_size_bytes": 117027,
+  "original": {
+   "size": [
+    1586,
+    1372
+   ],
+   "mode": "RGBA",
+   "bytes": 292890
+  }
+ },
+ "raster_images/IP_Sample_Page3.png": {
+  "asset": "raster_images/IP_Sample_Page3.png",
+  "name": "IP_Sample_Page3.png",
+  "subject": "Generic sample page 3 of a mathematics book (header \"Infinite Powers\", title \"Sample page 3\", paragraphs of gray bars; figure: a circle with its radius and its tangent); it contains no text from the real book",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-extra-v1",
+  "verified_at": "2026-10-27T05:17:39.794211+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/StrogatzMention.py",
+   "matches": [
+    {
+     "line": 74,
+     "context": "        book = self.book\n        pages = Group(*[\n            ImageMobject(\"IP_Sample_Page{}\".format(i))\n            for i in range(1, 4)\n        ])"
+    }
+   ]
+  },
+  "scenes_2019": [
+   "_2019/diffyq/part2/staging.py::StrogatzMention"
+  ],
+  "note": "Own pages that replace the screenshots of the book \"Infinite Powers\" (StrogatzMention shows them with match_height(book) to the right of the generic cover InfinitePowers.jpg). Same card style as that cover: light beige-gray paper, frame #879C9C, JetBrains Mono and CMU Serif (OFL, assets/fonts). Fully opaque alpha.",
+  "old_sha256": "a21ad63c34c706c3f405f2e07b95fd0c118b85b446e76e44fbc32fa78356fc00",
+  "size": [
+   1590,
+   1426
+  ],
+  "mode": "RGBA",
+  "delivery_state": "done",
+  "sha256": "89e3ca19426f0d9ee64c8b36efbcc57294657f8ce6f1e6a4cd58b0e550292465",
+  "final_size_bytes": 144424,
+  "original": {
+   "size": [
+    1590,
+    1426
+   ],
+   "mode": "RGBA",
+   "bytes": 529270
+  }
+ }
+}

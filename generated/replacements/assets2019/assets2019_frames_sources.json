@@ -1,0 +1,831 @@
+{
+ "raster_images/ClacksQuestionThumbnail.png": {
+  "asset": "raster_images/ClacksQuestionThumbnail.png",
+  "name": "ClacksQuestionThumbnail.png",
+  "subject": "thumbnail of the video 'Clacks question' (question: how many collisions)",
+  "author": "own (frame of clacks/question/Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:31.834637+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/block_collision_scenes/IntroducePreviousTwoVideos.py",
+   "matches": [
+    {
+     "line": 439,
+     "context": "ImageMobject(\"ClacksQuestionThumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "7985e7d7ed7ebf6d06e67e268a75ea70338534cc48f063b717898d1bb1d2f8d6",
+  "delivery_state": "done",
+  "sha256": "ef9cdf1ec2e726327d5ee600bbf94b85ad9746b17898522d3f3843044c3e6670",
+  "final_size_bytes": 295712,
+  "source_scene": "clacks/question/Thumbnail",
+  "source_video": "renders/2019/clacks/question/Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 12:11:37"
+ },
+ "raster_images/ClacksSolution1Thumbnail.png": {
+  "asset": "raster_images/ClacksSolution1Thumbnail.png",
+  "name": "ClacksSolution1Thumbnail.png",
+  "subject": "thumbnail of 'Clacks solution 1'",
+  "author": "own (frame of clacks/solution1/SolutionThumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:32.037091+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/block_collision_scenes/IntroducePreviousTwoVideos.py",
+   "matches": [
+    {
+     "line": 438,
+     "context": "ImageMobject(\"ClacksSolution1Thumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "0e46d7944599738a4eaf6498bdd16fdfb004bcfc1aa4717c82d54ad8aeebbaf4",
+  "delivery_state": "done",
+  "sha256": "d87950a62a2389e3a49c07187ad8160e01de4f12eef049e77bf8294275ecb906",
+  "final_size_bytes": 317640,
+  "source_scene": "clacks/solution1/SolutionThumbnail",
+  "source_video": "renders/2019/clacks/solution1/SolutionThumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 12:56:28"
+ },
+ "raster_images/ClacksThumbnail.png": {
+  "asset": "raster_images/ClacksThumbnail.png",
+  "name": "ClacksThumbnail.png",
+  "subject": "thumbnail of the clacks (question of the first video)",
+  "author": "own (frame of clacks/question/Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:32.197666+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/FinalCommentsOnPhaseSpace.py",
+   "matches": [
+    {
+     "line": 25,
+     "context": "ImageMobject(\"ClacksThumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGB).",
+  "old_sha256": "1232358ae900887cc616080357115bafe2c0898baf98450aa1f8331268f59289",
+  "delivery_state": "done",
+  "sha256": "fe18d2ee2bb82eba1c070d46eac0bca179e2cbba1648a700999c9c4bd62aae68",
+  "final_size_bytes": 262967,
+  "source_scene": "clacks/question/Thumbnail",
+  "source_video": "renders/2019/clacks/question/Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 12:11:37"
+ },
+ "raster_images/bayes_thumbnail.png": {
+  "asset": "raster_images/bayes_thumbnail.png",
+  "name": "bayes_thumbnail.png",
+  "subject": "thumbnail of the Bayes video (area diagram P(E|H), P(H))",
+  "author": "own (frame of bayes/part1/Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:32.405666+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/footnote/ThisIsAFootnote.py",
+   "matches": [
+    {
+     "line": 79,
+     "context": "image = ImageMobject(\"bayes_thumbnail\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "fd35a5b373c55ed3caef51fe23e283fce9e044f81ba245f3db2295d934af3792",
+  "delivery_state": "done",
+  "sha256": "f6cf243b62a6f75bbcfc92b16e7cd1dbf9f987e8e86d9ddb2de9f75b52ed1dca",
+  "final_size_bytes": 169654,
+  "source_scene": "bayes/part1/Thumbnail",
+  "source_video": "renders/2019/bayes/part1/Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 11:29:44"
+ },
+ "raster_images/diffyq_part2_thumbnail.png": {
+  "asset": "raster_images/diffyq_part2_thumbnail.png",
+  "name": "diffyq_part2_thumbnail.png",
+  "subject": "thumbnail of diffyq part 2 ('What is this?' + heat equation + surface)",
+  "author": "own (frame of diffyq/part2/staging/Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:32.813196+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/RelationToOtherVideos.py",
+   "matches": [
+    {
+     "line": 91,
+     "context": "ImageMobject(\"diffyq_part2_thumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "1284d21ac62c12564f2efb7eb1e181e2c251077df5ef26cef696ec7a89d2e485",
+  "delivery_state": "done",
+  "sha256": "4852c9eb146b633902d516f3cfe3113d384820daa05f882acd2151a705843a12",
+  "final_size_bytes": 653661,
+  "source_scene": "diffyq/part2/staging/Thumbnail",
+  "source_video": "renders/2019/diffyq/part2/staging/Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 22:00:51",
+  "requires_before_render": [
+   "HeatSurfaceExampleFlipped.jpg"
+  ]
+ },
+ "raster_images/diffyq_part3_thumbnail.png": {
+  "asset": "raster_images/diffyq_part3_thumbnail.png",
+  "name": "diffyq_part3_thumbnail.png",
+  "subject": "thumbnail of diffyq part 3 (surface of damped sine waves)",
+  "author": "own (frame of diffyq/part3/temperature_graphs/Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:33.131488+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/RelationToOtherVideos.py",
+   "matches": [
+    {
+     "line": 92,
+     "context": "ImageMobject(\"diffyq_part3_thumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "6bbbd12b135a7dc80ebd7d1a5618a4a086074a017b1f068068f7acc9701f1c34",
+  "delivery_state": "done",
+  "sha256": "854785537a5a90c9f3df3cee11deb863a273457a09ced74a16c56f6eed9ed937",
+  "final_size_bytes": 986603,
+  "source_scene": "diffyq/part3/temperature_graphs/Thumbnail",
+  "source_video": "renders/2019/diffyq/part3/temperature_graphs/Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 18:53:04"
+ },
+ "raster_images/diffyq_part4_thumbnail.png": {
+  "asset": "raster_images/diffyq_part4_thumbnail.png",
+  "name": "diffyq_part4_thumbnail.png",
+  "subject": "thumbnail of diffyq part 4 (drawings with epicycles n=10, 50, 250)",
+  "author": "own (frame of diffyq/part4/fourier_series_scenes/DE4Thumbnail)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:33.630807+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/RelationToOtherVideos.py",
+   "matches": [
+    {
+     "line": 93,
+     "context": "ImageMobject(\"diffyq_part4_thumbnail\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "031027bd5c5b45ac78f58e38cd25f82a9131034162f408aee8def16d730a84d0",
+  "delivery_state": "done",
+  "sha256": "f718bf2d03a3f4c6fbe26d65609c5489458c45942c7a5c06a086321fc3c73f58",
+  "final_size_bytes": 1095199,
+  "source_scene": "diffyq/part4/fourier_series_scenes/DE4Thumbnail",
+  "source_video": "renders/2019/diffyq/part4/fourier_series_scenes/DE4Thumbnail.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 21:20:32",
+  "requires_before_render": [
+   "svg_images/FourierOneLine.svg"
+  ]
+ },
+ "raster_images/PrimeSpiral.png": {
+  "asset": "raster_images/PrimeSpiral.png",
+  "name": "PrimeSpiral.png",
+  "subject": "prime spiral (points (p, p) in polar coordinates)",
+  "author": "own (frame of spirals/PrimeSpiralsAtScale1000)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:33.904815+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/spirals/AltTitle.py",
+   "matches": [
+    {
+     "line": 22,
+     "context": "image = ImageMobject(\"PrimeSpiral\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "af575b9e7874aaf46b19c024a24947d94a61c678e85b7fa7815986eb812c5327",
+  "delivery_state": "done",
+  "sha256": "7374e30863ba5d0411e9a4debf08516f0722e5eb56a3167877e53b299ff0ecca",
+  "final_size_bytes": 559063,
+  "source_scene": "spirals/PrimeSpiralsAtScale1000",
+  "source_video": "renders/2019/spirals/PrimeSpiralsAtScale1000.png",
+  "source_from_backup": false,
+  "source_instant": "static scene (.png)",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 12:04:29"
+ },
+ "raster_images/LovePhaseSpace.png": {
+  "asset": "raster_images/LovePhaseSpace.png",
+  "name": "LovePhaseSpace.png",
+  "subject": "love phase space (vector field + equations with hearts)",
+  "author": "own (frame of diffyq/part1/phase_space/LovePhaseSpace)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:34.765793+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/staging/TourOfDifferentialEquations.py",
+   "matches": [
+    {
+     "line": 124,
+     "context": "image = ImageMobject(\"LovePhaseSpace\")"
+    },
+    {
+     "line": 127,
+     "context": "image = ImageMobject(\"LovePhaseSpace\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "11a463eb60de2782f4289c4b6b655ec46a8fad827e14a7b03cc52136a792b9d8",
+  "delivery_state": "done",
+  "sha256": "f20690df741b5b69c6e11bb4a5c6136c8d4e6ae2a5a2964d716e291097756038",
+  "final_size_bytes": 2410082,
+  "source_scene": "diffyq/part1/phase_space/LovePhaseSpace",
+  "source_video": "renders/2019/diffyq/part1/phase_space/LovePhaseSpace.mp4",
+  "source_from_backup": false,
+  "source_instant": "28.00 s",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 18:56:07"
+ },
+ "raster_images/AnalyzeCircleGeometry.png": {
+  "asset": "raster_images/AnalyzeCircleGeometry.png",
+  "name": "AnalyzeCircleGeometry.png",
+  "subject": "collision circle with mass ratio 16:1 and final zone",
+  "author": "own (frame of clacks/solution1/AnalyzeCircleGeometry)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:35.143603+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/FromPuzzleToSolution.py",
+   "matches": [
+    {
+     "line": 23,
+     "context": "ImageMobject(\"AnalyzeCircleGeometry\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (3358x1886 RGBA).",
+  "old_sha256": "78b512b5ec732c1c0dd3daa0cf5e3568ae8fec4ae09bbe6275fab4cd5dc21406",
+  "delivery_state": "done",
+  "sha256": "b31f700ab877903feec8de938acc47aa7fc5f9806e3f422e7b7a9ef7fab79c2f",
+  "final_size_bytes": 680989,
+  "source_scene": "clacks/solution1/AnalyzeCircleGeometry",
+  "source_video": "renders/2019/clacks/solution1/AnalyzeCircleGeometry.mp4",
+  "source_from_backup": false,
+  "source_instant": "6.00 s",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.62,
+  "hires": false,
+  "source_mtime": "2026-10-26 15:32:51"
+ },
+ "raster_images/BlocksAndWallExampleMass16.png": {
+  "asset": "raster_images/BlocksAndWallExampleMass16.png",
+  "name": "BlocksAndWallExampleMass16.png",
+  "subject": "blocks and wall with mass 16, collision counter at 0",
+  "author": "own (frame of clacks/solution1/BlocksAndWallExampleMass16)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:35.251583+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/FromPuzzleToSolution.py",
+   "matches": [
+    {
+     "line": 22,
+     "context": "ImageMobject(\"BlocksAndWallExampleMass16\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGB).",
+  "old_sha256": "4433cb1867f7ed4a996b3257fa7f9a9363369aa9e767cfa4630ea6fd40e37898",
+  "delivery_state": "done",
+  "sha256": "c81019b52595f0ad598846b34c277448bd229e1ee206e2d99ef165869c08f4e0",
+  "final_size_bytes": 94684,
+  "source_scene": "clacks/solution1/BlocksAndWallExampleMass16",
+  "source_video": "renders/2019/clacks/solution1/BlocksAndWallExampleMass16.mp4",
+  "source_from_backup": false,
+  "source_instant": "0.00 s",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 12:54:48"
+ },
+ "raster_images/boundary_condition_thumbnail.png": {
+  "asset": "raster_images/boundary_condition_thumbnail.png",
+  "name": "boundary_condition_thumbnail.png",
+  "subject": "rod with temperature colors and arrows at the ends (no label)",
+  "author": "own (frame of diffyq/part3/temperature_graphs/BoundaryConditionReference)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:35.360264+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/BoundaryConditionInterlude.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "\"boundary_condition_thumbnail\""
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "f12cb9116d63743e8ce0cefda80bea96fbb4b5ad498b908b6b14352356c282fd",
+  "delivery_state": "done",
+  "sha256": "db4430229516fd99bd208cf7978722105f1af36fbf97dc6f809191b639a400e6",
+  "final_size_bytes": 81623,
+  "source_scene": "diffyq/part3/temperature_graphs/BoundaryConditionReference",
+  "source_video": "renders/2019/diffyq/part3/temperature_graphs/BoundaryConditionReference.mp4",
+  "source_from_backup": false,
+  "source_instant": "last frame",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 17:59:41"
+ },
+ "raster_images/linearity_thumbnail.png": {
+  "asset": "raster_images/linearity_thumbnail.png",
+  "name": "linearity_thumbnail.png",
+  "subject": "arbitrary function = sum of sinusoidal surfaces (each with its checkmark)",
+  "author": "own (frame of diffyq/part3/temperature_graphs/BreakDownAFunction)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:35.634118+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/BoundaryConditionInterlude.py",
+   "matches": [
+    {
+     "line": 156,
+     "context": "\"linearity_thumbnail\","
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2555x1258 RGBA).",
+  "old_sha256": "3df68f68909c4894238173a7d7265d88a3048d7ec1a58244b8cff1ee1531a7b2",
+  "delivery_state": "done",
+  "sha256": "86833ac2d44f543aa29f35be36871a5c432fef9bcfa6b9c4770ad4d00977167f",
+  "final_size_bytes": 693953,
+  "source_scene": "diffyq/part3/temperature_graphs/BreakDownAFunction",
+  "source_video": "renders/2019/diffyq/part3/temperature_graphs/BreakDownAFunction.mp4",
+  "source_from_backup": false,
+  "source_instant": "last frame",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": [
+   0.0,
+   0.0,
+   1.0,
+   0.875
+  ],
+  "upscale_factor": 2.0,
+  "hires": false,
+  "source_mtime": "2026-10-26 18:52:44"
+ },
+ "raster_images/sine_curve_temp_graph.png": {
+  "asset": "raster_images/sine_curve_temp_graph.png",
+  "name": "sine_curve_temp_graph.png",
+  "subject": "temperature surface: sine wave damped in time",
+  "author": "own (frame of diffyq/part3/temperature_graphs/SineWaveScaledByExp)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.043813+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/BoundaryConditionInterlude.py",
+   "matches": [
+    {
+     "line": 150,
+     "context": "\"sine_curve_temp_graph\","
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2598x1880 RGBA).",
+  "old_sha256": "b6b79e56fb849f903b73e52ba80ff6f0b25b7e1f49bdb1d6eaa16367233b9412",
+  "delivery_state": "done",
+  "sha256": "faa06962d4ace119f261ea7a4f03ea260c839e45866a09046d964d097cbc5ddc",
+  "final_size_bytes": 813884,
+  "source_scene": "diffyq/part3/temperature_graphs/SineWaveScaledByExp",
+  "source_video": "renders/2019/diffyq/part3/temperature_graphs/SineWaveScaledByExp.mp4",
+  "source_from_backup": false,
+  "source_instant": "5.00 s",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": [
+   0.22,
+   0.0,
+   1.0,
+   1.0
+  ],
+  "upscale_factor": 2.61,
+  "hires": false,
+  "source_mtime": "2026-10-26 17:59:38"
+ },
+ "raster_images/temp_initial_condition_example.png": {
+  "asset": "raster_images/temp_initial_condition_example.png",
+  "name": "temp_initial_condition_example.png",
+  "subject": "linear initial temperature condition on the rod (clock at 0.00)",
+  "author": "own (frame of diffyq/part3/temperature_graphs/CloserLookAtStraightLine)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Frame from our own render of the scene; 'cover' crop/rescale (LANCZOS) to the exact size and mode of the original; no pixel of Grant's original is copied.",
+  "status": "generated",
+  "via": "frame",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.306437+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/wordy_scenes/WriteOutBoundaryCondition.py",
+   "matches": [
+    {
+     "line": 197,
+     "context": "image = ImageMobject(\"temp_initial_condition_example\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (3252x1752 RGBA).",
+  "old_sha256": "300d5f6643f30c6e94ac6bec659d4c311bb848d34bc829fc8ca556bb28c4428e",
+  "delivery_state": "done",
+  "sha256": "65e8aff7b686cac68d4b7d47c3a9e9865677a33d97f923cbcc91b799609ed333",
+  "final_size_bytes": 334955,
+  "source_scene": "diffyq/part3/temperature_graphs/CloserLookAtStraightLine",
+  "source_video": "renders/2019/diffyq/part3/temperature_graphs/CloserLookAtStraightLine.mp4",
+  "source_from_backup": false,
+  "source_instant": "0.00 s",
+  "source_resolution": [
+   1280,
+   720
+  ],
+  "crop": null,
+  "upscale_factor": 2.54,
+  "hires": false,
+  "source_mtime": "2026-10-26 18:07:10"
+ },
+ "raster_images/HeatSurfaceExample.jpg": {
+  "asset": "raster_images/HeatSurfaceExample.jpg",
+  "name": "HeatSurfaceExample.jpg",
+  "subject": "3D temperature surface (truncated cosine series of a distribution of hot/cold blocks)",
+  "author": "own (code: gen_heat_surface)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.339736+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/staging/TourOfDifferentialEquations.py",
+   "matches": [
+    {
+     "line": 129,
+     "context": "image = ImageMobject(\"HeatSurfaceExample\")"
+    },
+    {
+     "line": 132,
+     "context": "image = ImageMobject(\"HeatSurfaceExample\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGB).",
+  "old_sha256": "85b5abb2941912475a50f94742e3f7ac85ec564b906925f68b7b1e8f426c0958",
+  "delivery_state": "done",
+  "sha256": "de44c48de85d2f516de29b5783019683026251dada805e15ccdfdc5ee96f5c40",
+  "final_size_bytes": 326412,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ },
+ "raster_images/HeatSurfaceExampleFlipped.jpg": {
+  "asset": "raster_images/HeatSurfaceExampleFlipped.jpg",
+  "name": "HeatSurfaceExampleFlipped.jpg",
+  "subject": "the previous surface mirrored left to right",
+  "author": "own (mirror of HeatSurfaceExample)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Horizontal mirror of our own HeatSurfaceExample image (the original was also a mirror).",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.371441+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/Thumbnail.py",
+   "matches": [
+    {
+     "line": 1435,
+     "context": "image = ImageMobject(\"HeatSurfaceExampleFlipped\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (2560x1440 RGB).",
+  "old_sha256": "2b98b3e3d8bc4b692435b0bb4040083551df80576e0b679a0ee5b0b107cecdbb",
+  "delivery_state": "done",
+  "sha256": "17efd65e1bf251ae439b66403fc63f2c51c542bc34b16a67bbbfacd45482221b",
+  "final_size_bytes": 326446,
+  "source_scene": "(derived from HeatSurfaceExample.jpg)",
+  "source_instant": "hflip"
+ },
+ "raster_images/MobiusStrip.png": {
+  "asset": "raster_images/MobiusStrip.png",
+  "name": "MobiusStrip.png",
+  "subject": "Möbius strip with a grayish-blue surface and red edges",
+  "author": "own (code: gen_mobius)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.497638+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/FinalCommentsOnPhaseSpace.py",
+   "matches": [
+    {
+     "line": 28,
+     "context": "ImageMobject(\"MobiusStrip\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (1463x875 RGBA).",
+  "old_sha256": "410b98d8b11ce24731246939072eeb37fd1d3a583407d5539bf6430845a28190",
+  "delivery_state": "done",
+  "sha256": "c89276c598bea1a62a89d3c3494c6bca32bb8206401543f5f225488bdcc4e47a",
+  "final_size_bytes": 100917,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ },
+ "raster_images/DoublePendulumStart.png": {
+  "asset": "raster_images/DoublePendulumStart.png",
+  "name": "DoublePendulumStart.png",
+  "subject": "double pendulum in its initial position (two rods and two masses)",
+  "author": "own (code: gen_double_pendulum)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.641408+00:00",
+  "scene_review": {
+   "scene": "",
+   "matches": []
+  },
+  "note": "Size and mode preserved (2560x1440 RGBA).",
+  "old_sha256": "dbb5749802d3556d01a21efb3f1224e690d390b6e251bb0393c2c68ca202ee10",
+  "delivery_state": "done",
+  "sha256": "81761c48fbab197696b9eee5a27455bdf9cd3fe6b56a415db9fa3d2a256973a8",
+  "final_size_bytes": 45149,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ },
+ "raster_images/PictoralODE.png": {
+  "asset": "raster_images/PictoralODE.png",
+  "name": "PictoralODE.png",
+  "subject": "predator-prey ODE with the own rabbit and fox icons",
+  "author": "own (code: gen_pictorial_ode)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.718167+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/FinalCommentsOnPhaseSpace.py",
+   "matches": [
+    {
+     "line": 26,
+     "context": "ImageMobject(\"PictoralODE\"),"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (1212x812 RGBA).",
+  "old_sha256": "480e2f440e796c3e808bb516ed263af22aacbc95c531015536c387b48868d2a3",
+  "delivery_state": "done",
+  "sha256": "c5c6c8dc908c4fc4e47b41d574c2abcc89fb7645f158085c4e46a71cced1aafa",
+  "final_size_bytes": 101816,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ },
+ "raster_images/eoc_chapter5_thumbnail.jpg": {
+  "asset": "raster_images/eoc_chapter5_thumbnail.jpg",
+  "name": "eoc_chapter5_thumbnail.jpg",
+  "subject": "'Essence of Calculus, chapter 5' card (2017, no render; no logos)",
+  "author": "own (code: gen_eoc5)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.741552+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/wordy_scenes/ExpVideoWrapper.py",
+   "matches": [
+    {
+     "line": 13,
+     "context": "screen = ImageMobject(\"eoc_chapter5_thumbnail\")"
+    }
+   ]
+  },
+  "note": "Size and mode preserved (1280x720 RGB).",
+  "old_sha256": "4577407b62628f232d1e4c6cd7119dd71db8c2029e77644a1d2cbf8d6a0ac7ce",
+  "delivery_state": "done",
+  "sha256": "9912537b8fff9fe9f980ec966b7194e6f4701818ddd5398efc3f615ce11eeeac",
+  "final_size_bytes": 98015,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ },
+ "raster_images/fourier_series_thumbnail.png": {
+  "asset": "raster_images/fourier_series_thumbnail.png",
+  "name": "fourier_series_thumbnail.png",
+  "subject": "partial sums of the cosine series of the step function on [0, 1]",
+  "author": "own (code: gen_fourier_series)",
+  "license": "CC BY-NC-SA 4.0 (own work, derived from 3b1b/videos)",
+  "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "page_url": "",
+  "changes": "Drawn by code (numpy/matplotlib/PIL); not derived from Grant's original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-frames-v1",
+  "verified_at": "2026-10-27T04:01:36.844898+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/BoundaryConditionInterlude.py",
+   "matches": [
+    {
+     "line": 162,
+     "context": "\"fourier_series_thumbnail\","
+    }
+   ]
+  },
+  "note": "Size and mode preserved (1418x876 RGBA).",
+  "old_sha256": "d0e692038fe56fb667fa36e4ef9c1cad9e980bed6626bf1080131cccd62f8a3e",
+  "delivery_state": "done",
+  "sha256": "93e46b5dfbf052431c2c4dd386cf583c102416c9f1c347e824829a52e2ad6f92",
+  "final_size_bytes": 159714,
+  "source_scene": "(drawn by code)",
+  "source_instant": "-"
+ }
+}

@@ -1,0 +1,2936 @@
+{
+ "raster_images/Lost_Lecture_cover.jpg": {
+  "asset": "raster_images/Lost_Lecture_cover.jpg",
+  "name": "Lost_Lecture_cover.jpg",
+  "subject": "Own flat book-cover mock-up with the title text (no publisher art); used in 12 scenes of the Lost Lecture video",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:13:31.437398+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/AngularMomentumArgument.py",
+   "matches": [
+    {
+     "line": 139,
+     "context": "\n        book = ImageMobject(\"Lost_Lecture_cover\")\n        book.set_height(4)\n        book.next_to(alt_name, DOWN)\n\n        self.add(SunAnimation(sun))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "20514328bc571e7498f135d0c950c6d8eff2195e213165e9112a652bd32c8ae7",
+  "final_size_bytes": 11922
+ },
+ "raster_images/mars.png": {
+  "asset": "raster_images/mars.png",
+  "name": "mars.png",
+  "subject": "Shaded disc generated with numpy (reddish) or NASA public-domain Mars image",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Planeta esquemático propio: iluminación y textura procedurales, no es una fotografía ni un mapa científico.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:28:47.047976+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/AngularMomentumArgument.py",
+   "matches": [
+    {
+     "line": 167,
+     "context": "            ImageMobject(\"earth\"),\n            ImageMobject(\"mars\"),\n            ImageMobject(\"comet\")\n        )\n        sizes = [0.383, 0.95, 1.0, 0.532, 0.3]\n        orbit_radii = [0.254, 0.475, 0.656, 1.0, 3.0]"
+    }
+   ]
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "fe99b04489aaffc5c73a4dab4e7d25f4d06661b3321b98487ef98449e935c9e5",
+  "final_size_bytes": 84105
+ },
+ "raster_images/mercury.png": {
+  "asset": "raster_images/mercury.png",
+  "name": "mercury.png",
+  "subject": "Shaded disc generated with numpy (grey) or NASA public-domain Mercury image",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Planeta esquemático propio: iluminación y textura procedurales, no es una fotografía ni un mapa científico.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:28:47.259388+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/AngularMomentumArgument.py",
+   "matches": [
+    {
+     "line": 164,
+     "context": "        planets = VGroup(\n            ImageMobject(\"mercury\"),\n            ImageMobject(\"venus\"),\n            ImageMobject(\"earth\"),\n            ImageMobject(\"mars\"),\n            ImageMobject(\"comet\")"
+    }
+   ]
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "2c30c0f14d69845e4788c75c4f0d758a39840b6a098ddde103f536285b34faea",
+  "final_size_bytes": 107802
+ },
+ "raster_images/venus.png": {
+  "asset": "raster_images/venus.png",
+  "name": "venus.png",
+  "subject": "Shaded disc generated with numpy (pale yellow) or NASA public-domain Venus image",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Planeta esquemático propio: iluminación y textura procedurales, no es una fotografía ni un mapa científico.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:28:47.535094+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/AngularMomentumArgument.py",
+   "matches": [
+    {
+     "line": 165,
+     "context": "            ImageMobject(\"mercury\"),\n            ImageMobject(\"venus\"),\n            ImageMobject(\"earth\"),\n            ImageMobject(\"mars\"),\n            ImageMobject(\"comet\")\n        )"
+    }
+   ]
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "3d07c79bad5f2db3fb40d79ea65522e9c496ec7bff5042f3376cc231d716860f",
+  "final_size_bytes": 118912
+ },
+ "svg_images/pinch_hand.svg": {
+  "asset": "svg_images/pinch_hand.svg",
+  "name": "pinch_hand.svg",
+  "subject": "Own pinching-hand pointer icon drawn by code (Hand class used to grab and rotate the stereographic spheres)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.323615+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quaternions/FelixViewOfProjection.py",
+   "matches": [
+    {
+     "line": 54,
+     "context": "    CONFIG = {\n        \"file_name\": \"pinch_hand\",\n        \"height\": 0.5,\n        \"sheen\": 0.2,\n        \"fill_color\": ORANGE,\n    }"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "52c9fef9910566c5b338d5a3b51340085a6bb60f58729e75a6058c8507de8cda",
+  "final_size_bytes": 580
+ },
+ "svg_images/radar_dish.svg": {
+  "asset": "svg_images/radar_dish.svg",
+  "name": "radar_dish.svg",
+  "subject": "Own radar-dish icon drawn by code (arc + stand); used in 6 scenes of the Doppler radar part",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.331141+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/AmbiguityInLongEchos.py",
+   "matches": [
+    {
+     "line": 56,
+     "context": "    CONFIG = {\n        \"file_name\" : \"radar_dish\",\n        \"fill_color\" : GREY_B,\n        \"stroke_color\" : WHITE,\n        \"stroke_width\" : 1,\n        \"height\" : 1,"
+    },
+    {
+     "line": 97,
+     "context": "    }\n    def __init__(self, radar_dish, target, **kwargs):\n        digest_config(self, kwargs)\n        self.direction = self.direction/get_norm(self.direction)\n        self.radar_dish = radar_dish\n        self.target = target"
+    },
+    {
+     "line": 100,
+     "context": "        self.direction = self.direction/get_norm(self.direction)\n        self.radar_dish = radar_dish\n        self.target = target\n        self.reflection_distance = None\n        self.arc = Arc(\n            start_angle = -30*DEGREES,"
+    },
+    {
+     "line": 107,
+     "context": "        )\n        self.arc.set_height(0.75*radar_dish.get_height())\n        self.arc.move_to(radar_dish, UP+RIGHT)\n        self.start_points = np.array(self.arc.get_points())\n        self.start_center = self.arc.get_center()\n        self.finished = False"
+    },
+    {
+     "line": 108,
+     "context": "        self.arc.set_height(0.75*radar_dish.get_height())\n        self.arc.move_to(radar_dish, UP+RIGHT)\n        self.start_points = np.array(self.arc.get_points())\n        self.start_center = self.arc.get_center()\n        self.finished = False\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "0f84f672888faaa0e88a5d313edeaf7ccb9cbd722970cf6cdb788aa7ce44c59a",
+  "final_size_bytes": 5315
+ },
+ "svg_images/Dice-1.svg": {
+  "asset": "svg_images/Dice-1.svg",
+  "name": "Dice-1.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.338771+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "ae0c03bf4af8f5676e7403dca8b4849f87039abbee8f4971863d7d3fa993a319",
+  "final_size_bytes": 4376
+ },
+ "svg_images/Dice-2.svg": {
+  "asset": "svg_images/Dice-2.svg",
+  "name": "Dice-2.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.346428+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "6f62e48328174c4292e047508ae3938bf9304cf02b2cff3c5e7d92d94aff41b9",
+  "final_size_bytes": 6407
+ },
+ "svg_images/Dice-3.svg": {
+  "asset": "svg_images/Dice-3.svg",
+  "name": "Dice-3.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.353544+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "a6d157ea9c190dec5d6be46db63cb25bc6f41d30eb6c9d74ee5f0cf0d44d4dc4",
+  "final_size_bytes": 8438
+ },
+ "svg_images/Dice-4.svg": {
+  "asset": "svg_images/Dice-4.svg",
+  "name": "Dice-4.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.360541+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "caad16171df82dcc2f88406fea7c33c72827b253286275a1a3a7ff0a3dfaa7c6",
+  "final_size_bytes": 10469
+ },
+ "svg_images/Dice-5.svg": {
+  "asset": "svg_images/Dice-5.svg",
+  "name": "Dice-5.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:15.367393+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "9e7cf5ac3b6d9bf07a9a51459d2f9ab1973f3275af2916ef019a81d3a4a2d709",
+  "final_size_bytes": 12500
+ },
+ "svg_images/Dice-6.svg": {
+  "asset": "svg_images/Dice-6.svg",
+  "name": "Dice-6.svg",
+  "subject": "Own die face SVG drawn by code (rounded square + pips), same size and name",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.091601+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/prob_dist_visuals/ProbabilityDistributions.py",
+   "matches": [
+    {
+     "line": 474,
+     "context": "        self.value = value\n        self.file_name = \"Dice-\" + str(value)\n        # CHANGE: ensure_valid_file() does not exist in GL (SVGMobject finds the file by name)\n        SVGMobject.__init__(self, file_name = self.file_name)\n\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "b57ff40421ea65096afc9d3b82b672b3f662d9055d9d7df40b00b1555e4c20b9",
+  "final_size_bytes": 14531
+ },
+ "svg_images/camera.svg": {
+  "asset": "svg_images/camera.svg",
+  "name": "camera.svg",
+  "subject": "Own camera icon drawn by code (rectangle body, lens circle, flash)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.099703+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/basel/basel2/EarthScene.py",
+   "matches": [
+    {
+     "line": 100,
+     "context": "\n        # Camera\n        camera = SVGMobject(file_name = \"camera\")\n        camera.rotate(TAU/4)\n        camera.set_height(1.5)\n        camera.move_to(morty.eyes, LEFT)"
+    },
+    {
+     "line": 101,
+     "context": "        # Camera\n        camera = SVGMobject(file_name = \"camera\")\n        camera.rotate(TAU/4)\n        camera.set_height(1.5)\n        camera.move_to(morty.eyes, LEFT)\n"
+    },
+    {
+     "line": 102,
+     "context": "        camera = SVGMobject(file_name = \"camera\")\n        camera.rotate(TAU/4)\n        camera.set_height(1.5)\n        camera.move_to(morty.eyes, LEFT)\n\n        # Animations"
+    },
+    {
+     "line": 103,
+     "context": "        camera.rotate(TAU/4)\n        camera.set_height(1.5)\n        camera.move_to(morty.eyes, LEFT)\n\n        # Animations\n        light_source.set_max_opacity_spotlight(0.001)"
+    },
+    {
+     "line": 104,
+     "context": "        camera.set_height(1.5)\n        camera.move_to(morty.eyes, LEFT)\n\n        # Animations\n        light_source.set_max_opacity_spotlight(0.001)\n        screen_tracker = self.screen_tracker = ScreenTracker(light_source)"
+    },
+    {
+     "line": 128,
+     "context": "            FadeOut(morty),\n            FadeIn(camera),\n            screen.scale, 2, {\"about_edge\" : UP},\n        )\n        self.wait()\n        self.play("
+    },
+    {
+     "line": 133,
+     "context": "        self.play(\n            FadeOut(camera),\n            screen.restore,\n        )\n\n        light_source.set_screen(screen)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "2fb2b6211249af9ad8b46328d7e9c2517fbd5532a206b253cd7d204e4fcdb530",
+  "final_size_bytes": 7543
+ },
+ "svg_images/speaker.svg": {
+  "asset": "svg_images/speaker.svg",
+  "name": "speaker.svg",
+  "subject": "Own loudspeaker icon drawn by code (trapezoid cone, rectangle, three arcs)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.150332+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/fourier/AddingPureFrequencies.py",
+   "matches": [
+    {
+     "line": 14,
+     "context": "    def construct(self):\n        self.add_speaker()\n        self.play_A440()\n        self.measure_air_pressure()\n        self.play_lower_pitch()\n        self.play_mix()"
+    },
+    {
+     "line": 24,
+     "context": "\n    def add_speaker(self):\n        speaker = SVGMobject(file_name = \"speaker\")\n        speaker.to_edge(DOWN)\n\n        self.add(speaker)"
+    },
+    {
+     "line": 25,
+     "context": "    def add_speaker(self):\n        speaker = SVGMobject(file_name = \"speaker\")\n        speaker.to_edge(DOWN)\n\n        self.add(speaker)\n        self.speaker = speaker"
+    },
+    {
+     "line": 26,
+     "context": "        speaker = SVGMobject(file_name = \"speaker\")\n        speaker.to_edge(DOWN)\n\n        self.add(speaker)\n        self.speaker = speaker\n"
+    },
+    {
+     "line": 28,
+     "context": "\n        self.add(speaker)\n        self.speaker = speaker\n\n    def play_A440(self):\n        randy = self.pi_creature"
+    },
+    {
+     "line": 29,
+     "context": "        self.add(speaker)\n        self.speaker = speaker\n\n    def play_A440(self):\n        randy = self.pi_creature\n        A_label = OldTexText(\"A440\")"
+    },
+    {
+     "line": 35,
+     "context": "        A_label.set_color(self.A_color)\n        A_label.next_to(self.speaker, UP)\n\n        self.broadcast(\n            FadeIn(A_label),\n            Succession("
+    },
+    {
+     "line": 161,
+     "context": "        axes = self.axes\n        speaker = self.speaker\n        randy = self.pi_creature\n\n        A_axes = axes.deepcopy()\n        A_graph = self.A_graph"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c4f40420c0751729a53d8ebbc70b1618c83ea6154bc7bb0477f4395b48632edd",
+  "final_size_bytes": 8730
+ },
+ "raster_images/comet.png": {
+  "asset": "raster_images/comet.png",
+  "name": "comet.png",
+  "subject": "Comet picture drawn by code (bright nucleus, soft tail) or a public-domain NASA comet photo; used 13 times (Lost Lecture orbits)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.055458+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/ShowOrbits.py",
+   "matches": [
+    {
+     "line": 182,
+     "context": "        earth_eccentricity = 0.0167\n        comet_eccentricity = 0.9671\n        earth_orbit = self.get_ellipse(eccentricity=earth_eccentricity)\n        comet_orbit = self.get_ellipse(eccentricity=comet_eccentricity)\n        earth_orbit.set_height(5)\n        comet_orbit.set_width("
+    },
+    {
+     "line": 184,
+     "context": "        earth_orbit = self.get_ellipse(eccentricity=earth_eccentricity)\n        comet_orbit = self.get_ellipse(eccentricity=comet_eccentricity)\n        earth_orbit.set_height(5)\n        comet_orbit.set_width(\n            0.7 * FRAME_WIDTH,\n            about_point=ORIGIN,"
+    },
+    {
+     "line": 186,
+     "context": "        earth_orbit.set_height(5)\n        comet_orbit.set_width(\n            0.7 * FRAME_WIDTH,\n            about_point=ORIGIN,\n        )\n"
+    },
+    {
+     "line": 193,
+     "context": "        earth = ImageMobject(\"Earth\")\n        comet = ImageMobject(\"Comet\")\n        sun.set_height(1)\n        earth.set_height(0.5)\n        comet.set_height(0.1)\n"
+    },
+    {
+     "line": 196,
+     "context": "        earth.set_height(0.5)\n        comet.set_height(0.1)\n\n        earth_parts = VGroup(sun, earth_orbit, earth)\n\n        eccentricity_label = DecimalNumber("
+    },
+    {
+     "line": 217,
+     "context": "\n        comet_orbit_words = OldTexText(\"Halley's comet orbit\")\n        comet_orbit_words.set_color(GREY_B)\n        comet_orbit_words.move_to(earth_orbit_words, RIGHT)\n\n        orbiting_earth = Orbiting(earth, sun, earth_orbit)"
+    },
+    {
+     "line": 218,
+     "context": "        comet_orbit_words = OldTexText(\"Halley's comet orbit\")\n        comet_orbit_words.set_color(GREY_B)\n        comet_orbit_words.move_to(earth_orbit_words, RIGHT)\n\n        orbiting_earth = Orbiting(earth, sun, earth_orbit)\n        orbiting_comet = Orbiting(comet, sun, comet_orbit)"
+    },
+    {
+     "line": 219,
+     "context": "        comet_orbit_words.set_color(GREY_B)\n        comet_orbit_words.move_to(earth_orbit_words, RIGHT)\n\n        orbiting_earth = Orbiting(earth, sun, earth_orbit)\n        orbiting_comet = Orbiting(comet, sun, comet_orbit)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "68776fd40e8581b9831e4f8011ff979a8a8393096008665bfccbfa3deb196684",
+  "final_size_bytes": 13580
+ },
+ "raster_images/MeasurementCover.png": {
+  "asset": "raster_images/MeasurementCover.png",
+  "name": "MeasurementCover.png",
+  "subject": "Own flat book-cover mock-up titled \"Measurement\" (no publisher art)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:32:19.214086+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/LockhartQuote.py",
+   "matches": [
+    {
+     "line": 67,
+     "context": "\n        measurement = ImageMobject(\"MeasurementCover\")\n        madame_bovary = ImageMobject(\"MadameBovary\")\n        mona_lisa = ImageMobject(\"MonaLisa\")\n        pictures = Group(measurement, madame_bovary, mona_lisa)\n        for picture in pictures:"
+    }
+   ]
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "fa36508ae2fbb68e90f1a90d9a4c16a09e85748bca70dce55bad2cbeca0aa13a",
+  "final_size_bytes": 15042
+ },
+ "raster_images/grey_gradient.png": {
+  "asset": "raster_images/grey_gradient.png",
+  "name": "grey_gradient.png",
+  "subject": "Vertical grey gradient PNG (1921x1081, RGBA) made with numpy; used by color_using_background_image for a spring and a weight",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:32:19.273593+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/alt_calc/StartingCalc101.py",
+   "matches": [
+    {
+     "line": 226,
+     "context": "        )\n        spring.color_using_background_image(\"grey_gradient\")\n\n        weight = Square()\n        weight.set_stroke(width=0)\n        weight.set_fill(opacity=1)"
+    },
+    {
+     "line": 231,
+     "context": "        weight.set_fill(opacity=1)\n        weight.color_using_background_image(\"grey_gradient\")\n        weight.set_height(0.4)\n\n        t_tracker = ValueTracker(0)\n        group = VGroup(spring, weight)"
+    }
+   ]
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "7559680e7a2bba79b6f39bbc10c3bbf09d5593dc68c5e87e5f699c32316efdd8",
+  "final_size_bytes": 10521
+ },
+ "svg_images/hat.svg": {
+  "asset": "svg_images/hat.svg",
+  "name": "hat.svg",
+  "subject": "Own simple icon drawn by code (make_visual_svgs.py style)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.157967+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 29,
+     "context": "        self.show_anti_quaternion_quote()\n        self.mad_hatter()\n\n    def show_dot_product_and_cross_product(self):\n        date = OldTex(\"1843\")\n        date.scale(2)"
+    },
+    {
+     "line": 215,
+     "context": "\n    def mad_hatter(self):\n        title = OldTexText(\n            \"Lewis Carroll's\", \"``Alice in wonderland''\"\n        )\n        title.to_edge(UP, buff=LARGE_BUFF)"
+    },
+    {
+     "line": 228,
+     "context": "            \"\"\"\n                ``Why, you might just as well say that\\\\\\\\\n                ‘I see what I eat’ is the same thing as\\\\\\\\\n                ‘I eat what I see’!''\n            \"\"\",\n            tex_to_color_map={"
+    },
+    {
+     "line": 229,
+     "context": "                ``Why, you might just as well say that\\\\\\\\\n                ‘I see what I eat’ is the same thing as\\\\\\\\\n                ‘I eat what I see’!''\n            \"\"\",\n            tex_to_color_map={\n                \"I see what I eat\": BLUE,"
+    },
+    {
+     "line": 230,
+     "context": "                ‘I see what I eat’ is the same thing as\\\\\\\\\n                ‘I eat what I see’!''\n            \"\"\",\n            tex_to_color_map={\n                \"I see what I eat\": BLUE,\n                \"I eat what I see\": YELLOW,"
+    },
+    {
+     "line": 233,
+     "context": "            tex_to_color_map={\n                \"I see what I eat\": BLUE,\n                \"I eat what I see\": YELLOW,\n            },\n            alignment=\"\"\n        )"
+    },
+    {
+     "line": 234,
+     "context": "                \"I see what I eat\": BLUE,\n                \"I eat what I see\": YELLOW,\n            },\n            alignment=\"\"\n        )\n        quote.to_edge(UP, buff=LARGE_BUFF)"
+    },
+    {
+     "line": 240,
+     "context": "\n        hatter = PiCreature(color=RED, mode=\"surprised\")\n        hat = SVGMobject(file_name=\"hat\")\n        hat_back = hat.copy()\n        hat_back[0].remove(*[\n            sm for sm in hat_back[0] if sm.is_subpath"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1b2d3137df8cc760a708c4b677bab2dee5e46213a85db63e6118e2e4b46d8401",
+  "final_size_bytes": 567
+ },
+ "svg_images/mouse.svg": {
+  "asset": "svg_images/mouse.svg",
+  "name": "mouse.svg",
+  "subject": "Own simple icon drawn by code (make_visual_svgs.py style)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.163806+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 258,
+     "context": "        hare = SVGMobject(file_name=\"bunny\")\n        mouse = SVGMobject(file_name=\"mouse\")\n        for mob in hare, mouse:\n            mob.set_color(GREY_B)\n            mob.set_sheen(0.2, UL)\n            mob.set_height(1.5)"
+    },
+    {
+     "line": 259,
+     "context": "        mouse = SVGMobject(file_name=\"mouse\")\n        for mob in hare, mouse:\n            mob.set_color(GREY_B)\n            mob.set_sheen(0.2, UL)\n            mob.set_height(1.5)\n"
+    },
+    {
+     "line": 264,
+     "context": "\n        characters = VGroup(hatter, hare, mouse)\n        for mob, p in zip(characters, [UP, DL, DR]):\n            mob.move_to(p)\n        hare.shift(MED_SMALL_BUFF * LEFT)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c0481954bf59b9ce27e909487c31002094fe5c9d0b06997291309b976a5e3af0",
+  "final_size_bytes": 8614
+ },
+ "svg_images/sailor_hat.svg": {
+  "asset": "svg_images/sailor_hat.svg",
+  "name": "sailor_hat.svg",
+  "subject": "Own sailor-hat icon drawn by code",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:28.170510+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/wallis/KeeperAndSailor.py",
+   "matches": [
+    {
+     "line": 281,
+     "context": "        height = self.get_height() * self.hat_height_factor\n        sailor_hat = SVGMobject(file_name=\"sailor_hat\", height=height)\n        # Rhombus is a horrible hack...\n        rhombus = Polygon(\n            UP, UP + 2 * RIGHT,\n            1.75 * RIGHT + 0.5 * UP, 0.5 * RIGHT + 0.1 * DOWN,"
+    },
+    {
+     "line": 290,
+     "context": "        rhombus.set_stroke(width=0)\n        rhombus.set_height(sailor_hat.get_height() / 3)\n        rhombus.rotate(5 * DEGREES)\n        rhombus.move_to(sailor_hat, DR)\n        rhombus.shift(0.05 * sailor_hat.get_width() * LEFT)\n        sailor_hat.add_to_back(rhombus)"
+    },
+    {
+     "line": 292,
+     "context": "        rhombus.rotate(5 * DEGREES)\n        rhombus.move_to(sailor_hat, DR)\n        rhombus.shift(0.05 * sailor_hat.get_width() * LEFT)\n        sailor_hat.add_to_back(rhombus)\n        sailor_hat.rotate(-15 * DEGREES)\n        sailor_hat.move_to(self.eyes.get_center(), DOWN)"
+    },
+    {
+     "line": 293,
+     "context": "        rhombus.move_to(sailor_hat, DR)\n        rhombus.shift(0.05 * sailor_hat.get_width() * LEFT)\n        sailor_hat.add_to_back(rhombus)\n        sailor_hat.rotate(-15 * DEGREES)\n        sailor_hat.move_to(self.eyes.get_center(), DOWN)\n        sailor_hat.shift("
+    },
+    {
+     "line": 294,
+     "context": "        rhombus.shift(0.05 * sailor_hat.get_width() * LEFT)\n        sailor_hat.add_to_back(rhombus)\n        sailor_hat.rotate(-15 * DEGREES)\n        sailor_hat.move_to(self.eyes.get_center(), DOWN)\n        sailor_hat.shift(\n            0.1 * self.eyes.get_width() * RIGHT,"
+    },
+    {
+     "line": 295,
+     "context": "        sailor_hat.add_to_back(rhombus)\n        sailor_hat.rotate(-15 * DEGREES)\n        sailor_hat.move_to(self.eyes.get_center(), DOWN)\n        sailor_hat.shift(\n            0.1 * self.eyes.get_width() * RIGHT,\n            0.1 * self.eyes.get_height() * UP,"
+    },
+    {
+     "line": 296,
+     "context": "        sailor_hat.rotate(-15 * DEGREES)\n        sailor_hat.move_to(self.eyes.get_center(), DOWN)\n        sailor_hat.shift(\n            0.1 * self.eyes.get_width() * RIGHT,\n            0.1 * self.eyes.get_height() * UP,\n        )"
+    },
+    {
+     "line": 297,
+     "context": "        sailor_hat.move_to(self.eyes.get_center(), DOWN)\n        sailor_hat.shift(\n            0.1 * self.eyes.get_width() * RIGHT,\n            0.1 * self.eyes.get_height() * UP,\n        )\n        self.add(sailor_hat)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "42234302e2c5c9e6cf592f7fac0b89d754ed7f07fea74863ce3f606c4c782443",
+  "final_size_bytes": 453
+ },
+ "raster_images/GerminalDandelin.jpg": {
+  "asset": "raster_images/GerminalDandelin.jpg",
+  "name": "GerminalDandelin.jpg",
+  "subject": "Retrato de Germinal Pierre Dandelin",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Germinal_Pierre_Dandelin_(1794-1847).jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.024019+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/CreativeConstruction.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "\n        dandelin = ImageMobject(\"GerminalDandelin\")\n        dandelin.set_height(4)\n        dandelin.move_to(FRAME_WIDTH * RIGHT / 4)\n\n        lightbulb = Lightbulb()"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "b985ddd0d274df5a0591988239802f89b67d800fecba227e6649ee8227b5ac77",
+  "previous_download": true,
+  "commons_title": "File:Germinal Pierre Dandelin (1794-1847).jpg",
+  "source_author_credit": "Unknown author Unknown author",
+  "source_credit": "[1]",
+  "source_description": "Français : Germinal Pierre Dandelin (12 avril 1794 au Bourget, France - 15 février 1847 à Bruxelles) était un mathématicien belge. Il est surtout connu pour ses travaux en géométrie.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Germinal_Pierre_Dandelin_%281794-1847%29.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "cca5681c7378366c1f082e46fa145e2b9765637b584e0cb278ba662a55671fb2",
+  "source_sha256": "6efabc577d1efe764faa149b731d4384e9150c1bb5c4b41277bbd896f8017ed0",
+  "source_size_bytes": 120895,
+  "download_size_bytes": 120895,
+  "source_width": 425,
+  "source_height": 425,
+  "delivery_state": "done",
+  "sha256": "b985ddd0d274df5a0591988239802f89b67d800fecba227e6649ee8227b5ac77",
+  "final_size_bytes": 186247
+ },
+ "raster_images/de_Broglie.png": {
+  "asset": "raster_images/de_Broglie.png",
+  "name": "de_Broglie.png",
+  "subject": "Retrato de Louis de Broglie",
+  "author": "Nobel foundation",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Louis_de_Broglie.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.061868+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/HangingWeightsScene.py",
+   "matches": [
+    {
+     "line": 135,
+     "context": "    def metaphor_for_something(self):\n        de_broglie = ImageMobject(\"de_Broglie\")\n        de_broglie.set_height(3.5)\n        de_broglie.to_corner(DOWN+RIGHT)\n        words = OldTexText(\"\"\"\n            If a photon's energy is carried as a wave \\\\\\\\"
+    },
+    {
+     "line": 136,
+     "context": "        de_broglie = ImageMobject(\"de_Broglie\")\n        de_broglie.set_height(3.5)\n        de_broglie.to_corner(DOWN+RIGHT)\n        words = OldTexText(\"\"\"\n            If a photon's energy is carried as a wave \\\\\\\\\n            is this true for any particle?"
+    },
+    {
+     "line": 137,
+     "context": "        de_broglie.set_height(3.5)\n        de_broglie.to_corner(DOWN+RIGHT)\n        words = OldTexText(\"\"\"\n            If a photon's energy is carried as a wave \\\\\\\\\n            is this true for any particle?\n        \"\"\")"
+    },
+    {
+     "line": 142,
+     "context": "        \"\"\")\n        words.next_to(de_broglie, LEFT)\n\n        einstein = ImageMobject(\"Einstein\")\n        einstein.match_height(de_broglie)\n        einstein.to_corner(DOWN+LEFT)"
+    },
+    {
+     "line": 145,
+     "context": "        einstein = ImageMobject(\"Einstein\")\n        einstein.match_height(de_broglie)\n        einstein.to_corner(DOWN+LEFT)\n\n        for picture in de_broglie, einstein:\n            picture.backdrop = Rectangle()"
+    },
+    {
+     "line": 148,
+     "context": "\n        for picture in de_broglie, einstein:\n            picture.backdrop = Rectangle()\n            picture.backdrop.replace(picture, stretch = True)\n            picture.backdrop.set_fill(BLACK, 1)\n            picture.backdrop.set_stroke(BLACK, 0)"
+    },
+    {
+     "line": 155,
+     "context": "        self.play(\n            Animation(de_broglie.backdrop, remover = True),\n            FadeIn(de_broglie)\n        )\n        self.play(Write(words))\n        self.wait(7)"
+    },
+    {
+     "line": 156,
+     "context": "            Animation(de_broglie.backdrop, remover = True),\n            FadeIn(de_broglie)\n        )\n        self.play(Write(words))\n        self.wait(7)\n        self.play("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "1198bd2b0cc47248f26b5b6a3f61a2f53a3b4ec445fa1ea09f7035a33bf5987a",
+  "previous_download": true,
+  "commons_title": "File:Louis de Broglie.jpg",
+  "source_author_credit": "Nobel foundation",
+  "source_credit": "http://nobelprize.org/nobel_prizes/physics/laureates/1929/broglie-bio.html",
+  "source_description": "English: Prince Louis-Victor de Broglie",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Louis_de_Broglie.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "37ff6bc127cd016f8781fb107544136fc40c2d4cc428e6ba7a147f545d00113f",
+  "source_sha256": "4a2fbec3282a5086799812bfcc8a1c6e3cceca18258489d03d0d771d293a9ca5",
+  "source_size_bytes": 58908,
+  "download_size_bytes": 58908,
+  "source_width": 280,
+  "source_height": 396,
+  "delivery_state": "done",
+  "sha256": "1198bd2b0cc47248f26b5b6a3f61a2f53a3b4ec445fa1ea09f7035a33bf5987a",
+  "final_size_bytes": 758838
+ },
+ "raster_images/Kant.jpg": {
+  "asset": "raster_images/Kant.jpg",
+  "name": "Kant.jpg",
+  "subject": "Retrato de Immanuel Kant",
+  "author": "Johann Gottlieb Becker (1720-1782)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Immanuel_Kant_-_Gemaelde_1.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.144405+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/CreativeConstruction.py",
+   "matches": [
+    {
+     "line": 15,
+     "context": "\n        kant = ImageMobject(\"Kant\")\n        kant.set_height(3)\n        bubble = ThoughtBubble(height=3, width=4)\n        bubble.pin_to(kant)\n        kant_words = OldTexText("
+    },
+    {
+     "line": 16,
+     "context": "        kant = ImageMobject(\"Kant\")\n        kant.set_height(3)\n        bubble = ThoughtBubble(height=3, width=4)\n        bubble.pin_to(kant)\n        kant_words = OldTexText(\n            \"How is synthetic a priori\\\\\\\\\" +"
+    },
+    {
+     "line": 18,
+     "context": "        bubble = ThoughtBubble(height=3, width=4)\n        bubble.pin_to(kant)\n        kant_words = OldTexText(\n            \"How is synthetic a priori\\\\\\\\\" +\n            \"reasoning possible?\"\n        )"
+    },
+    {
+     "line": 19,
+     "context": "        bubble.pin_to(kant)\n        kant_words = OldTexText(\n            \"How is synthetic a priori\\\\\\\\\" +\n            \"reasoning possible?\"\n        )\n        kant_words.scale(0.75)"
+    },
+    {
+     "line": 23,
+     "context": "        )\n        kant_words.scale(0.75)\n        bubble.position_mobject_inside(kant_words)\n        kant_group = VGroup(bubble, kant_words, kant)\n        kant_group.to_corner(UR)\n"
+    },
+    {
+     "line": 24,
+     "context": "        kant_words.scale(0.75)\n        bubble.position_mobject_inside(kant_words)\n        kant_group = VGroup(bubble, kant_words, kant)\n        kant_group.to_corner(UR)\n\n        self.add(dandelin)"
+    },
+    {
+     "line": 25,
+     "context": "        bubble.position_mobject_inside(kant_words)\n        kant_group = VGroup(bubble, kant_words, kant)\n        kant_group.to_corner(UR)\n\n        self.add(dandelin)\n        self.add(lightbulb)"
+    },
+    {
+     "line": 26,
+     "context": "        kant_group = VGroup(bubble, kant_words, kant)\n        kant_group.to_corner(UR)\n\n        self.add(dandelin)\n        self.add(lightbulb)\n        self.play("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "63e3ebfca6207ef7c74b43cc09aceda3eed5810d19b2a9da47e0979b0072aa7c",
+  "previous_download": true,
+  "commons_title": "File:Kant gemaelde 3.jpg",
+  "source_author_credit": "Johann Gottlieb Becker (1720-1782)",
+  "source_credit": "https://web.archive.org/web/20220308160432/https://andreasvieth.de/kant/das-bildmaterial",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/79/Immanuel_Kant_-_Gemaelde_1.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "4828ec0cfd71638cde7dbebbdf5ce2ab88e1e6afb82ce86860b06f214804f3c6",
+  "source_sha256": "77a5f0868d615bcca32fb737d597f4125e217b303b477e21f97834a04644214f",
+  "source_size_bytes": 665480,
+  "download_size_bytes": 665480,
+  "source_width": 1009,
+  "source_height": 1317,
+  "delivery_state": "done",
+  "sha256": "63e3ebfca6207ef7c74b43cc09aceda3eed5810d19b2a9da47e0979b0072aa7c",
+  "final_size_bytes": 237904
+ },
+ "raster_images/Lewis_Richardson.png": {
+  "asset": "raster_images/Lewis_Richardson.png",
+  "name": "Lewis_Richardson.png",
+  "subject": "Retrato de Lewis Fry Richardson",
+  "author": "NOAA",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Lewis_Fry_Richardson.png",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.183109+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FiguresOfFluidDynamics.py",
+   "matches": [],
+   "indirect_name": "Lewis Richardson"
+  },
+  "old_sha256": "9c4d01de119a011054a04bfdb3c3de81acbfe26e04de9e8c42f49e5d61340de5",
+  "previous_download": true,
+  "commons_title": "File:Lewis Fry Richardson.png",
+  "source_author_credit": "NOAA",
+  "source_credit": "NOAA presentation",
+  "source_description": "Lewis Fry Richardson , father of the numerical weather prediction. Depicted person: Lewis Fry Richardson – UK mathematician & polymath (1881–1953)",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Lewis_Fry_Richardson.png",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "86c431eb7a4d25d9592a21ff760b7b7f0d49c2bdef8e8d1ccd05451c1a882c97",
+  "source_sha256": "ebf4197db4b31cead85e1dbfc74ee24b58df843ebe5a65ee79342012a761b4e9",
+  "source_size_bytes": 100038,
+  "download_size_bytes": 100038,
+  "source_width": 253,
+  "source_height": 368,
+  "delivery_state": "done",
+  "sha256": "9c4d01de119a011054a04bfdb3c3de81acbfe26e04de9e8c42f49e5d61340de5",
+  "final_size_bytes": 90072
+ },
+ "raster_images/Lord Kelvin.jpg": {
+  "asset": "raster_images/Lord Kelvin.jpg",
+  "name": "Lord Kelvin.jpg",
+  "subject": "Retrato de William Thomson Lord Kelvin",
+  "author": "\"Photo by Messrs. Dickinson, London, New Bond Street\" (according to http://www.sil.si.edu/DigitalCollections/hst/scientific-identity/fullsize/SIL14-T002-07a.jpg )",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Lord_Kelvin_photograph.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.199139+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 17,
+     "context": "            (\n                \"Lord Kelvin\",\n                \"\"\"\\\\huge ``Quaternions... though beautifully \\\\\\\\ ingenious,\n                have been an unmixed evil to those who have\n                touched them in any way, including Clerk Maxwell.''\"\"\"\n            ),"
+    },
+    {
+     "line": 363,
+     "context": "            (\n                \"Lord Kelvin\",\n                \"\"\"\\\\Huge ``Quaternions... though beautifully \\\\\\\\ ingenious,\n                have been an unmixed evil'' \"\"\"\n            ),\n        ]"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "db85ea536e5a1914253cbbebceb8dd86f3d381c7a90b8304548c6e150187d104",
+  "previous_download": true,
+  "commons_title": "File:Lord Kelvin photograph.jpg",
+  "source_author_credit": "\"Photo by Messrs. Dickinson, London, New Bond Street\" (according to http://www.sil.si.edu/DigitalCollections/hst/scientific-identity/fullsize/SIL14-T002-07a.jpg )",
+  "source_credit": "Portrait of William Thomson, Baron Kelvin , Smithsonian Libraries",
+  "source_description": "English: Photograph of William Thomson, Lord Kelvin .",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Lord_Kelvin_photograph.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "b73dccfb525c0274a982c6e3ae4686542a358825a8c7ac3bf8a00e40c86d4a03",
+  "source_sha256": "ae0620d2620938c19a4d7d9ca025dd916f3e98ad7259f2b2dd5de7b31d0ca8c2",
+  "source_size_bytes": 72832,
+  "download_size_bytes": 72832,
+  "source_width": 939,
+  "source_height": 1176,
+  "delivery_state": "done",
+  "sha256": "db85ea536e5a1914253cbbebceb8dd86f3d381c7a90b8304548c6e150187d104",
+  "final_size_bytes": 68662
+ },
+ "raster_images/Macfarlane Alexander.jpg": {
+  "asset": "raster_images/Macfarlane Alexander.jpg",
+  "name": "Macfarlane Alexander.jpg",
+  "subject": "Retrato de Alexander Macfarlane",
+  "author": "J. M. Colaw",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Macfarlane_Alexander_math.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Retrato histórico libre; se retira el texto de pie del escaneo mediante un recorte.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.215067+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 133,
+     "context": "        images_with_labels = Group()\n        names = [\"Peter Tait\", \"Robert Ball\", \"Macfarlane Alexander\"]\n        for name in names:\n            image = ImageMobject(name)\n            image.set_height(3)\n            label = OldTexText(name)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "3a08e2e6b1783c96830cab2d2a71f191bfdae9766c95fd4d8f1b11f0654d2f1d",
+  "previous_download": true,
+  "commons_title": "File:Macfarlane Alexander math.jpg",
+  "source_author_credit": "J. M. Colaw",
+  "source_credit": "The American Mathematical Monthly , vol. 2, pages 1 – 4",
+  "source_description": "Picture of Alexander Macfarlane",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Macfarlane_Alexander_math.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "ce25d3c2c0ccd2a507eb04cf08f372b764614a37c171afab74bd9b8d39f3e390",
+  "source_sha256": "d41d3b3d685861750cb925ee5128d00f8f66513154ad6d112e1da26d57ca7072",
+  "source_size_bytes": 19426,
+  "download_size_bytes": 19426,
+  "source_width": 202,
+  "source_height": 286,
+  "delivery_state": "done",
+  "sha256": "3a08e2e6b1783c96830cab2d2a71f191bfdae9766c95fd4d8f1b11f0654d2f1d",
+  "final_size_bytes": 19533
+ },
+ "raster_images/Oliver Heaviside.jpg": {
+  "asset": "raster_images/Oliver Heaviside.jpg",
+  "name": "Oliver Heaviside.jpg",
+  "subject": "Retrato de Oliver Heaviside",
+  "author": "Original uploader was SuperGirl at en.wikipedia",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Oliver_Heaviside2.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.230620+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 10,
+     "context": "            (\n                \"Oliver Heaviside\",\n                \"\"\"\\\\huge ``As far as the vector analysis I required was\n                concerned, the quaternion was not only not\n                required, but was a positive evil of no\n                inconsiderable magnitude.''\"\"\""
+    },
+    {
+     "line": 358,
+     "context": "            (\n                \"Oliver Heaviside\",\n                \"\"\"\\\\Huge ``the quaternion was not only not\n                required, but was a positive evil''\"\"\"\n            ),\n            ("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "c6392240eb53e3b5cc1f3958ce4594660b42991c74111e9c5a82f28a2993297d",
+  "previous_download": true,
+  "commons_title": "File:Oliver Heaviside2.jpg",
+  "source_author_credit": "Original uploader was SuperGirl at en.wikipedia",
+  "source_credit": "[1]",
+  "source_description": "Oliver Heaviside",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Oliver_Heaviside2.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "6619a7d1a351ad406b0885e02c107601b7db62485d52b721ade854b8cba8efc4",
+  "source_sha256": "d78cfd12b2490cb7f5782df990a3cb19f4eb9127fcc68635b5034c8833e81036",
+  "source_size_bytes": 26059,
+  "download_size_bytes": 26059,
+  "source_width": 300,
+  "source_height": 385,
+  "delivery_state": "done",
+  "sha256": "c6392240eb53e3b5cc1f3958ce4594660b42991c74111e9c5a82f28a2993297d",
+  "final_size_bytes": 76854
+ },
+ "raster_images/Peter Tait.jpg": {
+  "asset": "raster_images/Peter Tait.jpg",
+  "name": "Peter Tait.jpg",
+  "subject": "Retrato de Peter Guthrie Tait",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Peter_Guthrie_Tait.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.243498+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 133,
+     "context": "        images_with_labels = Group()\n        names = [\"Peter Tait\", \"Robert Ball\", \"Macfarlane Alexander\"]\n        for name in names:\n            image = ImageMobject(name)\n            image.set_height(3)\n            label = OldTexText(name)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "290182e9faa72b3ad5fc2b50326e7a41dd85cc2411a9adb660f676552c2cd46b",
+  "previous_download": true,
+  "commons_title": "File:Peter Guthrie Tait.jpg",
+  "source_author_credit": "Unknown author Unknown author",
+  "source_credit": "http://www.clerkmaxwellfoundation.org/html/picture_viewer_33.html",
+  "source_description": "English: Peter Guthrie Tait (1831 – 1901)",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Peter_Guthrie_Tait.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "4a1c70763527c72d3034b199a7e38095a0500172427abffe739da7a3ede6b593",
+  "source_sha256": "7360f32f797cafc2eaed8450cf7ef670093007066f65d09af5c08b1cc38eabd5",
+  "source_size_bytes": 29845,
+  "download_size_bytes": 29845,
+  "source_width": 465,
+  "source_height": 564,
+  "delivery_state": "done",
+  "sha256": "290182e9faa72b3ad5fc2b50326e7a41dd85cc2411a9adb660f676552c2cd46b",
+  "final_size_bytes": 38583
+ },
+ "raster_images/Robert Ball.jpg": {
+  "asset": "raster_images/Robert Ball.jpg",
+  "name": "Robert Ball.jpg",
+  "subject": "Retrato de Robert Stawell Ball",
+  "author": "Original: The Graphic (retouched by Historian 1875 )",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Sir_Robert_Stawell_Ball_(engraved_portrait).png",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.258927+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/Introduction.py",
+   "matches": [
+    {
+     "line": 133,
+     "context": "        images_with_labels = Group()\n        names = [\"Peter Tait\", \"Robert Ball\", \"Macfarlane Alexander\"]\n        for name in names:\n            image = ImageMobject(name)\n            image.set_height(3)\n            label = OldTexText(name)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "3e63cc5fa6364572c0b9d0b2118f79a9c6db729c91bac16407147d06099bf89d",
+  "previous_download": true,
+  "commons_title": "File:Sir Robert Stawell Ball (engraved portrait).png",
+  "source_author_credit": "Original: The Graphic (retouched by Historian 1875 )",
+  "source_credit": "The Graphic Newspaper. 3 September 1887. p. 245. The original physical advertisement belongs to the uploader. Scanned by the uploader. This  is a retouched picture , which means that it has been digitally altered from its original version. Modifications: using Photoshop, cropped, converted to black and white, 150 threshold level, text and spots rem",
+  "source_description": "English: Engraved portrait of Sir Robert Stawell Ball",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/92/Sir_Robert_Stawell_Ball_%28engraved_portrait%29.png",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "ad2c6143bd1f631e957d01eaa68faa56b54a168c7003f1675471a0424ba85c46",
+  "source_sha256": "5a7f420a272d51ca7010f13d8d33d80bf38d0818a9cea7d49a08356752afc052",
+  "source_size_bytes": 162796,
+  "download_size_bytes": 162796,
+  "source_width": 1620,
+  "source_height": 2025,
+  "delivery_state": "done",
+  "sha256": "3e63cc5fa6364572c0b9d0b2118f79a9c6db729c91bac16407147d06099bf89d",
+  "final_size_bytes": 312605
+ },
+ "raster_images/3b1b_logo.png": {
+  "asset": "raster_images/3b1b_logo.png",
+  "name": "3b1b_logo.png",
+  "subject": "Emblema TB propio",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Emblema TB propio; no se encontró un generador anterior reutilizable de TB en generated/replacements; no se copia el logo de 3b1b.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:50.753059+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/div_curl/ThoughtsOnAds.py",
+   "matches": [
+    {
+     "line": 81,
+     "context": "        right_rect_label = Group(\n            ImageMobject(\"3b1b_logo\", height=1),\n            OldTexText(\"(hopefully)\").scale(0.8)\n        )\n        right_rect_label.arrange(DOWN, buff=SMALL_BUFF)\n        # OldTexText("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "d937f14d462c05879c8c37288908b5e2213778f4dc07a40232b627e4d9b7045f",
+  "final_size_bytes": 6935
+ },
+ "raster_images/AoPS_volume_2.jpg": {
+  "asset": "raster_images/AoPS_volume_2.jpg",
+  "name": "AoPS_volume_2.jpg",
+  "subject": "Plain book-cover mock-up drawn by code (flat color, own title text) instead of the AoPS volume cover",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:50.794631+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/Promotion.py",
+   "matches": [
+    {
+     "line": 42,
+     "context": "        morty.save_state()\n        book = ImageMobject(\"AoPS_volume_2\")\n        book.set_height(2)\n        book.next_to(mathy, UP+LEFT).shift(MED_LARGE_BUFF*LEFT)\n        mathy.get_center = mathy.get_top\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "b9c978d8c0a3ad39e446e8563f98e3ef390493fcc9dd9c115f7edf32aadd7611",
+  "final_size_bytes": 10661
+ },
+ "raster_images/BroomBridgePlaque.jpg": {
+  "asset": "raster_images/BroomBridgePlaque.jpg",
+  "name": "BroomBridgePlaque.jpg",
+  "subject": "Free-licensed photo of the Broom Bridge plaque (Wikimedia Commons) or an own drawn plaque graphic with the carved Hamilton equation; photo of a real place: mark for Codex",
+  "author": "JP",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:William_Rowan_Hamilton_Plaque_-_geograph.org.uk_-_347941.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.332892+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quaternions/IntroduceHamilton.py",
+   "matches": [
+    {
+     "line": 44,
+     "context": "\n        plaque = ImageMobject(\"BroomBridgePlaque\")\n        plaque.set_width(FRAME_WIDTH / 2)\n        plaque.to_edge(LEFT)\n        plaque.shift(UP)\n        equation = OldTex("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "121271a36e553b66580c4833f508bb8660d1d0bfd6ef6c0d552a5f57b8ae6477",
+  "previous_download": true,
+  "commons_title": "File:William Rowan Hamilton Plaque - geograph.org.uk - 347941.jpg",
+  "source_author_credit": "JP",
+  "source_credit": "From geograph.org.uk",
+  "source_description": "English: William Rowan Hamilton Plaque Plaque on Broome Bridge on the Royal Canal commemorating William Rowan Hamilton's discovery. The plaque reads: Here as he walked by on the 16th of October 1843 Sir William Rowan Hamilton in a flash of genius discovered the fundamental formula for quaternion multiplication i² = j² = k² = ijk = −1 & cut it on a stone of this bridge.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/a2/William_Rowan_Hamilton_Plaque_-_geograph.org.uk_-_347941.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "f2a0583f0039df634bdfcc73cbf37e9372ab6e34ba54ddbfc6dcfef9be6da776",
+  "source_sha256": "9dc1512bfe93c400a70da7675c0d98d8e6ac1447d730d4ff4babe298462b0cfe",
+  "source_size_bytes": 106063,
+  "download_size_bytes": 106063,
+  "source_width": 640,
+  "source_height": 480,
+  "delivery_state": "done",
+  "sha256": "121271a36e553b66580c4833f508bb8660d1d0bfd6ef6c0d552a5f57b8ae6477",
+  "final_size_bytes": 110269
+ },
+ "raster_images/Calculus_Thumbnail.jpg": {
+  "asset": "raster_images/Calculus_Thumbnail.jpg",
+  "name": "Calculus_Thumbnail.jpg",
+  "subject": "Frame rendered by us from the series thumbnail scene (or a flat title card drawn by code)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:52.060483+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanElementaryQuote.py",
+   "matches": [
+    {
+     "line": 93,
+     "context": "        images = Group(\n            ImageMobject(\"Calculus_Thumbnail\"),\n            ImageMobject(\"Fourier_Thumbnail\"),\n        )\n        for image in images:\n            image.set_height(3)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1b9f954b3dae76979cc9f2ad65f1fdc7dc9b69fc04310504cf52672c5664c995",
+  "final_size_bytes": 31854
+ },
+ "raster_images/ChessGameOfTheCentury.jpg": {
+  "asset": "raster_images/ChessGameOfTheCentury.jpg",
+  "name": "ChessGameOfTheCentury.jpg",
+  "subject": "Chessboard diagram drawn by code (8x8 squares and a few pieces as simple glyphs) instead of the photo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T03:55:52.110188+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/PatYourselfOnTheBack.py",
+   "matches": [
+    {
+     "line": 34,
+     "context": "        feynman.to_corner(UL)\n        chess = ImageMobject(\"ChessGameOfTheCentury\")\n        chess.set_height(4)\n        chess.next_to(feynman)\n\n        self.play(FadeInFromDown(feynman))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c7d8bd4ec3d764b5b56f7ea22e5d40b34c4f979d283b648a26b59b3890160ae1",
+  "final_size_bytes": 10534
+ },
+ "raster_images/CoderQuaternionResponse_0.png": {
+  "asset": "raster_images/CoderQuaternionResponse_0.png",
+  "name": "CoderQuaternionResponse_0.png",
+  "subject": "Own text card imitating a forum reply (rectangle + Text, invented wording, no real username)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:13:32.385596+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [],
+   "indirect_name": "CoderQuaternionResponse 0"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "d38471c323fb79303ff203955a1273419713beec0dfb0c28218eb8ee3989fe15",
+  "final_size_bytes": 22008
+ },
+ "raster_images/CoderQuaternionResponse_1.png": {
+  "asset": "raster_images/CoderQuaternionResponse_1.png",
+  "name": "CoderQuaternionResponse_1.png",
+  "subject": "Own text card imitating a forum reply (rectangle + Text, invented wording, no real username)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:13:32.434074+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [],
+   "indirect_name": "CoderQuaternionResponse 1"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "82553c78bc4ffd078858d316844ae98d807825c9acec777b9c09dc57e7c527c3",
+  "final_size_bytes": 20442
+ },
+ "raster_images/CoderQuaternionResponse_2.png": {
+  "asset": "raster_images/CoderQuaternionResponse_2.png",
+  "name": "CoderQuaternionResponse_2.png",
+  "subject": "Own text card imitating a forum reply (rectangle + Text, invented wording, no real username)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:13:32.479430+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [],
+   "indirect_name": "CoderQuaternionResponse 2"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1544742cbb011fcc0f0f96e9ac4b0348e38546978219c348fd04c7b924adc364",
+  "final_size_bytes": 14130
+ },
+ "raster_images/CoderQuaternionResponse_3.png": {
+  "asset": "raster_images/CoderQuaternionResponse_3.png",
+  "name": "CoderQuaternionResponse_3.png",
+  "subject": "Own text card imitating a forum reply (rectangle + Text, invented wording, no real username)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:13:32.513042+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [],
+   "indirect_name": "CoderQuaternionResponse 3"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "82f3807a701ecd5ef6a24ed350383512c3d7fc636947147afe1df5a0d58f86ee",
+  "final_size_bytes": 19837
+ },
+ "raster_images/DandelionSphere.jpg": {
+  "asset": "raster_images/DandelionSphere.jpg",
+  "name": "DandelionSphere.jpg",
+  "subject": "[CODEX] Photo of a dandelion seed head under a free licence (CC0/CC BY) or own drawing",
+  "author": "Markus Bernet",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Dandelion_clock.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.399333+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/NameDandelin.py",
+   "matches": [
+    {
+     "line": 27,
+     "context": "\n        dandelion = ImageMobject(\"DandelionSphere\", height=1.5)\n        dandelion.to_edge(LEFT, buff=LARGE_BUFF)\n        dandelion.shift(UP)\n        big_dandelion = dandelion.copy().scale(2)\n        big_dandelion.next_to(dandelion, DOWN, buff=0)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "d8b53bb32382a45d1b06d1629c8cfddafd4e6fab5e83d05dc6cfa3afec428c88",
+  "previous_download": true,
+  "commons_title": "File:Dandelion clock.jpg",
+  "source_author_credit": "Markus Bernet",
+  "source_credit": "Own work",
+  "source_description": "English: Dandelion clock ( Taraxacum officinale ) For more translations see \"picture of the day\" captions below",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Dandelion_clock.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "ef0d17b8b2406f821f73953e4b2652f36790794224929949f0e45865021b5bbd",
+  "source_sha256": "c33f35f30ca6188c0d7bada010811fce0dbd2d5ed1273a4cd6acef29d5757588",
+  "source_size_bytes": 181762,
+  "download_size_bytes": 181762,
+  "source_width": 1024,
+  "source_height": 768,
+  "delivery_state": "done",
+  "sha256": "d8b53bb32382a45d1b06d1629c8cfddafd4e6fab5e83d05dc6cfa3afec428c88",
+  "final_size_bytes": 96752
+ },
+ "raster_images/Einstein.png": {
+  "asset": "raster_images/Einstein.png",
+  "name": "Einstein.png",
+  "subject": "Retrato de Albert Einstein",
+  "author": "Ferdinand Schmutzer; Adam Cuerden",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.516870+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/HangingWeightsScene.py",
+   "matches": [
+    {
+     "line": 144,
+     "context": "\n        einstein = ImageMobject(\"Einstein\")\n        einstein.match_height(de_broglie)\n        einstein.to_corner(DOWN+LEFT)\n\n        for picture in de_broglie, einstein:"
+    },
+    {
+     "line": 145,
+     "context": "        einstein = ImageMobject(\"Einstein\")\n        einstein.match_height(de_broglie)\n        einstein.to_corner(DOWN+LEFT)\n\n        for picture in de_broglie, einstein:\n            picture.backdrop = Rectangle()"
+    },
+    {
+     "line": 146,
+     "context": "        einstein.match_height(de_broglie)\n        einstein.to_corner(DOWN+LEFT)\n\n        for picture in de_broglie, einstein:\n            picture.backdrop = Rectangle()\n            picture.backdrop.replace(picture, stretch = True)"
+    },
+    {
+     "line": 148,
+     "context": "\n        for picture in de_broglie, einstein:\n            picture.backdrop = Rectangle()\n            picture.backdrop.replace(picture, stretch = True)\n            picture.backdrop.set_fill(BLACK, 1)\n            picture.backdrop.set_stroke(BLACK, 0)"
+    },
+    {
+     "line": 162,
+     "context": "            FadeOut(words),\n            Animation(einstein.backdrop, remover = True),\n            FadeIn(einstein)\n        )\n        self.wait(2)\n"
+    },
+    {
+     "line": 163,
+     "context": "            Animation(einstein.backdrop, remover = True),\n            FadeIn(einstein)\n        )\n        self.wait(2)\n\n        self.de_broglie = de_broglie"
+    },
+    {
+     "line": 168,
+     "context": "        self.de_broglie = de_broglie\n        self.einstein = einstein\n\n    def moving_reference_frame(self):\n        rect = ScreenRectangle(height = 2.1*FRAME_Y_RADIUS)\n        rect_movement = always_shift(rect, direction = LEFT, rate = 2)"
+    },
+    {
+     "line": 179,
+     "context": "            FadeOut(self.de_broglie),\n            Animation(self.einstein.backdrop, remover = True),\n            FadeOut(self.einstein),\n        )\n        self.play(camera_frame.scale, 3, {\"about_point\" : 2*UP})\n        self.play(rect.shift, FRAME_WIDTH*RIGHT, path_arc = -TAU/2)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "582a3f5d43a450f17554f08a9cca88c97947707251af39758dab151cb97ef748",
+  "previous_download": true,
+  "commons_title": "File:Einstein 1921 by F Schmutzer - restoration.jpg",
+  "source_author_credit": "Ferdinand Schmutzer; Adam Cuerden",
+  "source_credit": "http://www.bhm.ch/de/news_04a.cfm?bid=4&jahr=2006 [ dead link ] , archived copy ( image )",
+  "source_description": "Albert Einstein during a lecture in Vienna in 1921",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Einstein_1921_by_F_Schmutzer_-_restoration.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "9c9487172f14399100fe723fd3a3168066530332475de1cf75f2cc40428f0e6e",
+  "source_sha256": "95b532a34e4446651f1151d836f0eda9b3e7a9dff6ac368073b8cd887b04dd8c",
+  "source_size_bytes": 2713057,
+  "download_size_bytes": 2713057,
+  "source_width": 2523,
+  "source_height": 3313,
+  "delivery_state": "done",
+  "sha256": "582a3f5d43a450f17554f08a9cca88c97947707251af39758dab151cb97ef748",
+  "final_size_bytes": 7458388
+ },
+ "raster_images/Feynman_Lectures_cover.png": {
+  "asset": "raster_images/Feynman_Lectures_cover.png",
+  "name": "Feynman_Lectures_cover.png",
+  "subject": "Own flat book-cover mock-up with the title text (no publisher art)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:02:46.514670+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "            ImageMobject(\"Surely_Youre_Joking_cover\"),\n            ImageMobject(\"Feynman_Lectures_cover\"),\n        )\n        for book in books:\n            book.set_height(6)\n            book.move_to(FRAME_WIDTH * LEFT / 4)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "bbb6deb2f0e6b7c560ecb2699d218b07310eaf2144639b700d79cabd9999c904",
+  "final_size_bytes": 124566
+ },
+ "raster_images/Feynman_Los_Alamos.jpg": {
+  "asset": "raster_images/Feynman_Los_Alamos.jpg",
+  "name": "Feynman_Los_Alamos.jpg",
+  "subject": "Retrato de Richard Feynman",
+  "author": "United States Army",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_Los_Alamos_ID_badge_(cropped).jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.806763+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 51,
+     "context": "\n        feynman_smile = ImageMobject(\"Feynman_Los_Alamos\")\n        feynman_smile.set_height(4)\n        feynman_smile.next_to(objects, DOWN)\n\n        VGroup(objects, feynman_smile).next_to(ORIGIN, RIGHT)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "fa48c94b667445a0aa8831754a79ec9e620b0ce0d30ce01bbe6151782297c175",
+  "previous_download": true,
+  "commons_title": "File:Richard Feynman Los Alamos ID badge (cropped).jpg",
+  "source_author_credit": "United States Army",
+  "source_credit": "Atomic Heritage",
+  "source_description": "English: Richard Feynman's Los Alamos ID badge",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/2/20/Richard_Feynman_Los_Alamos_ID_badge_%28cropped%29.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "eec2f6e753784fb22b8faba3ca9e5d975987026060ba56a39afbb0d699119ed8",
+  "source_sha256": "d4515de44f9f3405b12dec1abc4b923ad90e06cf08614fab72aa33736af7f02d",
+  "source_size_bytes": 22621,
+  "download_size_bytes": 22621,
+  "source_width": 476,
+  "source_height": 599,
+  "delivery_state": "done",
+  "sha256": "fa48c94b667445a0aa8831754a79ec9e620b0ce0d30ce01bbe6151782297c175",
+  "final_size_bytes": 51233
+ },
+ "raster_images/Feynman_QED_cover.jpg": {
+  "asset": "raster_images/Feynman_QED_cover.jpg",
+  "name": "Feynman_QED_cover.jpg",
+  "subject": "Own flat book-cover mock-up with the title text (no publisher art)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:02:49.601574+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 6,
+     "context": "        books = VGroup(\n            ImageMobject(\"Feynman_QED_cover\"),\n            ImageMobject(\"Surely_Youre_Joking_cover\"),\n            ImageMobject(\"Feynman_Lectures_cover\"),\n        )\n        for book in books:"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "d7ce4469cc43a3e18721c01d465c2a6fc043bd7ea75500d1d24fbd953cd97934",
+  "final_size_bytes": 24928
+ },
+ "raster_images/Feynman_Woods.jpg": {
+  "asset": "raster_images/Feynman_Woods.jpg",
+  "name": "Feynman_Woods.jpg",
+  "subject": "Retrato de Richard Feynman",
+  "author": "Copyright Tamiko Thiel 1984",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.830154+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FeynmanOnTurbulence.py",
+   "matches": [
+    {
+     "line": 5,
+     "context": "    def construct(self):\n        feynman = ImageMobject(\"Feynman_Woods\", height=4)\n        name = OldTexText(\"Richard Feynman\")\n        name.next_to(feynman, DOWN)\n        quote = OldTexText(\n            \"``\", \"Turbulence\", \"is the most\\\\\\\\\""
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "d5216a053583fc632f29b27b4971d0b67b18e50df4ab2bcffff4d130875fcf31",
+  "previous_download": true,
+  "commons_title": "File:RichardFeynman-PaineMansionWoods1984 copyrightTamikoThiel bw.jpg",
+  "source_author_credit": "Copyright Tamiko Thiel 1984",
+  "source_credit": "communication from photographer",
+  "source_description": "English: Photo of Richard Feynman , taken in 1984 in the woods of the Robert Treat Paine Estate in Waltham, MA, while he and the photographer worked at Thinking Machines Corporation on the design of the Connection Machine CM-1/CM-2 supercomputer.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/1/1a/RichardFeynman-PaineMansionWoods1984_copyrightTamikoThiel_bw.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "0033340f4d57e1472cb7a48c510870ff2e5499dc2f1d3a65e791b275b81b6479",
+  "source_sha256": "67a91be74b2efee8b87a1584d72b6fca1f7d16b8b10246f2b01240ea75d19f44",
+  "source_size_bytes": 120287,
+  "download_size_bytes": 120287,
+  "source_width": 470,
+  "source_height": 541,
+  "delivery_state": "done",
+  "sha256": "d5216a053583fc632f29b27b4971d0b67b18e50df4ab2bcffff4d130875fcf31",
+  "final_size_bytes": 64434
+ },
+ "raster_images/Fourier_Thumbnail.jpg": {
+  "asset": "raster_images/Fourier_Thumbnail.jpg",
+  "name": "Fourier_Thumbnail.jpg",
+  "subject": "Frame rendered by us from the series thumbnail scene (or a flat title card drawn by code)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:02:55.635968+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanElementaryQuote.py",
+   "matches": [
+    {
+     "line": 94,
+     "context": "            ImageMobject(\"Calculus_Thumbnail\"),\n            ImageMobject(\"Fourier_Thumbnail\"),\n        )\n        for image in images:\n            image.set_height(3)\n        images.arrange(RIGHT, buff=LARGE_BUFF)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "9b6941c8092e4991de715b21f5333c9ee26b1139e0ba1b3922c77cd1586c6a9c",
+  "final_size_bytes": 40856
+ },
+ "raster_images/Geoffrey_Taylor.jpg": {
+  "asset": "raster_images/Geoffrey_Taylor.jpg",
+  "name": "Geoffrey_Taylor.jpg",
+  "subject": "Tarjeta neutra: G. I. Taylor",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Tarjeta neutra: la foto de Wikipedia es local y no libre (wikipedia/en); no se encontró un retrato adecuado con licencia admisible en Commons. No se genera ninguna persona.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:07:32.048542+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FiguresOfFluidDynamics.py",
+   "matches": [],
+   "indirect_name": "Geoffrey Taylor"
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "9ca3a986af414c187f00f72250d27d520b9c1440b8f584d5d4e4f8a6bc88eb26",
+  "final_size_bytes": 3065
+ },
+ "raster_images/George_Stokes.jpg": {
+  "asset": "raster_images/George_Stokes.jpg",
+  "name": "George_Stokes.jpg",
+  "subject": "Retrato de George Gabriel Stokes",
+  "author": "Teresa Stokes",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:George_Gabriel_Stokes_1875.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.863489+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FiguresOfFluidDynamics.py",
+   "matches": [],
+   "indirect_name": "George Stokes"
+  },
+  "old_sha256": "5c3e6e3b380cd08b4a7d55e54c524d57c32e46ff82a011d6fbb7a343d8a83815",
+  "previous_download": true,
+  "commons_title": "File:George Gabriel Stokes 1875.jpg",
+  "source_author_credit": "Teresa Stokes",
+  "source_credit": "George Gabriel Stokes 1875",
+  "source_description": "This is the photo from which Jeans made his engraving, published in \"Nature\"",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8f/George_Gabriel_Stokes_1875.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "56a3a788ba58ef1433161851654022f4bcc480e352141cb3bc0a62f4d382778a",
+  "source_sha256": "81c40a68ed4b97953165b097fa568f90fcfe1ade8e441d379ea9faf5e87e01a0",
+  "source_size_bytes": 30487,
+  "download_size_bytes": 30487,
+  "source_width": 311,
+  "source_height": 476,
+  "delivery_state": "done",
+  "sha256": "5c3e6e3b380cd08b4a7d55e54c524d57c32e46ff82a011d6fbb7a343d8a83815",
+  "final_size_bytes": 33918
+ },
+ "raster_images/GoogleDandelin.png": {
+  "asset": "raster_images/GoogleDandelin.png",
+  "name": "GoogleDandelin.png",
+  "subject": "Mock search-results page drawn by code (generic search box and result rows, no Google branding)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:07:32.976268+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/NameDandelin.py",
+   "matches": [
+    {
+     "line": 17,
+     "context": "\n        google_result = ImageMobject(\"GoogleDandelin\")\n        google_result.set_height(4)\n        google_result.center()\n        google_result.to_corner(DR)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1d7571789c5417f0d87a98cb3a2be0b7addc054c5e727480927a86de75cc2ff4",
+  "final_size_bytes": 52465
+ },
+ "raster_images/HackerNewsLogo.png": {
+  "asset": "raster_images/HackerNewsLogo.png",
+  "name": "HackerNewsLogo.png",
+  "subject": "Generic own badge (rounded square + initial letter), not the brand logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:07:33.127755+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [
+    {
+     "line": 16,
+     "context": "                \"TwitterLogo\",\n                \"HackerNewsLogo\",\n                \"RedditLogo\",\n                \"YouTubeLogo\",\n            ]\n        ])"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "464ff3c2793d9cd7fb1ece48e2d8ebd3c7545017b18f4b6738d81851da638093",
+  "final_size_bytes": 2034
+ },
+ "raster_images/Heisenberg.jpg": {
+  "asset": "raster_images/Heisenberg.jpg",
+  "name": "Heisenberg.jpg",
+  "subject": "Retrato de Werner Heisenberg",
+  "author": "Friedrich Hund",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Heisenberg,Werner_1926.jpeg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.891588+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/OneLevelDeeper.py",
+   "matches": [
+    {
+     "line": 95,
+     "context": "    def construct(self):\n        heisenberg = ImageMobject(\"Heisenberg\")\n        heisenberg.to_corner(UP+LEFT)\n        self.add(heisenberg)\n\n        hup_words = OldTexText(\"Heisenberg's uncertainty principle\")"
+    },
+    {
+     "line": 96,
+     "context": "        heisenberg = ImageMobject(\"Heisenberg\")\n        heisenberg.to_corner(UP+LEFT)\n        self.add(heisenberg)\n\n        hup_words = OldTexText(\"Heisenberg's uncertainty principle\")\n        wave_words = OldTexText(\"Interpretation of the wave function\")"
+    },
+    {
+     "line": 97,
+     "context": "        heisenberg.to_corner(UP+LEFT)\n        self.add(heisenberg)\n\n        hup_words = OldTexText(\"Heisenberg's uncertainty principle\")\n        wave_words = OldTexText(\"Interpretation of the wave function\")\n        arrow = Vector(UP)"
+    },
+    {
+     "line": 99,
+     "context": "\n        hup_words = OldTexText(\"Heisenberg's uncertainty principle\")\n        wave_words = OldTexText(\"Interpretation of the wave function\")\n        arrow = Vector(UP)\n        group = VGroup(hup_words, arrow, wave_words)\n        group.arrange(DOWN)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "a95217ec3d746b604b4fa116a7e8d101c43fccb2f0bcd2af62a9e0cd4acdb06f",
+  "previous_download": true,
+  "commons_title": "File:Heisenberg,Werner 1926.jpeg",
+  "source_author_credit": "Friedrich Hund",
+  "source_credit": "Friedrich Hund",
+  "source_description": "Deutsch: Werner Heisenberg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Heisenberg%2CWerner_1926.jpeg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "7bcd7cebfafa33cf85d43f4f74ee8a5d5966c62ff0a669998b56ed23928a08fd",
+  "source_sha256": "44651e51ca58e481419030845594fc11360bc9f08152a7f09f52dbf7307f2e03",
+  "source_size_bytes": 150307,
+  "download_size_bytes": 150307,
+  "source_width": 777,
+  "source_height": 1032,
+  "delivery_state": "done",
+  "sha256": "a95217ec3d746b604b4fa116a7e8d101c43fccb2f0bcd2af62a9e0cd4acdb06f",
+  "final_size_bytes": 84101
+ },
+ "raster_images/Henry_As_Stick.png": {
+  "asset": "raster_images/Henry_As_Stick.png",
+  "name": "Henry_As_Stick.png",
+  "subject": "Generic stick-figure drawn by code (no likeness of a real person)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:07:39.009471+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/TakeOver.py",
+   "matches": [
+    {
+     "line": 18,
+     "context": "        morty = self.pi_creatures\n        henry = ImageMobject(\"Henry_As_Stick\")\n        henry.set_height(4)\n        henry.to_edge(LEFT)\n        henry.to_edge(DOWN)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "861eb9ca8c5b7f442101f3127b4ed0bd152dab59376f14c53122014bcb87e000",
+  "final_size_bytes": 4022
+ },
+ "raster_images/Hermann_von_Helmholtz.jpg": {
+  "asset": "raster_images/Hermann_von_Helmholtz.jpg",
+  "name": "Hermann_von_Helmholtz.jpg",
+  "subject": "Retrato de Hermann von Helmholtz",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Hermann_von_Helmholtz.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.920000+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FiguresOfFluidDynamics.py",
+   "matches": [],
+   "indirect_name": "Hermann von Helmholtz"
+  },
+  "old_sha256": "ae5177141894560af4696ad59acd42ffb751c8d4ac8cb45f9cb531a800b7b4b4",
+  "previous_download": true,
+  "commons_title": "File:Hermann von Helmholtz.jpg",
+  "source_author_credit": "",
+  "source_credit": "",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Hermann_von_Helmholtz.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "53eaa18a39ac28086e99d3c9b1598cdbdba9851f714e6b2a4bc24b5fc27108e6",
+  "source_sha256": "7a1f885d5cde165be8732e8e7d822ec710756e888e053bba1221d63542916545",
+  "source_size_bytes": 42716,
+  "download_size_bytes": 42716,
+  "source_width": 338,
+  "source_height": 440,
+  "delivery_state": "done",
+  "sha256": "ae5177141894560af4696ad59acd42ffb751c8d4ac8cb45f9cb531a800b7b4b4",
+  "final_size_bytes": 41105
+ },
+ "raster_images/John_Wallis.jpg": {
+  "asset": "raster_images/John_Wallis.jpg",
+  "name": "John_Wallis.jpg",
+  "subject": "Retrato de John Wallis",
+  "author": "After Godfrey Kneller",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:John_Wallis_by_Sir_Godfrey_Kneller,_Bt.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:51.937237+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/wallis/MentionJohnWallis.py",
+   "matches": [
+    {
+     "line": 48,
+     "context": "\n        image = ImageMobject(\"John_Wallis\")\n        image.set_height(3)\n        image.next_to(name, DOWN)\n        image_name = OldTexText(\"John Wallis\")\n        image_name.next_to(image, DOWN)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "b965bc9216afe9aca6960375fbba4dabd0f43e89fe2fc193ac5d386778a16308",
+  "previous_download": true,
+  "commons_title": "File:John Wallis by Sir Godfrey Kneller, Bt.jpg",
+  "source_author_credit": "After Godfrey Kneller",
+  "source_credit": "National Portrait Gallery : NPG 578 While Commons policy accepts the use of this media, one or more third parties have made copyright claims against Wikimedia Commons in relation to the work from which this is sourced or a purely mechanical reproduction thereof . This may be due to recognition of the \" sweat of the brow \" doctrine, allowing works t",
+  "source_description": "John Wallis , by Sir Godfrey Kneller, Bt (died 1723). See source website for additional information. This set of images was gathered by User:Dcoetzee from the National Portrait Gallery, London website using a special tool. All images in this batch have been confirmed as author died before 1939 according to the official death date listed by the NPG.",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/89/John_Wallis_by_Sir_Godfrey_Kneller%2C_Bt.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "23886cc1bfe5a54fbb30c63183735e533e52882af445ec7d957dc067c6fbbfbc",
+  "source_sha256": "28b7410741bcb6acae8f3c1bcc6dbd3d25e5bb7058ff410b35425a800952a019",
+  "source_size_bytes": 1286994,
+  "download_size_bytes": 1286994,
+  "source_width": 2400,
+  "source_height": 2900,
+  "delivery_state": "done",
+  "sha256": "b965bc9216afe9aca6960375fbba4dabd0f43e89fe2fc193ac5d386778a16308",
+  "final_size_bytes": 103447
+ },
+ "raster_images/Kepler2ndLaw.png": {
+  "asset": "raster_images/Kepler2ndLaw.png",
+  "name": "Kepler2ndLaw.png",
+  "subject": "Equal-areas diagram (ellipse, sun, two sectors) drawn by code",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:17:34.389861+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/HistoryOfAngularMomentum.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "\n        k2l_image = ImageMobject(\"Kepler2ndLaw\")\n        k2l_image.match_width(k2l)\n        k2l_image.next_to(k2l, UP)\n        k2l.add(k2l_image)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "09d0cc2a46a7bcc9f9a7562662694d885d1faef4f1b655e26e6d020425d2792d",
+  "final_size_bytes": 14894
+ },
+ "raster_images/Leonhard_Euler.jpg": {
+  "asset": "raster_images/Leonhard_Euler.jpg",
+  "name": "Leonhard_Euler.jpg",
+  "subject": "Retrato de Leonhard Euler",
+  "author": "Jakob Emanuel Handmann",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Leonhard_Euler_-_Jakob_Emanuel_Handmann_(Kunstmuseum_Basel).jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:52.009361+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/FiguresOfFluidDynamics.py",
+   "matches": [],
+   "indirect_name": "Leonhard Euler"
+  },
+  "old_sha256": "5a8507eb096fa5b6dc892bff60467104668c0f0a5a5d100c42482310ed18a14d",
+  "previous_download": true,
+  "commons_title": "File:Leonhard Euler - Jakob Emanuel Handmann (Kunstmuseum Basel).jpg",
+  "source_author_credit": "Jakob Emanuel Handmann",
+  "source_credit": "This file was derived from: Leonhard Euler.jpg Edited by: Bammesk Original source: Kunstmuseum Basel",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Leonhard_Euler_-_Jakob_Emanuel_Handmann_%28Kunstmuseum_Basel%29.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "eb693a2ac808a20ced2314c9cdac2ee0f62e3aee8baac282b3e8d687684a1a31",
+  "source_sha256": "070f1e36302096f290d83a7ee01b5b4cd8e4564870f8db197add8a5c8551e764",
+  "source_size_bytes": 11143005,
+  "download_size_bytes": 11143005,
+  "source_width": 4672,
+  "source_height": 6040,
+  "delivery_state": "done",
+  "sha256": "5a8507eb096fa5b6dc892bff60467104668c0f0a5a5d100c42482310ed18a14d",
+  "final_size_bytes": 61760
+ },
+ "raster_images/MadameBovary.jpg": {
+  "asset": "raster_images/MadameBovary.jpg",
+  "name": "MadameBovary.jpg",
+  "subject": "Own flat book-cover mock-up titled \"Madame Bovary\"",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:17:35.236336+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/LockhartQuote.py",
+   "matches": [
+    {
+     "line": 68,
+     "context": "        measurement = ImageMobject(\"MeasurementCover\")\n        madame_bovary = ImageMobject(\"MadameBovary\")\n        mona_lisa = ImageMobject(\"MonaLisa\")\n        pictures = Group(measurement, madame_bovary, mona_lisa)\n        for picture in pictures:\n            picture.set_height(4)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "2114f71f9c59bc5139a63014e4c58d2d39accaebc22bc0df20f379afe1bfa766",
+  "final_size_bytes": 7938
+ },
+ "raster_images/MonaLisa.jpg": {
+  "asset": "raster_images/MonaLisa.jpg",
+  "name": "MonaLisa.jpg",
+  "subject": "Public-domain reproduction of the Mona Lisa (Wikimedia Commons)",
+  "author": "Leonardo da Vinci",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:52.537632+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/dandelin/LockhartQuote.py",
+   "matches": [
+    {
+     "line": 69,
+     "context": "        madame_bovary = ImageMobject(\"MadameBovary\")\n        mona_lisa = ImageMobject(\"MonaLisa\")\n        pictures = Group(measurement, madame_bovary, mona_lisa)\n        for picture in pictures:\n            picture.set_height(4)\n        pictures.arrange(RIGHT, buff=LARGE_BUFF)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "f926a959e71ec8dabbfb0180e0c704c80682f3ed7f2cf91400687ce7ef1d3875",
+  "previous_download": true,
+  "commons_title": "File:Mona Lisa, by Leonardo da Vinci, from C2RMF retouched.jpg",
+  "source_author_credit": "Leonardo da Vinci",
+  "source_credit": "Cropped and relevelled from File:Mona Lisa, by Leonardo da Vinci, from C2RMF.jpg . Originally C2RMF: Galerie de tableaux en très haute définition : image page",
+  "source_description": "",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "cbc3641ad491ee120bd75a5fa608788fb22ba7d8efe590043992494ee8e93766",
+  "source_sha256": "393ba286ba82c9633117314a393e0641e47cfa214af5663e2323a20af52306de",
+  "source_size_bytes": 94310471,
+  "download_size_bytes": 94310471,
+  "source_width": 7479,
+  "source_height": 11146,
+  "delivery_state": "done",
+  "sha256": "f926a959e71ec8dabbfb0180e0c704c80682f3ed7f2cf91400687ce7ef1d3875",
+  "final_size_bytes": 347428
+ },
+ "raster_images/Pietro_Mengoli.gif": {
+  "asset": "raster_images/Pietro_Mengoli.gif",
+  "name": "Pietro_Mengoli.gif",
+  "subject": "Retrato de Pietro Mengoli",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Pietro_Mengoli.gif",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:54.900081+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/basel/basel2/IntroScene.py",
+   "matches": [
+    {
+     "line": 207,
+     "context": "        morty = self.pi_creature\n        pietro = ImageMobject(\"Pietro_Mengoli\")\n        euler = ImageMobject(\"Euler\")\n\n        pietro_words = OldTexText(\"Challenge posed by \\\\\\\\ Pietro Mengoli in 1644\")\n        pietro_words.scale(0.75)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "d97d9e59012fe2eb8dbef6893f864024486d6980482b6d68b548ab0f7666bd63",
+  "previous_download": true,
+  "commons_title": "File:Pietro Mengoli.gif",
+  "source_author_credit": "Unknown author Unknown author",
+  "source_credit": "Universitat Autònoma de Barcelona [1]",
+  "source_description": "English: Pietro Mengoli (1685-1686), Italian mathematician",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Pietro_Mengoli.gif",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "eb3d17ea163cc4918c2dfb2e4936495cb4f08cedd41c667f816e8d0b0908df11",
+  "source_sha256": "97d89695dddda7613b0cada835823e450c1577be11854b4d1b5712a60b72794d",
+  "source_size_bytes": 16022,
+  "download_size_bytes": 16022,
+  "source_width": 160,
+  "source_height": 160,
+  "delivery_state": "done",
+  "sha256": "d97d9e59012fe2eb8dbef6893f864024486d6980482b6d68b548ab0f7666bd63",
+  "final_size_bytes": 17209
+ },
+ "raster_images/Quanta logo.png": {
+  "asset": "raster_images/Quanta logo.png",
+  "name": "Quanta logo.png",
+  "subject": "Own generic magazine-style wordmark graphic made with code/text (no brand logo)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:17:39.844084+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quaternions/HoldUpQuanta.py",
+   "matches": [
+    {
+     "line": 5,
+     "context": "    def construct(self):\n        logo = ImageMobject(\"Quanta logo\")\n        logo.set_width(6)\n        logo.next_to(self.teacher, UR)\n        logo.to_edge(RIGHT, buff=2)\n"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "b2d5cf7f50cb1ffb22e6cba0a9e20ab456a803caf7762090bd8dafdcc820d8e5",
+  "final_size_bytes": 7107
+ },
+ "raster_images/RedditLogo.png": {
+  "asset": "raster_images/RedditLogo.png",
+  "name": "RedditLogo.png",
+  "subject": "Generic own badge (rounded square + initial letter), not the brand logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:17:39.867571+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [
+    {
+     "line": 17,
+     "context": "                \"HackerNewsLogo\",\n                \"RedditLogo\",\n                \"YouTubeLogo\",\n            ]\n        ])\n        for quote, logo in zip(quotes, logos):"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "a940edc193ffc7a8859c61f53a24982d9ba10a633af471c5eca01b2e0e1d419d",
+  "final_size_bytes": 3458
+ },
+ "raster_images/Surely_Youre_Joking_cover.jpg": {
+  "asset": "raster_images/Surely_Youre_Joking_cover.jpg",
+  "name": "Surely_Youre_Joking_cover.jpg",
+  "subject": "Own flat book-cover mock-up with the title text (no publisher art)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:17:39.911935+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 7,
+     "context": "            ImageMobject(\"Feynman_QED_cover\"),\n            ImageMobject(\"Surely_Youre_Joking_cover\"),\n            ImageMobject(\"Feynman_Lectures_cover\"),\n        )\n        for book in books:\n            book.set_height(6)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "f160b6a193c380163b45ba4395a070b9b280d8e88743931d0fd2d3992a8126f8",
+  "final_size_bytes": 22137
+ },
+ "raster_images/TwitterLogo.png": {
+  "asset": "raster_images/TwitterLogo.png",
+  "name": "TwitterLogo.png",
+  "subject": "Generic own badge (rounded square + initial letter), not the brand logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:15.738428+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [
+    {
+     "line": 15,
+     "context": "            for name in [\n                \"TwitterLogo\",\n                \"HackerNewsLogo\",\n                \"RedditLogo\",\n                \"YouTubeLogo\",\n            ]"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "11dba89f63024819557ddd77917fa4775f261eb0d5057a53f621ba31e5143b84",
+  "final_size_bytes": 10473
+ },
+ "raster_images/YouTubeLogo.png": {
+  "asset": "raster_images/YouTubeLogo.png",
+  "name": "YouTubeLogo.png",
+  "subject": "Generic own badge (rounded square + initial letter), not the brand logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:15.831690+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quat3d/WhoCares.py",
+   "matches": [
+    {
+     "line": 18,
+     "context": "                \"RedditLogo\",\n                \"YouTubeLogo\",\n            ]\n        ])\n        for quote, logo in zip(quotes, logos):\n            logo.move_to(quote.get_corner(UR))"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "56c8f1b3a6a0a07d5728e204425976976330a5b1075afda9a89a98f650e4c3a8",
+  "final_size_bytes": 4563
+ },
+ "raster_images/alt_calc_hidden_image.png": {
+  "asset": "raster_images/alt_calc_hidden_image.png",
+  "name": "alt_calc_hidden_image.png",
+  "subject": "Any 1920x1080 picture (e.g. a numpy colour-noise or gradient image): the scene blurs it with a 50 px kernel and uses it as the content of the mystery box",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:15.859886+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/alt_calc/StartingCalc101.py",
+   "matches": [
+    {
+     "line": 96,
+     "context": "        from PIL import Image, ImageFilter\n        blurry_iamge = Image.open(get_full_raster_image_path(\"alt_calc_hidden_image\")).convert(\"RGB\").filter(ImageFilter.BoxBlur(25))\n        array = np.array(blurry_iamge)\n        # CHANGE: GL ImageMobject only takes a file name; CairoImageMobject (cairo_compat) accepts a pixel array like the Cairo one\n        im_mob = CairoImageMobject(array)\n        im_mob.replace(mystery_box, stretch=True)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "10b616e3025e061676d17298c552223b7ca46872b57103c70bec8c0a603b4427",
+  "final_size_bytes": 871784
+ },
+ "raster_images/blue_yellow_gradient.png": {
+  "asset": "raster_images/blue_yellow_gradient.png",
+  "name": "blue_yellow_gradient.png",
+  "subject": "Blue-to-yellow vertical gradient made with numpy (like make_vertical_temp_gradient.py)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:17.502042+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/SummarizeFourierTradeoffForDoppler.py",
+   "matches": [
+    {
+     "line": 42,
+     "context": "            graphs.set_color(WHITE)\n            graphs.color_using_background_image(\"blue_yellow_gradient\")\n            return graphs\n        def get_bottom_graphs():\n            a = np.exp(a_mob.get_center()[0])\n            graphs = VGroup(*["
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "f08c8f36e1e694eb473a8f7e02544f20a87f0991629062a04ebdfb4309f23a19",
+  "final_size_bytes": 10912
+ },
+ "raster_images/dartboard.png": {
+  "asset": "raster_images/dartboard.png",
+  "name": "dartboard.png",
+  "subject": "Own dartboard drawn by code (concentric rings and wedges, PIL/numpy)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:17.547166+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/chapter1/show_uncertainty_darts/ShowUncertaintyDarts.py",
+   "matches": [
+    {
+     "line": 11,
+     "context": "        points = np.random.normal(\n            loc = self.dartboard.get_center(),\n            scale = 0.6 * np.ones(3),\n            size = (n,3)\n        )\n        points[:,2] = 0"
+    },
+    {
+     "line": 29,
+     "context": "\n        self.dartboard = ImageMobject(\"dartboard\").scale(2)\n        dartboard_circle = Circle(\n            radius = self.dartboard.get_width() / 2,\n            fill_color = BLACK,\n            fill_opacity = 0.5,"
+    },
+    {
+     "line": 30,
+     "context": "        self.dartboard = ImageMobject(\"dartboard\").scale(2)\n        dartboard_circle = Circle(\n            radius = self.dartboard.get_width() / 2,\n            fill_color = BLACK,\n            fill_opacity = 0.5,\n            stroke_color = WHITE,"
+    },
+    {
+     "line": 31,
+     "context": "        dartboard_circle = Circle(\n            radius = self.dartboard.get_width() / 2,\n            fill_color = BLACK,\n            fill_opacity = 0.5,\n            stroke_color = WHITE,\n            stroke_width = 5"
+    },
+    {
+     "line": 37,
+     "context": "        )\n        self.dartboard.add(dartboard_circle)\n\n        self.add(self.dartboard)\n    \n        self.throw_darts(5,5)"
+    },
+    {
+     "line": 39,
+     "context": "\n        self.add(self.dartboard)\n    \n        self.throw_darts(5,5)\n        self.throw_darts(20,5)\n        self.throw_darts(100,5)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "6da9b32cdacad62cfbdd58f201e14c5e1a76826b348b7e30b7d537256d1e8803",
+  "final_size_bytes": 55510
+ },
+ "raster_images/mathologer_logo.png": {
+  "asset": "raster_images/mathologer_logo.png",
+  "name": "mathologer_logo.png",
+  "subject": "Generic own badge (circle with a stylised M by code); the real channel logo is a brand mark and must not be copied",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:17.744561+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/basel/basel2/MathologerVideoWrapper.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "        title.to_edge(UP)\n        logo = ImageMobject(\"mathologer_logo\")\n        logo.set_height(1)\n        logo.to_corner(UP+LEFT)\n        logo.shift(FRAME_WIDTH*RIGHT)\n        screen = ScreenRectangle(height = 5.5)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "62915d4e89cbee38f6e572fe808208087e306a84c3a813b1ab7c25aa9448fa57",
+  "final_size_bytes": 5932
+ },
+ "raster_images/minute_physics_logo.png": {
+  "asset": "raster_images/minute_physics_logo.png",
+  "name": "minute_physics_logo.png",
+  "subject": "Own stand-in emblem (text \"MP\" in a ring) drawn by code, not the channel logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:19:17.770226+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/MinutPhysicsWrapper.py",
+   "matches": [
+    {
+     "line": 13,
+     "context": "    def construct(self):\n        logo = ImageMobject(\"minute_physics_logo\", invert = True)\n        logo.to_corner(UP+LEFT)\n        self.add(logo)\n\n        title = OldTexText(\"Minute Physics on special relativity\")"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1dd100bf21e3888d60d11701972288d791cf9dd5df3ba21a77da1b8b0a86b473",
+  "final_size_bytes": 6052
+ },
+ "raster_images/white_black_gradient.png": {
+  "asset": "raster_images/white_black_gradient.png",
+  "name": "white_black_gradient.png",
+  "subject": "White-to-black gradient made with numpy",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:21:42.920752+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/TakeOver.py",
+   "matches": [
+    {
+     "line": 13,
+     "context": "    def construct(self):\n        gradient = ImageMobject(\"white_black_gradient\")\n        gradient.set_height(FRAME_HEIGHT)\n        self.add(gradient)\n\n        morty = self.pi_creatures"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "957eb5d05be200cb535651c97650f898c0ca443ac8f398d4c2c12b0da251b477",
+  "final_size_bytes": 40050
+ },
+ "svg_images/8th_note.svg": {
+  "asset": "svg_images/8th_note.svg",
+  "name": "8th_note.svg",
+  "subject": "Own simple icon drawn by code (make_visual_svgs.py style)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:21:43.074331+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/eop/bayes/MusicExample.py",
+   "matches": [
+    {
+     "line": 508,
+     "context": "    def play_notes(self, guitar):\n        note = SVGMobject(file_name = \"8th_note\")\n        note.set_height(0.5)\n        note.set_stroke(width = 0)\n        note.set_fill(BLUE, 1)\n        note.move_to(guitar)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "f59b146a174b58cdefe1206dbaf34136dab95d803a940467cccf6793031b7c71",
+  "final_size_bytes": 396
+ },
+ "svg_images/biplane.svg": {
+  "asset": "svg_images/biplane.svg",
+  "name": "biplane.svg",
+  "subject": "Own biplane silhouette drawn by code (rectangles + circle)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:21:43.096528+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/AmbiguityInLongEchos.py",
+   "matches": [
+    {
+     "line": 580,
+     "context": "            SVGMobject(\n                file_name = \"biplane\", \n                color = RED_D,\n                height = 0.5,\n            ),\n            SVGMobject("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "127389f25cc7e3e20b3ea92db75a5f247b6bb7a83faf5cc9457c0c002df26149",
+  "final_size_bytes": 3258
+ },
+ "svg_images/blimp.svg": {
+  "asset": "svg_images/blimp.svg",
+  "name": "blimp.svg",
+  "subject": "Own blimp silhouette (ellipse + fin + gondola) drawn by code",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:21:43.119826+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/AmbiguityInLongEchos.py",
+   "matches": [
+    {
+     "line": 575,
+     "context": "            SVGMobject(\n                file_name = \"blimp\", \n                color = BLUE_C,\n                height = 0.5,\n            ),\n            SVGMobject("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "157ebfccbafc421615ff17bb65fa505f30893df37db6beba2e82f015b9722cc3",
+  "final_size_bytes": 2438
+ },
+ "svg_images/bongo.svg": {
+  "asset": "svg_images/bongo.svg",
+  "name": "bongo.svg",
+  "subject": "Own bongo-drums icon drawn by code (two cylinders)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:21:43.134835+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 44,
+     "context": "\n        bongo = SVGMobject(file_name=\"bongo\")\n        bongo.set_height(1)\n        bongo.set_color(WHITE)\n        bongo.next_to(safe, RIGHT, LARGE_BUFF)\n"
+    },
+    {
+     "line": 45,
+     "context": "        bongo = SVGMobject(file_name=\"bongo\")\n        bongo.set_height(1)\n        bongo.set_color(WHITE)\n        bongo.next_to(safe, RIGHT, LARGE_BUFF)\n\n        objects = VGroup(safe, bongo)"
+    },
+    {
+     "line": 46,
+     "context": "        bongo.set_height(1)\n        bongo.set_color(WHITE)\n        bongo.next_to(safe, RIGHT, LARGE_BUFF)\n\n        objects = VGroup(safe, bongo)\n"
+    },
+    {
+     "line": 47,
+     "context": "        bongo.set_color(WHITE)\n        bongo.next_to(safe, RIGHT, LARGE_BUFF)\n\n        objects = VGroup(safe, bongo)\n\n        feynman_smile = ImageMobject(\"Feynman_Los_Alamos\")"
+    },
+    {
+     "line": 49,
+     "context": "\n        objects = VGroup(safe, bongo)\n\n        feynman_smile = ImageMobject(\"Feynman_Los_Alamos\")\n        feynman_smile.set_height(4)\n        feynman_smile.next_to(objects, DOWN)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "e9ce83a037f8b2cec820da82ac6dc52194a6ef61c00d476b9c9e6f575c199fb2",
+  "final_size_bytes": 4412
+ },
+ "svg_images/euler-signature.svg": {
+  "asset": "svg_images/euler-signature.svg",
+  "name": "euler-signature.svg",
+  "subject": "Firma histórica de Leonhard Euler",
+  "author": "derivative work: Pbroks13 ( talk ) Euler's_signature.png : Leonhard Euler",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Euler%27s_signature.svg",
+  "status": "kept",
+  "changes": "Descarga independiente de una fuente libre verificada; ajuste de encuadre y tamaño/modo. No se utiliza el archivo de Grant.",
+  "via": "download",
+  "note": "Licencia específica verificada en la ficha pública de Commons en esta ejecución.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:38:55.010335+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/pi_day/EulerSignature.py",
+   "matches": [
+    {
+     "line": 7,
+     "context": "\n        sig = SVGMobject(file_name = \"euler-signature\")\n\n        self.play(\n            Write(sig, run_time = 5)\n        )"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": "15e4de1bed976a8f39f4253287baecd5923474f5b21022e41a313abe9ea90dda",
+  "previous_download": true,
+  "commons_title": "File:Euler's signature.svg",
+  "source_author_credit": "derivative work: Pbroks13 ( talk ) Euler's_signature.png : Leonhard Euler",
+  "source_credit": "Euler's_signature.png",
+  "source_description": "Leonhard Euler's signature (Swiss mathematician)",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Euler%27s_signature.svg",
+  "license_evidence": "Ficha pública de Commons consultada en esta ejecución; plantilla licensetpl_short específica del archivo, no licencia del pie del sitio. API indisponible (503).",
+  "evidence_sha256": "2b466edb5c549fd3d733db6df236e7040421818e72e2f90531456307fadfa273",
+  "source_sha256": "72d776ecb453cc4ac6683f03e932049053127bc5f904a07026d10f01c3d479f4",
+  "source_size_bytes": 13078,
+  "download_size_bytes": 13078,
+  "delivery_state": "done",
+  "sha256": "15e4de1bed976a8f39f4253287baecd5923474f5b21022e41a313abe9ea90dda",
+  "final_size_bytes": 10756
+ },
+ "svg_images/falcon_heavy.svg": {
+  "asset": "svg_images/falcon_heavy.svg",
+  "name": "falcon_heavy.svg",
+  "subject": "Own three-booster rocket silhouette drawn by code",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.890570+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/AmbiguityInLongEchos.py",
+   "matches": [
+    {
+     "line": 77,
+     "context": "    CONFIG = {\n        \"file_name\" : \"falcon_heavy\",\n        \"color\" : WHITE,\n        \"logo_color\" : BLUE_E,\n        \"height\" : 1.5,\n    }"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "0df0902330b10a0f41d1c43e07718f3ed1cbbdddbca54e36dcd34c2bf44f9958",
+  "final_size_bytes": 7766
+ },
+ "svg_images/helicopter.svg": {
+  "asset": "svg_images/helicopter.svg",
+  "name": "helicopter.svg",
+  "subject": "Own helicopter silhouette drawn by code",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.901889+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/AmbiguityInLongEchos.py",
+   "matches": [
+    {
+     "line": 585,
+     "context": "            SVGMobject(\n                file_name = \"helicopter\", \n                color = GREY_B,\n                height = 0.5,\n            ).rotate(-TAU/24),\n            FalconHeavy(),"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "a14d58576c5564b3a66a28f40003cdc5d216dc6016deb32919c737d49e379b1c",
+  "final_size_bytes": 8436
+ },
+ "svg_images/plane2.svg": {
+  "asset": "svg_images/plane2.svg",
+  "name": "plane2.svg",
+  "subject": "Own airplane silhouette (side view) drawn by code with the same viewbox",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.914525+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/turbulence/BumpyPlaneRide.py",
+   "matches": [
+    {
+     "line": 5,
+     "context": "    def construct(self):\n        plane = SVGMobject(file_name=\"plane2\")\n        self.add(plane)\n\n        total_time = 0\n        while total_time < 10:"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "a9e0c983acccb415222b089e88a1759d7bf103c9089a72b275824a89f1066ef2",
+  "final_size_bytes": 359
+ },
+ "svg_images/safe.svg": {
+  "asset": "svg_images/safe.svg",
+  "name": "safe.svg",
+  "subject": "Own safe icon drawn by code (box + dial)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.925063+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/lost_lecture/FeynmanFame.py",
+   "matches": [
+    {
+     "line": 38,
+     "context": "        # As a public figure\n        safe = SVGMobject(file_name=\"safe\", height=2)\n        safe_rect = SurroundingRectangle(safe, buff=0)\n        safe_rect.set_stroke(width=0)\n        safe_rect.set_fill(GREY_D, 1)\n        safe.add_to_back(safe_rect)"
+    },
+    {
+     "line": 39,
+     "context": "        safe = SVGMobject(file_name=\"safe\", height=2)\n        safe_rect = SurroundingRectangle(safe, buff=0)\n        safe_rect.set_stroke(width=0)\n        safe_rect.set_fill(GREY_D, 1)\n        safe.add_to_back(safe_rect)\n"
+    },
+    {
+     "line": 40,
+     "context": "        safe_rect = SurroundingRectangle(safe, buff=0)\n        safe_rect.set_stroke(width=0)\n        safe_rect.set_fill(GREY_D, 1)\n        safe.add_to_back(safe_rect)\n\n        bongo = SVGMobject(file_name=\"bongo\")"
+    },
+    {
+     "line": 41,
+     "context": "        safe_rect.set_stroke(width=0)\n        safe_rect.set_fill(GREY_D, 1)\n        safe.add_to_back(safe_rect)\n\n        bongo = SVGMobject(file_name=\"bongo\")\n        bongo.set_height(1)"
+    },
+    {
+     "line": 42,
+     "context": "        safe_rect.set_fill(GREY_D, 1)\n        safe.add_to_back(safe_rect)\n\n        bongo = SVGMobject(file_name=\"bongo\")\n        bongo.set_height(1)\n        bongo.set_color(WHITE)"
+    },
+    {
+     "line": 47,
+     "context": "        bongo.set_color(WHITE)\n        bongo.next_to(safe, RIGHT, LARGE_BUFF)\n\n        objects = VGroup(safe, bongo)\n\n        feynman_smile = ImageMobject(\"Feynman_Los_Alamos\")"
+    },
+    {
+     "line": 49,
+     "context": "\n        objects = VGroup(safe, bongo)\n\n        feynman_smile = ImageMobject(\"Feynman_Los_Alamos\")\n        feynman_smile.set_height(4)\n        feynman_smile.next_to(objects, DOWN)"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "840039972ce0d9017abce9aecc1cb8befdc16a0dfd596526943857ac90a89639",
+  "final_size_bytes": 8914
+ },
+ "svg_images/shamrock.svg": {
+  "asset": "svg_images/shamrock.svg",
+  "name": "shamrock.svg",
+  "subject": "Own shamrock icon drawn by code (three circles/hearts plus stem, green)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.937407+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/quaternions/IntroduceHamilton.py",
+   "matches": [
+    {
+     "line": 7,
+     "context": "        hamilton.to_corner(UL)\n        shamrock = SVGMobject(file_name=\"shamrock\")\n        shamrock.set_height(1)\n        shamrock.set_color(\"#009a49\")\n        shamrock.set_fill(opacity=0.25)\n        shamrock.next_to(hamilton.get_corner(UL), DR)"
+    },
+    {
+     "line": 8,
+     "context": "        shamrock = SVGMobject(file_name=\"shamrock\")\n        shamrock.set_height(1)\n        shamrock.set_color(\"#009a49\")\n        shamrock.set_fill(opacity=0.25)\n        shamrock.next_to(hamilton.get_corner(UL), DR)\n        shamrock.align_to(hamilton, UP)"
+    },
+    {
+     "line": 9,
+     "context": "        shamrock.set_height(1)\n        shamrock.set_color(\"#009a49\")\n        shamrock.set_fill(opacity=0.25)\n        shamrock.next_to(hamilton.get_corner(UL), DR)\n        shamrock.align_to(hamilton, UP)\n        hamilton_name = OldTexText("
+    },
+    {
+     "line": 10,
+     "context": "        shamrock.set_color(\"#009a49\")\n        shamrock.set_fill(opacity=0.25)\n        shamrock.next_to(hamilton.get_corner(UL), DR)\n        shamrock.align_to(hamilton, UP)\n        hamilton_name = OldTexText(\n            \"William Rowan Hamilton\""
+    },
+    {
+     "line": 11,
+     "context": "        shamrock.set_fill(opacity=0.25)\n        shamrock.next_to(hamilton.get_corner(UL), DR)\n        shamrock.align_to(hamilton, UP)\n        hamilton_name = OldTexText(\n            \"William Rowan Hamilton\"\n        )"
+    },
+    {
+     "line": 12,
+     "context": "        shamrock.next_to(hamilton.get_corner(UL), DR)\n        shamrock.align_to(hamilton, UP)\n        hamilton_name = OldTexText(\n            \"William Rowan Hamilton\"\n        )\n        hamilton_name.match_width(hamilton)"
+    },
+    {
+     "line": 64,
+     "context": "        )\n        self.play(DrawBorderThenFill(shamrock))\n        self.wait()\n\n        self.play(\n            LaggedStartMap("
+    },
+    {
+     "line": 79,
+     "context": "            ApplyMethod(\n                VGroup(hamilton, shamrock, hamilton_name).to_edge, RIGHT,\n                run_time=2,\n                rate_func=squish_rate_func(smooth, 0.5, 1),\n            ),\n            LaggedStartMap("
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "3e6ff1e7e37e83c0ac325b4c68ff4a16e55c70ecbc538eebc92416c25061c1d7",
+  "final_size_bytes": 3465
+ },
+ "svg_images/traffic_light.svg": {
+  "asset": "svg_images/traffic_light.svg",
+  "name": "traffic_light.svg",
+  "subject": "Own traffic-light icon drawn by code (rounded box + three circles); the red light is used by TwoCarsAtRedLight",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "status": "generated",
+  "changes": "Creación independiente desde cero, sin usar el archivo de Grant como entrada.",
+  "via": "code",
+  "note": "Reemplazo propio; uso de la escena y tamaño/modo o lienzo SVG revisados.",
+  "recipe_version": "2018-independent-v1",
+  "verified_at": "2026-10-28T04:24:03.948568+00:00",
+  "scene_review": {
+   "scene": "_work/_2018/uncertainty/TwoCarsAtRedLight.py",
+   "matches": [
+    {
+     "line": 31,
+     "context": "    CONFIG = {\n        \"file_name\" : \"traffic_light\",\n        \"height\" : 0.7,\n        \"post_height\" : 2,\n        \"post_width\" : 0.05,\n    }"
+    },
+    {
+     "line": 65,
+     "context": "        #Setup Traffic light\n        traffic_light = TrafficLight()\n        traffic_light.move_to(6*RIGHT + 2.5*DOWN, DOWN)\n        source_point = VectorizedPoint(\n            traffic_light[2].get_right()\n        )"
+    },
+    {
+     "line": 66,
+     "context": "        traffic_light = TrafficLight()\n        traffic_light.move_to(6*RIGHT + 2.5*DOWN, DOWN)\n        source_point = VectorizedPoint(\n            traffic_light[2].get_right()\n        )\n        screen = Line(ORIGIN, UP)"
+    },
+    {
+     "line": 68,
+     "context": "        source_point = VectorizedPoint(\n            traffic_light[2].get_right()\n        )\n        screen = Line(ORIGIN, UP)\n        screen.next_to(source_point, RIGHT, LARGE_BUFF)\n        red_light = Spotlight("
+    },
+    {
+     "line": 82,
+     "context": "        red_light.rotate(TAU/2, about_edge = LEFT)\n        self.add(red_light, traffic_light)\n\n        #Setup cars\n        car1, car2 = cars = self.cars = VGroup(*[\n            Car() for x in range(2)"
+    },
+    {
+     "line": 90,
+     "context": "        cars.next_to(\n            traffic_light, LEFT, \n            buff = LARGE_BUFF, aligned_edge = DOWN\n        )\n        # CHANGE: GL's custom Car has no pi creature driver (Cairo's Car had Randolph inside); dropped the call car2.pi_creature.set_color\n        # (no driver: the GL Car has no pi creature inside)"
+    },
+    {
+     "line": 105,
+     "context": "            ),\n            Animation(traffic_light),\n            self.get_flashes(car2, num_flashes = 3),\n            MoveCar(\n                car1, car1.start_point,\n                run_time = 3,"
+    }
+   ],
+   "indirect_name": ""
+  },
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "38621b6238effde2ce301b0eedd46db411a2aad5cd56704de937fe87a9f67fbc",
+  "final_size_bytes": 7426
+ }
+}

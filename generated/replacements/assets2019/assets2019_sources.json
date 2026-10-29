@@ -1,0 +1,2777 @@
+{
+ "svg_images/TrebleClef.svg": {
+  "asset": "svg_images/TrebleClef.svg",
+  "name": "TrebleClef.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Treble clef",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:12:03.973267+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/ExplainCircleAnimations.py",
+   "matches": [
+    {
+     "line": 622,
+     "context": "    def get_new_path(self):\n        shape = SVGMobject(\"TrebleClef\")\n        path = shape.family_members_with_points()[0]\n        self.configure_path(path)\n        path.scale(1.5, about_edge=DOWN)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "a6c753964548e7ee2d5c9d890faf9683618080310135aaa695e3af8d670c1db0",
+  "final_size_bytes": 12321
+ },
+ "sounds/pen_click.wav": {
+  "asset": "sounds/pen_click.wav",
+  "name": "pen_click.wav",
+  "subject": "Own synthesized sound (replacements/sounds)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:50.967742+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/mirror_scenes/MirrorAndWiresOverlay.py",
+   "matches": [
+    {
+     "line": 26,
+     "context": "        # \"reflect_sound\": \"ping\",\n        \"reflect_sound\": \"pen_click\",\n    }\n\n    def setup(self):"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "audio_schema": [
+   48000,
+   1,
+   2,
+   5742
+  ],
+  "delivery_state": "done",
+  "sha256": "3b5023ac703087d438ac2c38fc03cecc31b0d0397dc5d0eb52b7adef6c253178",
+  "final_size_bytes": 11528
+ },
+ "svg_images/EighthNote.svg": {
+  "asset": "svg_images/EighthNote.svg",
+  "name": "EighthNote.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Eighth note",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:50.992579+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/FourierOfEighthNote.py",
+   "matches": [
+    {
+     "line": 347,
+     "context": "\nclass FourierOfEighthNote(FourierOfTrebleClef):\n    CONFIG = {\n        \"file_name\": \"EighthNote\"\n    }"
+    },
+    {
+     "line": 349,
+     "context": "    CONFIG = {\n        \"file_name\": \"EighthNote\"\n    }"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "bbf6707ffceff9ed9a049c3852d21085d422d50d540799c3accf131b6e04361d",
+  "final_size_bytes": 416
+ },
+ "svg_images/Nail_And_Gear.svg": {
+  "asset": "svg_images/Nail_And_Gear.svg",
+  "name": "Nail_And_Gear.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Gear crossed by a bar/nail",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:51.178232+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/FourierNailAndGear.py",
+   "matches": [
+    {
+     "line": 361,
+     "context": "    def get_shape(self):\n        # CAMBIO: el SVG Nail_And_Gear instalado (relleno propio) tiene un solo trazo; el indice [1] del original daba IndexError\n        shape = SVGMobject(\"Nail_And_Gear\")\n        return shape"
+    },
+    {
+     "line": 362,
+     "context": "        # CAMBIO: el SVG Nail_And_Gear instalado (relleno propio) tiene un solo trazo; el indice [1] del original daba IndexError\n        shape = SVGMobject(\"Nail_And_Gear\")\n        return shape"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "5337063a75a30adb387374138feba98477297fa1e5fd8fbd1586c2b85a222066",
+  "final_size_bytes": 3260
+ },
+ "svg_images/dart.svg": {
+  "asset": "svg_images/dart.svg",
+  "name": "dart.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Dart",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:51.203095+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/hyperdarts/ContrastDistributions.py",
+   "matches": [
+    {
+     "line": 3,
+     "context": "\nclass HyperdartScene(MovingCameraScene):\n    CONFIG = {\n        \"square_width\": 6,\n        \"square_style\": {"
+    },
+    {
+     "line": 27,
+     "context": "        },\n        \"dart_sound\": \"dart_low\",\n        \"default_bullseye_shadow_opacity\": 0.35,\n    }\n"
+    },
+    {
+     "line": 146,
+     "context": "\n    def get_dart(self, length=1.5):\n        dart = SVGMobject(file_name=\"dart\")\n        dart.rotate(135 * DEGREES)\n        dart.set_width(length)"
+    },
+    {
+     "line": 147,
+     "context": "    def get_dart(self, length=1.5):\n        dart = SVGMobject(file_name=\"dart\")\n        dart.rotate(135 * DEGREES)\n        dart.set_width(length)\n        dart.rotate(45 * DEGREES, UP)"
+    },
+    {
+     "line": 148,
+     "context": "        dart = SVGMobject(file_name=\"dart\")\n        dart.rotate(135 * DEGREES)\n        dart.set_width(length)\n        dart.rotate(45 * DEGREES, UP)\n        dart.rotate(-10 * DEGREES)"
+    },
+    {
+     "line": 149,
+     "context": "        dart.rotate(135 * DEGREES)\n        dart.set_width(length)\n        dart.rotate(45 * DEGREES, UP)\n        dart.rotate(-10 * DEGREES)\n"
+    },
+    {
+     "line": 150,
+     "context": "        dart.set_width(length)\n        dart.rotate(45 * DEGREES, UP)\n        dart.rotate(-10 * DEGREES)\n\n        dart.set_fill(GREY)"
+    },
+    {
+     "line": 151,
+     "context": "        dart.rotate(45 * DEGREES, UP)\n        dart.rotate(-10 * DEGREES)\n\n        dart.set_fill(GREY)\n        dart.set_sheen(2, UL)"
+    },
+    {
+     "line": 153,
+     "context": "\n        dart.set_fill(GREY)\n        dart.set_sheen(2, UL)\n        dart.set_stroke(BLACK, 0.5, background=True)\n        dart.set_stroke(width=0)"
+    },
+    {
+     "line": 154,
+     "context": "        dart.set_fill(GREY)\n        dart.set_sheen(2, UL)\n        dart.set_stroke(BLACK, 0.5, background=True)\n        dart.set_stroke(width=0)\n        return dart"
+    },
+    {
+     "line": 155,
+     "context": "        dart.set_sheen(2, UL)\n        dart.set_stroke(BLACK, 0.5, background=True)\n        dart.set_stroke(width=0)\n        return dart\n"
+    },
+    {
+     "line": 156,
+     "context": "        dart.set_stroke(BLACK, 0.5, background=True)\n        dart.set_stroke(width=0)\n        return dart\n\n    # New circle"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "507de30bec0d1e30fac72b23398ac0073dbf7167545063393625fe44c905e25e",
+  "final_size_bytes": 474
+ },
+ "svg_images/book.svg": {
+  "asset": "svg_images/book.svg",
+  "name": "book.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Open book (outline)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:51.214292+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/footnote/Rearrange.py",
+   "matches": [
+    {
+     "line": 190,
+     "context": "    CONFIG = {\n        \"file_name\": \"book\",\n        \"stroke_width\": 0,\n        \"fill_color\": GREY_B,\n        \"sheen_factor\": 0.5,"
+    },
+    {
+     "line": 599,
+     "context": "        ])\n        books = VGroup(*[\n            LibrarianIcon().replace(B, dim_to_match=0)\n            for B in Bs\n        ])"
+    },
+    {
+     "line": 603,
+     "context": "        ])\n        books.set_color(YELLOW)\n\n        mags = VGroup(*[\n            mag.copy().replace(A)"
+    },
+    {
+     "line": 615,
+     "context": "        self.play(LaggedStart(*[\n            ReplacementTransform(B, book, path_arc=PI)\n            for B, book in zip(Bs, books)\n        ]))\n        self.wait()"
+    },
+    {
+     "line": 616,
+     "context": "            ReplacementTransform(B, book, path_arc=PI)\n            for B, book in zip(Bs, books)\n        ]))\n        self.wait()"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "eba517b2f48024798e7071ae70d0371e44c4922b99135a02645fdf9cdbf47aa8",
+  "final_size_bytes": 552
+ },
+ "svg_images/farming.svg": {
+  "asset": "svg_images/farming.svg",
+  "name": "farming.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Three wheat ears over furrows",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:48:51.225527+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/CorrectViewOfFarmersAndLibrarians.py",
+   "matches": [
+    {
+     "line": 46,
+     "context": "    CONFIG = {\n        \"file_name\": \"farming\",\n        \"stroke_width\": 0,\n        \"fill_color\": GREEN_E,\n        \"sheen_factor\": 0.5,"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "svg_paths": 15,
+  "delivery_state": "done",
+  "sha256": "53ba6ef4b4da03c785be73e9e939f38a5a9bea5ecd209d7049e5c34316ca4d4f",
+  "final_size_bytes": 10753
+ },
+ "svg_images/steve.svg": {
+  "asset": "svg_images/steve.svg",
+  "name": "steve.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Bust of a man with glasses (Steve)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:05:18.044565+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/AlternatePhrasings.py",
+   "matches": [
+    {
+     "line": 116,
+     "context": "@cairo_svg_defaults\nclass Steve(SVGMobject):\n    CONFIG = {\n        \"file_name\": \"steve\",\n        \"fill_color\": GREY,"
+    },
+    {
+     "line": 118,
+     "context": "    CONFIG = {\n        \"file_name\": \"steve\",\n        \"fill_color\": GREY,\n        \"sheen_factor\": 0.5,\n        \"sheen_direction\": UL,"
+    },
+    {
+     "line": 125,
+     "context": "        \"include_name\": True,\n        \"name\": \"Steve\"\n    }\n\n    def __init__(self, **kwargs):"
+    },
+    {
+     "line": 140,
+     "context": "\nclass Linda(Steve):\n    CONFIG = {\n        \"file_name\": \"linda\",\n        \"name\": \"Linda\""
+    },
+    {
+     "line": 201,
+     "context": "\n        steve = Steve()\n        steve.set_height(1)\n        steve_words = OldTexText(\"seems bookish...\")\n        steve_words.next_to(steve, RIGHT, MED_LARGE_BUFF)"
+    },
+    {
+     "line": 202,
+     "context": "        steve = Steve()\n        steve.set_height(1)\n        steve_words = OldTexText(\"seems bookish...\")\n        steve_words.next_to(steve, RIGHT, MED_LARGE_BUFF)\n        steve.add(steve_words)"
+    },
+    {
+     "line": 203,
+     "context": "        steve.set_height(1)\n        steve_words = OldTexText(\"seems bookish...\")\n        steve_words.next_to(steve, RIGHT, MED_LARGE_BUFF)\n        steve.add(steve_words)\n"
+    },
+    {
+     "line": 204,
+     "context": "        steve_words = OldTexText(\"seems bookish...\")\n        steve_words.next_to(steve, RIGHT, MED_LARGE_BUFF)\n        steve.add(steve_words)\n\n        linda = Linda()"
+    },
+    {
+     "line": 205,
+     "context": "        steve_words.next_to(steve, RIGHT, MED_LARGE_BUFF)\n        steve.add(steve_words)\n\n        linda = Linda()\n        linda.set_height(1)"
+    },
+    {
+     "line": 213,
+     "context": "\n        stereotypes = VGroup(steve, linda)\n        stereotypes.arrange(DOWN, buff=MED_SMALL_BUFF, aligned_edge=LEFT)\n        stereotypes.move_to(people)\n"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "925dc94e1c6b4d75b6dc010d465727e8fc237cd151f2b250cc5742fdfb43f6f6",
+  "final_size_bytes": 2640
+ },
+ "raster_images/flags/*.png": {
+  "asset": "raster_images/flags/*.png",
+  "name": "*.png",
+  "subject": "199 national flags: downloaded from a free source (flag-icons, MIT/CC0, or Commons) during setup, or drawn by code for the simple ones",
+  "author": "Panayiotis Lipiridis and flag-icons contributors",
+  "license": "MIT",
+  "license_url": "https://raw.githubusercontent.com/lipis/flag-icons/ac7e0eb3259eb62aa6100c435607e2fe03896a97/LICENSE",
+  "page_url": "https://github.com/lipis/flag-icons",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "replaced",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:37.043146+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/Describe2011IMO.py",
+   "matches": [
+    {
+     "line": 1,
+     "context": "from manim_imports_ext import *\n\n# CAMBIO: conservar el alto Cairo (2) y la lectura de pixel_array mediante un adaptador local.\nfrom cairo_compat import CairoImageMobject as ImageMobject"
+    },
+    {
+     "line": 47,
+     "context": "        flags.to_edge(DOWN)\n        random_flags = Group(*flags)\n        random_flags.shuffle()\n\n        self.play("
+    },
+    {
+     "line": 88,
+     "context": "        self.play(LaggedStart(\n            *[\n                ReplacementTransform(\n                    student.preimage, student\n                )"
+    },
+    {
+     "line": 140,
+     "context": "        us_flag = flags[0]\n        random_flags = Group(*flags[1:])\n        random_flags.shuffle()\n\n        old_height = us_flag.get_height()"
+    },
+    {
+     "line": 144,
+     "context": "        old_height = us_flag.get_height()\n        us_flag.label.set_width(0.8 * us_flag.get_width())\n        us_flag.label.next_to(\n            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),"
+    },
+    {
+     "line": 147,
+     "context": "            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),\n        )\n        us_flag.label.set_opacity(0)\n        us_flag.add(us_flag.label)"
+    },
+    {
+     "line": 159,
+     "context": "            LaggedStart(\n                *[\n                    FadeOut(flag, DOWN)\n                    for flag in random_flags\n                ],"
+    },
+    {
+     "line": 173,
+     "context": "    def get_students(self, flag):\n        dots = VGroup(*[Dot() for x in range(6)])\n        dots.arrange_in_grid(n_cols=2, buff=SMALL_BUFF)\n        dots.match_height(flag)\n        dots.next_to(flag, RIGHT, SMALL_BUFF)"
+    },
+    {
+     "line": 182,
+     "context": "            if np.all(rgba < 100):\n                rgba = interpolate(rgba, 256 * np.ones(len(rgba)), 0.5)\n            color = rgba_to_color(rgba / 256)\n        else:\n            color = random_bright_color()"
+    },
+    {
+     "line": 232,
+     "context": "                image.set_width(1)\n                label = VGroup(*[\n                    OldTexText(l)\n                    for l in country_to_code3[country].upper()\n                ])"
+    },
+    {
+     "line": 320,
+     "context": "\n        student_groups = VGroup(*[\n            self.get_students(flag)\n            for flag in flags\n        ])"
+    },
+    {
+     "line": 333,
+     "context": "\n        all_students = VGroup(*it.chain(*[\n            [\n                student\n                for student in group"
+    }
+   ]
+  },
+  "note": "198 flags (us is separate); au/kr/sk, already verified, are kept. MIT is expressly accepted in the flags section. See flags_sources.json; individual sizes/modes preserved.",
+  "old_sha256": "cbba28a782646b5a666e40ac6f778ca10f9332a89a5096c538b48b36bb6c7d61",
+  "flag_count": 198,
+  "source_sha256": "6f2d0915213dbc4b15276e89485ab6f8f8b3f441648b10f0ad37dabccea60b28",
+  "sha256": "067d43e867649b7fd201d6996fe5e5efe93f250c20ec5aa3ff51d3b24501baca",
+  "delivery_state": "done",
+  "final_size_bytes": 0
+ },
+ "raster_images/kahneman.jpg": {
+  "asset": "raster_images/kahneman.jpg",
+  "name": "kahneman.jpg",
+  "subject": "Portrait of Daniel Kahneman, with no text or third parties",
+  "author": "Steve Jurvetson",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Weaving_a_Wake_of_Memories.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T02:03:42.208371+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/IntroduceKahnemanAndTversky.py",
+   "matches": [
+    {
+     "line": 284,
+     "context": "\nclass IntroduceKahnemanAndTversky(DescriptionOfSteve):\n    def construct(self):\n        # Introduce K and T\n        images = Group("
+    },
+    {
+     "line": 288,
+     "context": "        images = Group(\n            ImageMobject(\"kahneman\"),\n            ImageMobject(\"tversky\"),\n        )\n        danny, amos = images"
+    },
+    {
+     "line": 297,
+     "context": "        names = VGroup(\n            OldTexText(\"Daniel\\\\\\\\Kahneman\", alignment=\"\"),\n            OldTexText(\"Amos\\\\\\\\Tversky\", alignment=\"\"),\n        )\n        for name, image in zip(names, images):"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used. Bust cropped to the head, without text or third parties; source 4731×3744, crop 800×1050, enlargement 1.305×.",
+  "old_sha256": "f632b1fb7792a7b33ee44dbbd474f23ac23b8400f0942ad5dc287a90952451bb",
+  "crop_source_box": [
+   850,
+   1400,
+   1650,
+   2450
+  ],
+  "source_crop_size": [
+   800,
+   1050
+  ],
+  "upscale_factor": 1.305,
+  "commons_title": "File:Weaving a Wake of Memories.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/90/Weaving_a_Wake_of_Memories.jpg",
+  "date": "2010-02-10 11:30:30",
+  "source_size_bytes": 4205931,
+  "source_width": 4731,
+  "source_height": 3744,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "source_sha256": "390d6cfc884538c4b041f111f6cc0959cd17dfc2112b197b7b3543b0feb62390",
+  "download_size_bytes": 4205931,
+  "delivery_state": "done",
+  "sha256": "f632b1fb7792a7b33ee44dbbd474f23ac23b8400f0942ad5dc287a90952451bb",
+  "final_size_bytes": 226874,
+  "refinement_state": "improved",
+  "refinement_note": "License consulted in this run. Grant's original is not used. Bust cropped to the head, without text or third parties; source 4731×3744, crop 800×1050, enlargement 1.305×.",
+  "refined_at": "2026-10-27T02:03:42.262315+00:00"
+ },
+ "raster_images/tversky.jpg": {
+  "asset": "raster_images/tversky.jpg",
+  "name": "tversky.jpg",
+  "subject": "Own illustration (silhouette) or freely licensed photo in place of the photo of Amos Tversky",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:57:32.189961+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/IntroduceKahnemanAndTversky.py",
+   "matches": [
+    {
+     "line": 284,
+     "context": "\nclass IntroduceKahnemanAndTversky(DescriptionOfSteve):\n    def construct(self):\n        # Introduce K and T\n        images = Group("
+    },
+    {
+     "line": 289,
+     "context": "            ImageMobject(\"kahneman\"),\n            ImageMobject(\"tversky\"),\n        )\n        danny, amos = images\n        images.set_height(3.5)"
+    },
+    {
+     "line": 298,
+     "context": "            OldTexText(\"Daniel\\\\\\\\Kahneman\", alignment=\"\"),\n            OldTexText(\"Amos\\\\\\\\Tversky\", alignment=\"\"),\n        )\n        for name, image in zip(names, images):\n            name.scale(1.25)"
+    }
+   ]
+  },
+  "note": "No suitable individual photograph with a verifiable free license was found; Wikipedia offers no free image and the Commons search returned unrelated documents.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "4bc4432ddf2b56667574e3a740e4f1b8e12e2de7e9ce5c651e4c5aeffca13303",
+  "final_size_bytes": 3192
+ },
+ "svg_images/FourierOneLine.svg": {
+  "asset": "svg_images/FourierOneLine.svg",
+  "name": "FourierOneLine.svg",
+  "subject": "Historical portrait of Joseph Fourier traced in a single continuous line",
+  "author": "Julien-Léopold Boilly",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Fourier2_-_restoration1.jpg",
+  "changes": "Canny edges of the freely licensed historical portrait, contour simplification and joining through a nearest-neighbor tree; continuous closed path with out-and-back links, without Grant's SVG.",
+  "status": "generated",
+  "via": "traced from the public domain",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T02:03:36.160413+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/fourier_series_scenes/DE4Thumbnail.py",
+   "matches": [
+    {
+     "line": 631,
+     "context": "    CONFIG = {\n        \"file_name\": \"FourierOneLine\",\n        \"start_drawn\": True,\n        \"n_vectors\": 300,\n        \"parametric_function_step_size\": 0.0025,"
+    }
+   ]
+  },
+  "note": "Recognizable portrait of Fourier: one path, one M, closing Z, no fill; 75% of the viewBox height. 134991 bytes.",
+  "old_sha256": "549fce3d90f3b1d786ca70f2c5c01146daf42f6d020179d9fb53318aa3251af3",
+  "commons_title": "File:Fourier2 - restoration1.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/d/df/Fourier2_-_restoration1.jpg",
+  "date": "early 19th centurydate QS:P571,+1850-00-00T00:00:00Z/7,P4241,Q40719727",
+  "source_size_bytes": 2687406,
+  "source_width": 1619,
+  "source_height": 2048,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "source_sha256": "961e5a2e7234b57b01b37a2c29a6445fc9cc77d94da05425c2dd639ab0a33c60",
+  "source_contours": 230,
+  "trace_points": 8215,
+  "max_connector_source_pixels": 8.54400374531753,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "549fce3d90f3b1d786ca70f2c5c01146daf42f6d020179d9fb53318aa3251af3",
+  "final_size_bytes": 134991,
+  "refinement_state": "improved",
+  "refinement_note": "Recognizable portrait of Fourier: one path, one M, closing Z, no fill; 75% of the viewBox height. 134991 bytes.",
+  "refined_at": "2026-10-27T02:03:37.261364+00:00"
+ },
+ "raster_images/imo_2011_p1.png": {
+  "asset": "raster_images/imo_2011_p1.png",
+  "name": "imo_2011_p1.png",
+  "subject": "Own sheet with the statements written in LaTeX (IMO 2011 problems 1 and 2), without the IMO logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "https://www.imo-official.org/assets/documents/problems/2011/2011_eng.pdf",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:25:53.472138+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/AskWhatsOnTest.py",
+   "matches": [
+    {
+     "line": 117,
+     "context": "        group = Group(\n            ImageMobject(\"imo_2011_p1\"),\n            ImageMobject(\"imo_2011_p2\"),\n        )\n        group.set_height(6)"
+    }
+   ]
+  },
+  "note": "Statements independently rephrased, same mathematical conditions; LaTeX formulas rendered by mathtext. Own design without the IMO emblem.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "48c52e0765e67b296539911ac3892ebde6bba2bdf9856568b28b606d39e3988f",
+  "final_size_bytes": 182563
+ },
+ "raster_images/imo_2011_p2.png": {
+  "asset": "raster_images/imo_2011_p2.png",
+  "name": "imo_2011_p2.png",
+  "subject": "Own sheet with the statements written in LaTeX (IMO 2011 problems 1 and 2), without the IMO logo",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "https://www.imo-official.org/assets/documents/problems/2011/2011_eng.pdf",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:25:54.135384+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/AskWhatsOnTest.py",
+   "matches": [
+    {
+     "line": 118,
+     "context": "            ImageMobject(\"imo_2011_p1\"),\n            ImageMobject(\"imo_2011_p2\"),\n        )\n        group.set_height(6)\n        group.arrange(RIGHT, buff=LARGE_BUFF)"
+    }
+   ]
+  },
+  "note": "Statements independently rephrased, same mathematical conditions; LaTeX formulas rendered by mathtext. Own design without the IMO emblem.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "684422f72d3455cf2a4c9d8cde4cc3d6d661919be5c748411493716fae919673",
+  "final_size_bytes": 162343
+ },
+ "raster_images/Dirichlet.jpg": {
+  "asset": "raster_images/Dirichlet.jpg",
+  "name": "Dirichlet.jpg",
+  "subject": "Public domain portrait of Dirichlet (Commons)",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Peter_Gustav_Lejeune_Dirichlet.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.537281+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/spirals/DirichletComingUp.py",
+   "matches": [
+    {
+     "line": 6,
+     "context": "\nclass DirichletComingUp(Scene):\n    def construct(self):\n        image = ImageMobject(\"Dirichlet\")\n        image.set_height(3)"
+    },
+    {
+     "line": 8,
+     "context": "    def construct(self):\n        image = ImageMobject(\"Dirichlet\")\n        image.set_height(3)\n        words = OldTexText(\n            \"Coming up: \\\\\\\\\", \"Dirichlet's theorem\","
+    },
+    {
+     "line": 11,
+     "context": "        words = OldTexText(\n            \"Coming up: \\\\\\\\\", \"Dirichlet's theorem\",\n            alignment=\"\",\n        )\n        words.set_color_by_tex(\"Dirichlet's\", YELLOW)"
+    },
+    {
+     "line": 14,
+     "context": "        )\n        words.set_color_by_tex(\"Dirichlet's\", YELLOW)\n        words.scale(1.5)\n        words.next_to(image, RIGHT)\n        words.set_stroke(BLACK, 8, background=True)"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "8c017af119df1a22afe34c3907c2a94145c073d3b390594bc77702bea8910ec7",
+  "commons_title": "File:Peter Gustav Lejeune Dirichlet.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/32/Peter_Gustav_Lejeune_Dirichlet.jpg",
+  "date": "before 1859date QS:P,+1859-00-00T00:00:00Z/7,P1326,+1859-00-00T00:00:00Z/9",
+  "source_size_bytes": 77954,
+  "source_width": 493,
+  "source_height": 545,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "8c017af119df1a22afe34c3907c2a94145c073d3b390594bc77702bea8910ec7",
+  "final_size_bytes": 64595
+ },
+ "svg_images/bunny.svg": {
+  "asset": "svg_images/bunny.svg",
+  "name": "bunny.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Rabbit silhouette",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:57:38.071228+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/AltShowTwoPopulations.py",
+   "matches": [
+    {
+     "line": 185,
+     "context": "        # return self.get_animal(\"rabbit\", WHITE)\n        return self.get_animal(\"bunny\", RABBIT_COLOR)\n\n    def get_pop_labels(self):\n        labels = VGroup("
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "b44d474c5b26e3d06750bc70bc3906a88d387276c6e2cd9f0708b7a452de7d95",
+  "final_size_bytes": 2522
+ },
+ "svg_images/fox.svg": {
+  "asset": "svg_images/fox.svg",
+  "name": "fox.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Fox (outline)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:57:38.091446+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/AltShowTwoPopulations.py",
+   "matches": [
+    {
+     "line": 6,
+     "context": "\nFOX_COLOR = \"#DF7F20\"\n\n\nRABBIT_COLOR = \"#C6D6EF\""
+    },
+    {
+     "line": 29,
+     "context": "        \"total_num_animals\": 80,\n        \"start_num_foxes\": 40,\n        \"start_num_rabbits\": 20,\n        \"animal_height\": 0.5,\n        \"final_wait_time\": 30,"
+    },
+    {
+     "line": 41,
+     "context": "    def introduce_animals(self):\n        foxes = self.foxes = VGroup(*[\n            self.get_fox()\n            for n in range(self.total_num_animals)\n        ])"
+    },
+    {
+     "line": 42,
+     "context": "        foxes = self.foxes = VGroup(*[\n            self.get_fox()\n            for n in range(self.total_num_animals)\n        ])\n        rabbits = self.rabbits = VGroup(*["
+    },
+    {
+     "line": 49,
+     "context": "        ])\n        foxes[self.start_num_foxes:].set_fill(opacity=0)\n        rabbits[self.start_num_rabbits:].set_fill(opacity=0)\n\n        fox, rabbit = examples = VGroup(foxes[0], rabbits[0])"
+    },
+    {
+     "line": 52,
+     "context": "\n        fox, rabbit = examples = VGroup(foxes[0], rabbits[0])\n        for mob in examples:\n            mob.save_state()\n            mob.set_height(3)"
+    },
+    {
+     "line": 81,
+     "context": "                )\n                for group in [foxes, rabbits]\n            ]\n        )\n"
+    },
+    {
+     "line": 86,
+     "context": "    def evolve_system(self):\n        foxes = self.foxes\n        rabbits = self.rabbits\n        phase_point = VectorizedPoint(\n            self.start_num_rabbits * RIGHT +"
+    },
+    {
+     "line": 90,
+     "context": "            self.start_num_rabbits * RIGHT +\n            self.start_num_foxes * UP\n        )\n        self.add(move_along_vector_field(\n            phase_point,"
+    },
+    {
+     "line": 100,
+     "context": "\n        def get_num_foxes():\n            return phase_point.get_center()[1]\n\n        def get_updater(pop_size_getter):"
+    },
+    {
+     "line": 118,
+     "context": "        self.add(Mobject.add_updater(\n            foxes, get_updater(get_num_foxes)\n        ))\n        self.add(Mobject.add_updater(\n            rabbits, get_updater(get_num_rabbits)"
+    },
+    {
+     "line": 124,
+     "context": "\n        # Add counts for foxes and rabbits\n        labels = self.get_pop_labels()\n        num_foxes = Integer(10)\n        num_foxes.scale(self.count_word_scale_val)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "b79d5f13c28586f48728afd855e5fa1e29f57a2a6add3d9afbf1e22c2df5ede6",
+  "final_size_bytes": 575
+ },
+ "svg_images/linda.svg": {
+  "asset": "svg_images/linda.svg",
+  "name": "linda.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Bust of a woman (Linda)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:57:38.099053+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/AlternatePhrasings.py",
+   "matches": [
+    {
+     "line": 140,
+     "context": "\nclass Linda(Steve):\n    CONFIG = {\n        \"file_name\": \"linda\",\n        \"name\": \"Linda\""
+    },
+    {
+     "line": 142,
+     "context": "    CONFIG = {\n        \"file_name\": \"linda\",\n        \"name\": \"Linda\"\n    }\n"
+    },
+    {
+     "line": 143,
+     "context": "        \"file_name\": \"linda\",\n        \"name\": \"Linda\"\n    }\n\n"
+    },
+    {
+     "line": 207,
+     "context": "\n        linda = Linda()\n        linda.set_height(1)\n        linda_words = OldTexText(\"seems activist...\")\n        linda_words.next_to(linda, RIGHT, MED_LARGE_BUFF)"
+    },
+    {
+     "line": 208,
+     "context": "        linda = Linda()\n        linda.set_height(1)\n        linda_words = OldTexText(\"seems activist...\")\n        linda_words.next_to(linda, RIGHT, MED_LARGE_BUFF)\n        linda.add(linda_words)"
+    },
+    {
+     "line": 209,
+     "context": "        linda.set_height(1)\n        linda_words = OldTexText(\"seems activist...\")\n        linda_words.next_to(linda, RIGHT, MED_LARGE_BUFF)\n        linda.add(linda_words)\n"
+    },
+    {
+     "line": 210,
+     "context": "        linda_words = OldTexText(\"seems activist...\")\n        linda_words.next_to(linda, RIGHT, MED_LARGE_BUFF)\n        linda.add(linda_words)\n\n        stereotypes = VGroup(steve, linda)"
+    },
+    {
+     "line": 211,
+     "context": "        linda_words.next_to(linda, RIGHT, MED_LARGE_BUFF)\n        linda.add(linda_words)\n\n        stereotypes = VGroup(steve, linda)\n        stereotypes.arrange(DOWN, buff=MED_SMALL_BUFF, aligned_edge=LEFT)"
+    },
+    {
+     "line": 213,
+     "context": "\n        stereotypes = VGroup(steve, linda)\n        stereotypes.arrange(DOWN, buff=MED_SMALL_BUFF, aligned_edge=LEFT)\n        stereotypes.move_to(people)\n"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 3,
+  "delivery_state": "done",
+  "sha256": "b9ca761b9cce7b19d400685d5774fa1cc8d4dedb4abf052d9bae54a227a14e9d",
+  "final_size_bytes": 2564
+ },
+ "svg_images/rabbit.svg": {
+  "asset": "svg_images/rabbit.svg",
+  "name": "rabbit.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Rabbit (outline)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:57:38.106743+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution1/AltShowTwoPopulations.py",
+   "matches": [
+    {
+     "line": 9,
+     "context": "\nRABBIT_COLOR = \"#C6D6EF\"\n\n\ndef preditor_prey_vector_field(point):"
+    },
+    {
+     "line": 30,
+     "context": "        \"start_num_foxes\": 40,\n        \"start_num_rabbits\": 20,\n        \"animal_height\": 0.5,\n        \"final_wait_time\": 30,\n        \"count_word_scale_val\": 1,"
+    },
+    {
+     "line": 45,
+     "context": "        ])\n        rabbits = self.rabbits = VGroup(*[\n            self.get_rabbit()\n            for n in range(self.total_num_animals)\n        ])"
+    },
+    {
+     "line": 46,
+     "context": "        rabbits = self.rabbits = VGroup(*[\n            self.get_rabbit()\n            for n in range(self.total_num_animals)\n        ])\n        foxes[self.start_num_foxes:].set_fill(opacity=0)"
+    },
+    {
+     "line": 50,
+     "context": "        foxes[self.start_num_foxes:].set_fill(opacity=0)\n        rabbits[self.start_num_rabbits:].set_fill(opacity=0)\n\n        fox, rabbit = examples = VGroup(foxes[0], rabbits[0])\n        for mob in examples:"
+    },
+    {
+     "line": 52,
+     "context": "\n        fox, rabbit = examples = VGroup(foxes[0], rabbits[0])\n        for mob in examples:\n            mob.save_state()\n            mob.set_height(3)"
+    },
+    {
+     "line": 81,
+     "context": "                )\n                for group in [foxes, rabbits]\n            ]\n        )\n"
+    },
+    {
+     "line": 87,
+     "context": "        foxes = self.foxes\n        rabbits = self.rabbits\n        phase_point = VectorizedPoint(\n            self.start_num_rabbits * RIGHT +\n            self.start_num_foxes * UP"
+    },
+    {
+     "line": 89,
+     "context": "        phase_point = VectorizedPoint(\n            self.start_num_rabbits * RIGHT +\n            self.start_num_foxes * UP\n        )\n        self.add(move_along_vector_field("
+    },
+    {
+     "line": 97,
+     "context": "\n        def get_num_rabbits():\n            return phase_point.get_center()[0]\n\n        def get_num_foxes():"
+    },
+    {
+     "line": 121,
+     "context": "        self.add(Mobject.add_updater(\n            rabbits, get_updater(get_num_rabbits)\n        ))\n\n        # Add counts for foxes and rabbits"
+    },
+    {
+     "line": 124,
+     "context": "\n        # Add counts for foxes and rabbits\n        labels = self.get_pop_labels()\n        num_foxes = Integer(10)\n        num_foxes.scale(self.count_word_scale_val)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "796968945191ab647e039a313de298ea465a2d24fe694cd6e9cc96296ff0d889",
+  "final_size_bytes": 2520
+ },
+ "raster_images/Archimedes.jpg": {
+  "asset": "raster_images/Archimedes.jpg",
+  "name": "Archimedes.jpg",
+  "subject": "Public domain portrait of Archimedes (Domenico Fetti, 1620; downloaded from Commons during setup)",
+  "author": "Domenico Fetti",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Domenico-Fetti_Archimedes_1620.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.550615+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 11,
+     "context": "            \"Euclid\",\n            \"Archimedes\",\n            \"Fermat\",\n            \"Newton\",\n            \"Leibniz\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "e9fd7b6c8ec8ce3085f7fdb5fcc0e70fe65488c8bfdda44562f55197dc7427ac",
+  "commons_title": "File:Domenico-Fetti Archimedes 1620.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Domenico-Fetti_Archimedes_1620.jpg",
+  "date": "circa 1620date QS:P571,+1620-00-00T00:00:00Z/9,P1480,Q5727902",
+  "source_size_bytes": 619039,
+  "source_width": 1364,
+  "source_height": 1818,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "e9fd7b6c8ec8ce3085f7fdb5fcc0e70fe65488c8bfdda44562f55197dc7427ac",
+  "final_size_bytes": 243322
+ },
+ "raster_images/Cantor.jpg": {
+  "asset": "raster_images/Cantor.jpg",
+  "name": "Cantor.jpg",
+  "subject": "Public domain portrait of Georg Cantor (Commons)",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Georg_Cantor_(Portr%C3%A4t).jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.567274+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 20,
+     "context": "            \"Riemann\",\n            \"Cantor\",\n            \"Noether\",\n            \"Ramanujan\",\n            \"Godel\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "de4b8ed3b7d841af61fc0549250985e5aea9db417a9ee0993ec0d025615897a9",
+  "commons_title": "File:Georg Cantor (Porträt).jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Georg_Cantor_%28Portr%C3%A4t%29.jpg",
+  "date": "circa 1910date QS:P,+1910-00-00T00:00:00Z/9,P1480,Q5727902",
+  "source_size_bytes": 1076953,
+  "source_width": 1184,
+  "source_height": 1600,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "de4b8ed3b7d841af61fc0549250985e5aea9db417a9ee0993ec0d025615897a9",
+  "final_size_bytes": 123153
+ },
+ "raster_images/Fermat.jpg": {
+  "asset": "raster_images/Fermat.jpg",
+  "name": "Fermat.jpg",
+  "subject": "Public domain portrait of Fermat (Commons)",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Pierre_de_Fermat.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.578155+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 12,
+     "context": "            \"Archimedes\",\n            \"Fermat\",\n            \"Newton\",\n            \"Leibniz\",\n            \"Johann_Bernoulli2\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "f7cb813199bb88b57d6c1d30bf6e312d0555d64f92896371db015d40087515ed",
+  "commons_title": "File:Pierre de Fermat.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Pierre_de_Fermat.jpg",
+  "date": "17th century ADdate QS:P,+1650-00-00T00:00:00Z/7",
+  "source_size_bytes": 37723,
+  "source_width": 299,
+  "source_height": 400,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "f7cb813199bb88b57d6c1d30bf6e312d0555d64f92896371db015d40087515ed",
+  "final_size_bytes": 24951
+ },
+ "raster_images/Godel.jpg": {
+  "asset": "raster_images/Godel.jpg",
+  "name": "Godel.jpg",
+  "subject": "Public domain portrait of Gödel (Commons) or own drawing",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Kurt_g%C3%B6del.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.585598+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 23,
+     "context": "            \"Ramanujan\",\n            \"Godel\",\n            \"Turing\",\n        ]\n    }"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "6cd8f241ff84f93697291ae6db4ad7b0d9e6e06666c445ec680e196e4fb3ab16",
+  "commons_title": "File:Kurt gödel.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/4/42/Kurt_g%C3%B6del.jpg",
+  "date": "circa 1926date QS:P,+1926-00-00T00:00:00Z/9,P1480,Q5727902",
+  "source_size_bytes": 25000,
+  "source_width": 212,
+  "source_height": 270,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "6cd8f241ff84f93697291ae6db4ad7b0d9e6e06666c445ec680e196e4fb3ab16",
+  "final_size_bytes": 12437
+ },
+ "raster_images/Johann_Bernoulli2.jpg": {
+  "asset": "raster_images/Johann_Bernoulli2.jpg",
+  "name": "Johann_Bernoulli2.jpg",
+  "subject": "Public domain portrait of Johann Bernoulli (Commons)",
+  "author": "Johann Rudolf Huber",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Johann_Bernoulli2.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.592511+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 15,
+     "context": "            \"Leibniz\",\n            \"Johann_Bernoulli2\",\n            \"Euler\",\n            \"Joseph Fourier\",\n            \"Gauss\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "28caff14d8f2ac398ccd58f5eaa4c5b2fec7262c86a2f1cdb10bf14eb32cfa09",
+  "commons_title": "File:Johann Bernoulli2.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Johann_Bernoulli2.jpg",
+  "date": "circa 1740date QS:P571,+1740-00-00T00:00:00Z/9,P1480,Q5727902",
+  "source_size_bytes": 221322,
+  "source_width": 500,
+  "source_height": 620,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "28caff14d8f2ac398ccd58f5eaa4c5b2fec7262c86a2f1cdb10bf14eb32cfa09",
+  "final_size_bytes": 73669
+ },
+ "raster_images/Pythagoras.jpg": {
+  "asset": "raster_images/Pythagoras.jpg",
+  "name": "Pythagoras.jpg",
+  "subject": "Photo of the bust of Pythagoras from Commons (CC0/CC BY) or own drawing",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Pythagoras_in_the_Roman_Forum,_Colosseum.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.601605+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 9,
+     "context": "        \"mathematicians\": [\n            \"Pythagoras\",\n            \"Euclid\",\n            \"Archimedes\",\n            \"Fermat\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "bf0416207a17c0be63339851e20a81ecc8ea4865b9a91f52be5b070ebfe0fa5a",
+  "commons_title": "File:Pythagoras in the Roman Forum, Colosseum.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Pythagoras_in_the_Roman_Forum%2C_Colosseum.jpg",
+  "date": "",
+  "source_size_bytes": 10236842,
+  "source_width": 2862,
+  "source_height": 4140,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "bf0416207a17c0be63339851e20a81ecc8ea4865b9a91f52be5b070ebfe0fa5a",
+  "final_size_bytes": 64561
+ },
+ "raster_images/Riemann.jpeg": {
+  "asset": "raster_images/Riemann.jpeg",
+  "name": "Riemann.jpeg",
+  "subject": "Public domain portrait of Riemann (Commons)",
+  "author": "http://www.sil.si.edu/digitalcollections/hst/scientific-identity/explore.htm according to the German Wikipedia.",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Georg_Friedrich_Bernhard_Riemann.jpeg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.610900+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/CommentOnFouriersImmortality.py",
+   "matches": [
+    {
+     "line": 19,
+     "context": "            \"Gauss\",\n            \"Riemann\",\n            \"Cantor\",\n            \"Noether\",\n            \"Ramanujan\","
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "9cbe2929c08a1687d457fa3af14a6f3be3468684b32755112839c60f708d8719",
+  "commons_title": "File:Georg Friedrich Bernhard Riemann.jpeg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/82/Georg_Friedrich_Bernhard_Riemann.jpeg",
+  "date": "1863",
+  "source_size_bytes": 255626,
+  "source_width": 903,
+  "source_height": 986,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "9cbe2929c08a1687d457fa3af14a6f3be3468684b32755112839c60f708d8719",
+  "final_size_bytes": 107568
+ },
+ "raster_images/earth.png": {
+  "asset": "raster_images/earth.png",
+  "name": "earth.png",
+  "subject": "NASA texture (Blue Marble, public domain) downloaded during setup",
+  "author": "NASA/Apollo 17 crew; taken by either Harrison Schmitt or Ron Evans",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:The_Earth_seen_from_Apollo_17.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.621157+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/staging/BreakingSecondOrderIntoTwoFirstOrder.py",
+   "matches": [
+    {
+     "line": 1267,
+     "context": "    def show_gravitational_force(self):\n        earth = self.earth = ImageMobject(\"earth\")\n        moon = self.moon = ImageMobject(\"moon\", height=1)\n        earth_center = 3 * RIGHT + 2 * UP\n        moon_center = 3 * LEFT + DOWN"
+    },
+    {
+     "line": 1269,
+     "context": "        moon = self.moon = ImageMobject(\"moon\", height=1)\n        earth_center = 3 * RIGHT + 2 * UP\n        moon_center = 3 * LEFT + DOWN\n        earth.move_to(earth_center)\n        moon.move_to(moon_center)"
+    },
+    {
+     "line": 1271,
+     "context": "        moon_center = 3 * LEFT + DOWN\n        earth.move_to(earth_center)\n        moon.move_to(moon_center)\n\n        gravity_func = get_force_field_func((earth_center, -6), (moon_center, -1))"
+    },
+    {
+     "line": 1274,
+     "context": "\n        gravity_func = get_force_field_func((earth_center, -6), (moon_center, -1))\n        gravity_field = VectorField(\n            gravity_func,\n            **self.vector_field_config"
+    },
+    {
+     "line": 1280,
+     "context": "\n        self.add_foreground_mobjects(earth, moon)\n        self.play(\n            GrowFromCenter(earth),\n            GrowFromCenter(moon),"
+    },
+    {
+     "line": 1282,
+     "context": "        self.play(\n            GrowFromCenter(earth),\n            GrowFromCenter(moon),\n            Transform(self.vector_field, gravity_field),\n            run_time=2"
+    },
+    {
+     "line": 1317,
+     "context": "        self.play(\n            self.earth.scale, 0,\n            self.moon.scale, 0,\n            DrawBorderThenFill(magnet),\n            Transform(self.vector_field, magnetic_field),"
+    },
+    {
+     "line": 1324,
+     "context": "        self.vector_field.func = magnetic_field.func\n        self.remove_foreground_mobjects(self.earth, self.moon)\n\n\n"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "41fcb84c5f544286c10eb22c795293f73ba3ef0e4e4718cff0db131fef6b3a8f",
+  "commons_title": "File:The Earth seen from Apollo 17.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+  "date": "7 December 1972date QS:P571,+1972-12-07T00:00:00Z/11",
+  "source_size_bytes": 6511067,
+  "source_width": 3000,
+  "source_height": 3002,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "41fcb84c5f544286c10eb22c795293f73ba3ef0e4e4718cff0db131fef6b3a8f",
+  "final_size_bytes": 4023704
+ },
+ "raster_images/moon.png": {
+  "asset": "raster_images/moon.png",
+  "name": "moon.png",
+  "subject": "NASA Moon (LRO, public domain) downloaded during setup",
+  "author": "Gregory H. Revera",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:FullMoon2010.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.739269+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/staging/BreakingSecondOrderIntoTwoFirstOrder.py",
+   "matches": [
+    {
+     "line": 1268,
+     "context": "        earth = self.earth = ImageMobject(\"earth\")\n        moon = self.moon = ImageMobject(\"moon\", height=1)\n        earth_center = 3 * RIGHT + 2 * UP\n        moon_center = 3 * LEFT + DOWN\n        earth.move_to(earth_center)"
+    },
+    {
+     "line": 1270,
+     "context": "        earth_center = 3 * RIGHT + 2 * UP\n        moon_center = 3 * LEFT + DOWN\n        earth.move_to(earth_center)\n        moon.move_to(moon_center)\n"
+    },
+    {
+     "line": 1272,
+     "context": "        earth.move_to(earth_center)\n        moon.move_to(moon_center)\n\n        gravity_func = get_force_field_func((earth_center, -6), (moon_center, -1))\n        gravity_field = VectorField("
+    },
+    {
+     "line": 1274,
+     "context": "\n        gravity_func = get_force_field_func((earth_center, -6), (moon_center, -1))\n        gravity_field = VectorField(\n            gravity_func,\n            **self.vector_field_config"
+    },
+    {
+     "line": 1280,
+     "context": "\n        self.add_foreground_mobjects(earth, moon)\n        self.play(\n            GrowFromCenter(earth),\n            GrowFromCenter(moon),"
+    },
+    {
+     "line": 1283,
+     "context": "            GrowFromCenter(earth),\n            GrowFromCenter(moon),\n            Transform(self.vector_field, gravity_field),\n            run_time=2\n        )"
+    },
+    {
+     "line": 1318,
+     "context": "            self.earth.scale, 0,\n            self.moon.scale, 0,\n            DrawBorderThenFill(magnet),\n            Transform(self.vector_field, magnetic_field),\n            run_time=2"
+    },
+    {
+     "line": 1324,
+     "context": "        self.vector_field.func = magnetic_field.func\n        self.remove_foreground_mobjects(self.earth, self.moon)\n\n\n"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "b39b955aa482f0fd31888b4afe59319215234699997ed3640110bd0432d8465d",
+  "commons_title": "File:FullMoon2010.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/e/e1/FullMoon2010.jpg",
+  "date": "2010-10-22",
+  "source_size_bytes": 2143958,
+  "source_width": 2580,
+  "source_height": 2452,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "b39b955aa482f0fd31888b4afe59319215234699997ed3640110bd0432d8465d",
+  "final_size_bytes": 255227
+ },
+ "svg_images/Britain.svg": {
+  "asset": "svg_images/Britain.svg",
+  "name": "Britain.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Outline of Great Britain",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "changes": "Own SVG computed from public domain Natural Earth 1:110m cartography, version pinned by commit; main island only, without Ireland or disconnected islands.",
+  "status": "generated",
+  "via": "code with free data",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:39.795574+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/long_fourier_scenes/FourierOfBritain.py",
+   "matches": [
+    {
+     "line": 666,
+     "context": "\nclass FourierOfBritain(FourierSeriesExampleWithRectForZoom):\n    CONFIG = {\n        \"file_name\": \"Britain\",\n        \"n_vectors\": 500,"
+    },
+    {
+     "line": 668,
+     "context": "    CONFIG = {\n        \"file_name\": \"Britain\",\n        \"n_vectors\": 500,\n        \"drawn_path_color\": RED,\n    }"
+    }
+   ]
+  },
+  "note": "Real simplified geographic outline, a single closed path; it is not derived from Grant's SVG.",
+  "old_sha256": "42828dc1e653c7b19255b12e51c7299699392096c09a72dda509625af2ea99eb",
+  "source_url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/ca96624a56bd078437bca8184e78163e5039ad19/geojson/ne_110m_admin_0_countries.geojson",
+  "source_sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f",
+  "source_authors": "Natural Earth (public domain cartography)",
+  "source_license": "Public domain",
+  "source_license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "license_evidence": "Natural Earth terms consulted in this run.",
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "42828dc1e653c7b19255b12e51c7299699392096c09a72dda509625af2ea99eb",
+  "final_size_bytes": 1235
+ },
+ "svg_images/SeattleSkyline.svg": {
+  "asset": "svg_images/SeattleSkyline.svg",
+  "name": "SeattleSkyline.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Silhouette of the city of Seattle",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:58:26.715129+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/long_fourier_scenes/FourierOfSeattle.py",
+   "matches": [
+    {
+     "line": 668,
+     "context": "    CONFIG = {\n        \"file_name\": \"SeattleSkyline\",\n        \"drawing_height\": 7,\n        \"n_vectors\": 400,\n        \"drawn_path_color\": TEAL,"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "f57904cfd5dd052f14803de2e5b59a524dbe848fd95d0dc6f300ab8cfc99f4a6",
+  "final_size_bytes": 2726
+ },
+ "svg_images/plane.svg": {
+  "asset": "svg_images/plane.svg",
+  "name": "plane.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Airplane seen from above",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T00:58:26.723641+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/position_phase_space/ShowMomentumConservation.py",
+   "matches": [
+    {
+     "line": 1370,
+     "context": "        randy.save_state()\n        randy.change(\"plane\")\n        randy.fade(1)\n\n        self.play("
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "6c823f26538c99c619e6dcc27de0afd23e821fd2cb790c514d6979ec207c7bde",
+  "final_size_bytes": 411
+ },
+ "svg_images/programmer.svg": {
+  "asset": "svg_images/programmer.svg",
+  "name": "programmer.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Person with a laptop and </>",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:05:18.053559+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/ShowProgrammer.py",
+   "matches": [
+    {
+     "line": 3,
+     "context": "\nclass ShowProgrammer(Scene):\n    CONFIG = {\n        \"camera_config\": {\n            \"background_color\": GREY_E,"
+    },
+    {
+     "line": 11,
+     "context": "    def construct(self):\n        programmer = SVGMobject(file_name=\"programmer\")\n        programmer.set_stroke(width=0)\n        programmer.set_fill(GREY, 1)\n        programmer.set_sheen(1, UL)"
+    },
+    {
+     "line": 12,
+     "context": "        programmer = SVGMobject(file_name=\"programmer\")\n        programmer.set_stroke(width=0)\n        programmer.set_fill(GREY, 1)\n        programmer.set_sheen(1, UL)\n        programmer.set_height(3)"
+    },
+    {
+     "line": 13,
+     "context": "        programmer.set_stroke(width=0)\n        programmer.set_fill(GREY, 1)\n        programmer.set_sheen(1, UL)\n        programmer.set_height(3)\n"
+    },
+    {
+     "line": 14,
+     "context": "        programmer.set_fill(GREY, 1)\n        programmer.set_sheen(1, UL)\n        programmer.set_height(3)\n\n        programmer.to_corner(DL)"
+    },
+    {
+     "line": 15,
+     "context": "        programmer.set_sheen(1, UL)\n        programmer.set_height(3)\n\n        programmer.to_corner(DL)\n        self.play(FadeIn(programmer, DOWN))"
+    },
+    {
+     "line": 17,
+     "context": "\n        programmer.to_corner(DL)\n        self.play(FadeIn(programmer, DOWN))\n        self.wait()"
+    },
+    {
+     "line": 18,
+     "context": "        programmer.to_corner(DL)\n        self.play(FadeIn(programmer, DOWN))\n        self.wait()"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 4,
+  "delivery_state": "done",
+  "sha256": "ff8103ff374faf49545294ab960aee99310f84475fa759ea33adab97cffbd58b",
+  "final_size_bytes": 2659
+ },
+ "raster_images/AlanKay.jpg": {
+  "asset": "raster_images/AlanKay.jpg",
+  "name": "AlanKay.jpg",
+  "subject": "Portrait of Alan Kay, with no text or third parties",
+  "author": "Marcin Wichary from San Francisco, U.S.A.",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Alan_Kay_(3097597186).jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T02:03:43.786058+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/simple_scenes/FinalQuote.py",
+   "matches": [
+    {
+     "line": 55,
+     "context": "\n        image = ImageMobject(\"AlanKay\")\n        image.set_height(6)\n        image.to_corner(UL)\n        image.shift(2 * LEFT + 0.5 * UP)"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used. Bust crop centered with a clean black background: no captions, logos or other people. Source 4752×3164; crop 2304×1536; reduction to 0.444×.",
+  "old_sha256": "fc90cf57007d15c72730a8e432a4b944d786e1509e44bf9ed661dcabbc98021c",
+  "crop_source_box": [
+   1450,
+   200,
+   3754,
+   1736
+  ],
+  "source_crop_size": [
+   2304,
+   1536
+  ],
+  "upscale_factor": 0.4444444444444444,
+  "commons_title": "File:Alan Kay (3097597186).jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/7/76/Alan_Kay_%283097597186%29.jpg",
+  "date": "2008-12-09 17:43",
+  "source_size_bytes": 2691834,
+  "source_width": 4752,
+  "source_height": 3164,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "source_sha256": "ba9d026fa98e4b57eca74a51f961721b7a7b42565ea9cf730eb23805c54dacaf",
+  "download_size_bytes": 2691834,
+  "delivery_state": "done",
+  "sha256": "fc90cf57007d15c72730a8e432a4b944d786e1509e44bf9ed661dcabbc98021c",
+  "final_size_bytes": 86730,
+  "refinement_state": "improved",
+  "refinement_note": "License consulted in this run. Grant's original is not used. Bust crop centered with a clean black background: no captions, logos or other people. Source 4752×3164; crop 2304×1536; reduction to 0.444×.",
+  "refined_at": "2026-10-27T02:03:43.820332+00:00"
+ },
+ "raster_images/AskWhatsOnTest_final_image.png": {
+  "asset": "raster_images/AskWhatsOnTest_final_image.png",
+  "name": "AskWhatsOnTest_final_image.png",
+  "subject": "Own sheet with the problems written in LaTeX (see imo_2011_p1/p2)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:25:54.352155+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/ReadQuestions.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "    def construct(self):\n        background = ImageMobject(\"AskWhatsOnTest_final_image\")\n        background.set_height(FRAME_HEIGHT)\n        self.add(background)\n"
+    }
+   ]
+  },
+  "note": "Own sheet for the windmill problem. Eleven lines matched to the scene's eleven underlines and its six groups.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "8f751c44c4431ae3ad64602ee41893219dd0ae74696c579ed3a503cdd7593174",
+  "final_size_bytes": 437419
+ },
+ "raster_images/ChaosBookCover.jpg": {
+  "asset": "raster_images/ChaosBookCover.jpg",
+  "name": "ChaosBookCover.jpg",
+  "subject": "Own card (rectangle with the title and author, as text) in place of the cover: Cover of 'Chaos' (Gleick)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:30.865925+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/wordy_scenes/GleickQuote.py",
+   "matches": [
+    {
+     "line": 13,
+     "context": "        quote.power_part = quote.get_part_by_tex(\"power\")\n        book = ImageMobject(\"ChaosBookCover\")\n        book.set_height(5)\n        book.next_to(ORIGIN, LEFT)\n        book.to_edge(DOWN)"
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "e98cd05c7d09ab8bd95d5db115a0a54145ed6706124111818434f4dee641e4e7",
+  "final_size_bytes": 72548
+ },
+ "raster_images/CodingTrainFourier.jpg": {
+  "asset": "raster_images/CodingTrainFourier.jpg",
+  "name": "CodingTrainFourier.jpg",
+  "subject": "Own card (make_video_cards.py) with the title of the video by The Coding Train",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:30.911818+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/OtherResources.py",
+   "matches": [
+    {
+     "line": 10,
+     "context": "            ImageMobject(\"MathologerFourier\"),\n            ImageMobject(\"CodingTrainFourier\"),\n        )\n        names = VGroup(\n            OldTexText(\"Mathologer\"),"
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c2acd5ff1c584f69fc196c58bb431fb7d3564d69f9b0b309a13e067eee8ab405",
+  "final_size_bytes": 52142
+ },
+ "raster_images/Feynman.jpg": {
+  "asset": "raster_images/Feynman.jpg",
+  "name": "Feynman.jpg",
+  "subject": "Own illustration (silhouette) or freely licensed photo in place of the photo of Richard Feynman",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1959.png",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.812659+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/simple_scenes/ClacksSolution2Thumbnail.py",
+   "matches": [
+    {
+     "line": 167,
+     "context": "    def construct(self):\n        background = ImageMobject(\"Feynman_teaching\")\n        background.set_width(FRAME_WIDTH)\n        background.scale(1.05)\n        background.to_corner(UR, buff=0)"
+    },
+    {
+     "line": 221,
+     "context": "        title = OldTexText(\n            \"Feynman's \\\\\\\\\", \"Lost \\\\\\\\\", \"Lecture\",\n            alignment=\"\"\n        )\n        title.scale(2.4)"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "d65003e667a5c0a3ec4ab630cbe75df64113eafd32b49e642ec6a1954c550031",
+  "commons_title": "File:Richard Feynman 1959.png",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/0/06/Richard_Feynman_1959.png",
+  "date": "1959",
+  "source_size_bytes": 2369170,
+  "source_width": 1364,
+  "source_height": 1366,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "d65003e667a5c0a3ec4ab630cbe75df64113eafd32b49e642ec6a1954c550031",
+  "final_size_bytes": 444029
+ },
+ "raster_images/Feynman_teaching.jpg": {
+  "asset": "raster_images/Feynman_teaching.jpg",
+  "name": "Feynman_teaching.jpg",
+  "subject": "A different photograph of Richard Feynman next to a blackboard",
+  "author": "Unknown author (Commons)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Richard_Feynman_1988.png",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T02:03:38.929273+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/simple_scenes/ClacksSolution2Thumbnail.py",
+   "matches": [
+    {
+     "line": 167,
+     "context": "    def construct(self):\n        background = ImageMobject(\"Feynman_teaching\")\n        background.set_width(FRAME_WIDTH)\n        background.scale(1.05)\n        background.to_corner(UR, buff=0)"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used. A different photo of Feynman standing next to a blackboard; it is not the 1959 shot of Feynman.jpg.",
+  "old_sha256": "6e80c1314886bb723d07d90e84130d9bd4eb66878bbe4aef2f1a0304d72065b7",
+  "commons_title": "File:Richard Feynman 1988.png",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/fc/Richard_Feynman_1988.png",
+  "date": "1986",
+  "source_size_bytes": 2712480,
+  "source_width": 1560,
+  "source_height": 2152,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "source_sha256": "9ff357d8076ad310e7698bcd8c63e8b5faaebf4a4ae0deca98c275aa4ec4c402",
+  "download_size_bytes": 2712480,
+  "delivery_state": "done",
+  "sha256": "6e80c1314886bb723d07d90e84130d9bd4eb66878bbe4aef2f1a0304d72065b7",
+  "final_size_bytes": 428785,
+  "refinement_state": "improved",
+  "refinement_note": "License consulted in this run. Grant's original is not used. A different photo of Feynman standing next to a blackboard; it is not the 1959 shot of Feynman.jpg.",
+  "refined_at": "2026-10-27T02:03:38.980021+00:00"
+ },
+ "raster_images/Fourier paper.jpg": {
+  "asset": "raster_images/Fourier paper.jpg",
+  "name": "Fourier paper.jpg",
+  "subject": "Cover of the 'Théorie analytique de la chaleur' (1822), facsimile from Commons/Gallica",
+  "author": "Joseph Fourier",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Fourier_-_Th%C3%A9orie_analytique_de_la_chaleur,_1822.djvu",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.863374+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/FourierNameIntro.py",
+   "matches": [
+    {
+     "line": 142,
+     "context": "        image = self.image\n        paper = ImageMobject(\"Fourier paper\")\n        paper.match_height(image)\n        paper.next_to(image, RIGHT, MED_LARGE_BUFF)\n"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used. Facsimile, page 9.",
+  "old_sha256": "ae3792f679f77c702cf4da905a0cc4d3f3603cf053f0aec9b38b6da48235c511",
+  "commons_title": "File:Fourier - Théorie analytique de la chaleur, 1822.djvu",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/3/30/Fourier_-_Th%C3%A9orie_analytique_de_la_chaleur%2C_1822.djvu",
+  "date": "",
+  "source_size_bytes": 15620835,
+  "source_width": 2345,
+  "source_height": 3098,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "ae3792f679f77c702cf4da905a0cc4d3f3603cf053f0aec9b38b6da48235c511",
+  "final_size_bytes": 124114
+ },
+ "raster_images/InfinitePowers.jpg": {
+  "asset": "raster_images/InfinitePowers.jpg",
+  "name": "InfinitePowers.jpg",
+  "subject": "Own card (rectangle with the title and author, as text) in place of the cover: Cover of 'Infinite Powers' (Strogatz)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:38.004094+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/StrogatzMention.py",
+   "matches": [
+    {
+     "line": 14,
+     "context": "        morty = self.pi_creature\n        book = ImageMobject(\"InfinitePowers\")\n        book.set_height(5)\n        book.to_edge(LEFT)\n"
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "8aa78817f3b69401490e0a2c7cc499735b7c05e7fae7095524364cf32749b174",
+  "final_size_bytes": 47665
+ },
+ "raster_images/JamesGleick.jpg": {
+  "asset": "raster_images/JamesGleick.jpg",
+  "name": "JamesGleick.jpg",
+  "subject": "Own illustration (silhouette) or freely licensed photo in place of the photo of James Gleick",
+  "author": "JGleick",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:James_Gleick_color.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.877321+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part1/wordy_scenes/GleickQuote.py",
+   "matches": [
+    {
+     "line": 17,
+     "context": "        book.to_edge(DOWN)\n        gleick = ImageMobject(\"JamesGleick\")\n        gleick.set_height(5)\n        gleick.next_to(ORIGIN, RIGHT)\n        gleick.to_edge(DOWN)"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "a1c8a160c027753cabe34634d4efb9a0a420ffc218cbc72f369215d968a40738",
+  "commons_title": "File:James Gleick color.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/a/af/James_Gleick_color.jpg",
+  "date": "2016-03-21 10:36:43",
+  "source_size_bytes": 5922925,
+  "source_width": 2025,
+  "source_height": 2700,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "a1c8a160c027753cabe34634d4efb9a0a420ffc218cbc72f369215d968a40738",
+  "final_size_bytes": 81727
+ },
+ "raster_images/KhanLogo.png": {
+  "asset": "raster_images/KhanLogo.png",
+  "name": "KhanLogo.png",
+  "subject": "Generic video thumbnail with a play button, with no brand or human figure",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:44:36.307478+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/pi_scenes/ReferenceKhanVideo.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "    def construct(self):\n        khan_logo = ImageMobject(\"KhanLogo\")\n        khan_logo.set_height(1)\n        khan_logo.next_to(self.teacher, UP, buff=2)\n        khan_logo.shift(2 * LEFT)"
+    }
+   ]
+  },
+  "note": "Own video thumbnail icon with a play button, bluish-gray palette and transparency; no hexagon, green, human figure or text.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "c698365b5879a8caf76644472c62adc7f0ddb1a42c387d32602f6281f25704db",
+  "final_size_bytes": 3961,
+  "refinement_state": "improved",
+  "refinement_note": "Own video thumbnail icon with a play button, bluish-gray palette and transparency; no hexagon, green, human figure or text.",
+  "refined_at": "2026-10-27T01:44:36.325186+00:00"
+ },
+ "raster_images/MathologerFourier.jpg": {
+  "asset": "raster_images/MathologerFourier.jpg",
+  "name": "MathologerFourier.jpg",
+  "subject": "Own card (make_video_cards.py) with the title of the video by Mathologer",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:42.528645+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part4/staging/OtherResources.py",
+   "matches": [
+    {
+     "line": 9,
+     "context": "        thumbnails = Group(\n            ImageMobject(\"MathologerFourier\"),\n            ImageMobject(\"CodingTrainFourier\"),\n        )\n        names = VGroup("
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "d9c112d48388b03d898b0ebc72e566311d95d9e2d3994fd15ec0306ca8f0e17b",
+  "final_size_bytes": 54070
+ },
+ "raster_images/Strogatz_by_bricks.JPG": {
+  "asset": "raster_images/Strogatz_by_bricks.JPG",
+  "name": "Strogatz_by_bricks.JPG",
+  "subject": "Own illustration (silhouette) or freely licensed photo in place of the photo of Steven Strogatz",
+  "author": "Cmichel67",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Steven_Strogatz_in_2025.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.889611+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/staging/StrogatzMention.py",
+   "matches": [
+    {
+     "line": 18,
+     "context": "\n        steve = ImageMobject(\"Strogatz_by_bricks\")\n        steve.set_height(5)\n        steve.to_edge(LEFT)\n"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "9ac76b9e465ffa30b8b45c09ff0cf054b5b597f9cbea1457b4980a06cebcd7eb",
+  "commons_title": "File:Steven Strogatz in 2025.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Steven_Strogatz_in_2025.jpg",
+  "date": "2025-11-06 12:23:47",
+  "source_size_bytes": 8860416,
+  "source_width": 3566,
+  "source_height": 4579,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "9ac76b9e465ffa30b8b45c09ff0cf054b5b597f9cbea1457b4980a06cebcd7eb",
+  "final_size_bytes": 139626
+ },
+ "raster_images/TerryTao.jpg": {
+  "asset": "raster_images/TerryTao.jpg",
+  "name": "TerryTao.jpg",
+  "subject": "Own illustration (silhouette) or freely licensed photo in place of the photo of Terence Tao",
+  "author": "Institute for Pure & Applied Mathematics",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "page_url": "https://commons.wikimedia.org/wiki/File:Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_(50m16s)_(cropped).jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.901977+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/TerryTaoQuote.py",
+   "matches": [
+    {
+     "line": 6,
+     "context": "\nclass TerryTaoQuote(Scene):\n    def construct(self):\n        image = ImageMobject(\"TerryTao\")\n        image.set_height(4)"
+    },
+    {
+     "line": 8,
+     "context": "    def construct(self):\n        image = ImageMobject(\"TerryTao\")\n        image.set_height(4)\n        name = OldTexText(\"Terence Tao\")\n        name.scale(1.5)"
+    },
+    {
+     "line": 16,
+     "context": "\n        tiny_tao = ImageMobject(\"TerryTaoIMO\")\n        tiny_tao.match_height(image)\n        tiny_tao.next_to(image, RIGHT, LARGE_BUFF)\n"
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used. The full framing is kept and the background of the source itself is extended.",
+  "old_sha256": "acd46634033b6ee9b691416a61e33262a958d8e7f973b2cca7ba8dc346b8985c",
+  "commons_title": "File:Terence Tao at IPAM's Fireside Chat 2026 (50m16s) (cropped).jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Terence_Tao_at_IPAM%27s_Fireside_Chat_2026_%2850m16s%29_%28cropped%29.jpg",
+  "date": "2026-03-04",
+  "source_size_bytes": 171035,
+  "source_width": 710,
+  "source_height": 946,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "acd46634033b6ee9b691416a61e33262a958d8e7f973b2cca7ba8dc346b8985c",
+  "final_size_bytes": 148833
+ },
+ "raster_images/flags/us.png": {
+  "asset": "raster_images/flags/us.png",
+  "name": "us.png",
+  "subject": "US flag drawn by code (13 stripes and 50 stars)",
+  "author": "own (code), previous replacement identified by ASSETS_2019.md",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:54.075363+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/USProcessAlt.py",
+   "matches": [
+    {
+     "line": 10,
+     "context": "        \"num_countries\": 130,\n        \"use_real_images\": True,\n        # \"use_real_images\": False,\n        \"include_labels\": False,\n        \"camera_config\": {\"background_color\": GREY_E},"
+    },
+    {
+     "line": 11,
+     "context": "        \"use_real_images\": True,\n        # \"use_real_images\": False,\n        \"include_labels\": False,\n        \"camera_config\": {\"background_color\": GREY_E},\n        \"random_seed\": 6,"
+    },
+    {
+     "line": 25,
+     "context": "        self.move_title()\n        self.isolate_usa()\n\n    def add_title(self):\n        title = OldTexText("
+    },
+    {
+     "line": 135,
+     "context": "\n    def isolate_usa(self):\n        flags = self.flags\n        student_groups = self.student_groups\n"
+    },
+    {
+     "line": 139,
+     "context": "\n        us_flag = flags[0]\n        random_flags = Group(*flags[1:])\n        random_flags.shuffle()\n"
+    },
+    {
+     "line": 143,
+     "context": "\n        old_height = us_flag.get_height()\n        us_flag.label.set_width(0.8 * us_flag.get_width())\n        us_flag.label.next_to(\n            us_flag, DOWN,"
+    },
+    {
+     "line": 144,
+     "context": "        old_height = us_flag.get_height()\n        us_flag.label.set_width(0.8 * us_flag.get_width())\n        us_flag.label.next_to(\n            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),"
+    },
+    {
+     "line": 145,
+     "context": "        us_flag.label.set_width(0.8 * us_flag.get_width())\n        us_flag.label.next_to(\n            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),\n        )"
+    },
+    {
+     "line": 146,
+     "context": "        us_flag.label.next_to(\n            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),\n        )\n        us_flag.label.set_opacity(0)"
+    },
+    {
+     "line": 147,
+     "context": "            us_flag, DOWN,\n            buff=0.2 * us_flag.get_height(),\n        )\n        us_flag.label.set_opacity(0)\n        us_flag.add(us_flag.label)"
+    },
+    {
+     "line": 149,
+     "context": "        )\n        us_flag.label.set_opacity(0)\n        us_flag.add(us_flag.label)\n        us_flag.generate_target()\n        us_flag.target.scale(1 / old_height)"
+    },
+    {
+     "line": 150,
+     "context": "        us_flag.label.set_opacity(0)\n        us_flag.add(us_flag.label)\n        us_flag.generate_target()\n        us_flag.target.scale(1 / old_height)\n        us_flag.target.to_corner(UL)"
+    }
+   ]
+  },
+  "note": "Existing replacement with a matching hash; not modified.",
+  "old_sha256": null,
+  "sha256": "b5b0da5ae266460e1cb6084e6f48f18a0fbc3c7cd286ecd3f6386503326e698a",
+  "provenance_file": "_tools/assets_licencias/codex/ASSETS_2019.md#banderas",
+  "delivery_state": "already_exists"
+ },
+ "raster_images/nobel_prize.png": {
+  "asset": "raster_images/nobel_prize.png",
+  "name": "nobel_prize.png",
+  "subject": "Own gold medal (embossed circle, made by code)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:01:54.094095+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/IntroduceKahnemanAndTversky.py",
+   "matches": [
+    {
+     "line": 305,
+     "context": "\n        prize = ImageMobject(\"nobel_prize\", height=1)\n        prize.move_to(danny, UR)\n        prize.shift(MED_SMALL_BUFF * UR)\n"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "1c5866b941bfa324ebf872010999014383da55fae2cd771f21e0fb93be4e7af9",
+  "final_size_bytes": 10588
+ },
+ "raster_images/sun.png": {
+  "asset": "raster_images/sun.png",
+  "name": "sun.png",
+  "subject": "NASA/SDO image of the Sun (public domain) downloaded during setup",
+  "author": "NASA/SDO (AIA)",
+  "license": "Public domain",
+  "license_url": "https://creativecommons.org/publicdomain/mark/1.0/",
+  "page_url": "https://commons.wikimedia.org/wiki/File:The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+  "changes": "Free source downloaded independently; crop/rescale to the exact size and mode; no AI.",
+  "status": "kept",
+  "via": "download",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:22:40.916465+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/solution2/simple_scenes/ClacksSolution2Thumbnail.py",
+   "matches": [
+    {
+     "line": 188,
+     "context": "        ellipse.set_stroke(BLUE, 6)\n        sun = ImageMobject(\"sun\", height=0.5)\n        sun.move_to(self.get_eccentricity_point())\n\n        circle_group = VGroup(circle, ghost_lines, lines, ellipse, sun)"
+    },
+    {
+     "line": 189,
+     "context": "        sun = ImageMobject(\"sun\", height=0.5)\n        sun.move_to(self.get_eccentricity_point())\n\n        circle_group = VGroup(circle, ghost_lines, lines, ellipse, sun)\n        self.add(circle_group)"
+    },
+    {
+     "line": 191,
+     "context": "\n        circle_group = VGroup(circle, ghost_lines, lines, ellipse, sun)\n        self.add(circle_group)\n\n        l1 = Line("
+    }
+   ]
+  },
+  "note": "License consulted in this run. Grant's original is not used.",
+  "old_sha256": "274d46aa494814424a2f982aa533840f6b0fb0db5a738b59db826d6cd7392590",
+  "commons_title": "File:The Sun by the Atmospheric Imaging Assembly of NASA's Solar Dynamics Observatory - 20100819.jpg",
+  "file_url": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+  "date": "2010-08-19 00:32:21",
+  "source_size_bytes": 12413338,
+  "source_width": 4044,
+  "source_height": 3860,
+  "license_evidence": "Commons imageinfo/extmetadata queried in this run",
+  "delivery_state": "done",
+  "sha256": "274d46aa494814424a2f982aa533840f6b0fb0db5a738b59db826d6cd7392590",
+  "final_size_bytes": 5174138
+ },
+ "raster_images/thinking_fast_and_slow.jpg": {
+  "asset": "raster_images/thinking_fast_and_slow.jpg",
+  "name": "thinking_fast_and_slow.jpg",
+  "subject": "Own card (rectangle with the title and author, as text) in place of the cover: Cover of 'Thinking, Fast and Slow'",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:02:02.861534+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/IntroduceKahnemanAndTversky.py",
+   "matches": [
+    {
+     "line": 310,
+     "context": "        books = Group(\n            ImageMobject(\"thinking_fast_and_slow\"),\n            ImageMobject(\"undoing_project\"),\n        )\n        books.set_height(5)"
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "38e3bdfda74838d825d548b8e4a943ad1c151d50f21828dbe3c7ab8605d58371",
+  "final_size_bytes": 48889
+ },
+ "raster_images/undoing_project.jpg": {
+  "asset": "raster_images/undoing_project.jpg",
+  "name": "undoing_project.jpg",
+  "subject": "Own card (rectangle with the title and author, as text) in place of the cover: Cover of 'The Undoing Project'",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:02:03.105055+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/IntroduceKahnemanAndTversky.py",
+   "matches": [
+    {
+     "line": 311,
+     "context": "            ImageMobject(\"thinking_fast_and_slow\"),\n            ImageMobject(\"undoing_project\"),\n        )\n        books.set_height(5)\n        books.arrange(RIGHT, buff=0.5)"
+    }
+   ]
+  },
+  "note": "Own typographic card with title and author/channel; no cover, logo or third-party frame.",
+  "old_sha256": null,
+  "delivery_state": "done",
+  "sha256": "8fb248d3152733888fed02072ebff4d5c5523e622d8b0b115f0ff60106e0431d",
+  "final_size_bytes": 94719
+ },
+ "svg_images/IP_logo2.svg": {
+  "asset": "svg_images/IP_logo2.svg",
+  "name": "IP_logo2.svg",
+  "subject": "Single-line stroke (scribble) made by Grant for FourierOfIP; it is not the logo of a known brand",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:03:51.536642+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/FourierOfIP.py",
+   "matches": [
+    {
+     "line": 349,
+     "context": "    CONFIG = {\n        \"file_name\": \"IP_logo2\",\n        \"height\": 6,\n        \"n_vectors\": 100,\n    }"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "d094389ce063081a99a6392e92ee2346a35d2ae3e9eb8a699dabbbeebeac1443",
+  "final_size_bytes": 405
+ },
+ "svg_images/Mammoth.svg": {
+  "asset": "svg_images/Mammoth.svg",
+  "name": "Mammoth.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Mammoth silhouette (5 strokes; the body is the last one)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:16:28.458986+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part3/staging/CarbonDecayingInMammoth.py",
+   "matches": [
+    {
+     "line": 3,
+     "context": "\nclass CarbonDecayingInMammoth(Scene):\n    def construct(self):\n        mammoth = SVGMobject(\"Mammoth\")\n        mammoth.set_color("
+    },
+    {
+     "line": 5,
+     "context": "    def construct(self):\n        mammoth = SVGMobject(\"Mammoth\")\n        mammoth.set_color(\n            interpolate_color(GREY_BROWN, WHITE, 0.25)\n        )"
+    },
+    {
+     "line": 6,
+     "context": "        mammoth = SVGMobject(\"Mammoth\")\n        mammoth.set_color(\n            interpolate_color(GREY_BROWN, WHITE, 0.25)\n        )\n        mammoth.set_height(4)"
+    },
+    {
+     "line": 9,
+     "context": "        )\n        mammoth.set_height(4)\n        # CAMBIO: el Mammoth.svg local tiene 5 trazos y la silueta completa es el indice 4 (el original de Grant tenia el cuerpo en el 9)\n        body = mammoth[4]\n"
+    },
+    {
+     "line": 10,
+     "context": "        mammoth.set_height(4)\n        # CAMBIO: el Mammoth.svg local tiene 5 trazos y la silueta completa es el indice 4 (el original de Grant tenia el cuerpo en el 9)\n        body = mammoth[4]\n\n        atoms = VGroup(*["
+    },
+    {
+     "line": 11,
+     "context": "        # CAMBIO: el Mammoth.svg local tiene 5 trazos y la silueta completa es el indice 4 (el original de Grant tenia el cuerpo en el 9)\n        body = mammoth[4]\n\n        atoms = VGroup(*[\n            self.get_atom(body)"
+    },
+    {
+     "line": 27,
+     "context": "\n        self.add(mammoth)\n        self.add(atoms)\n        self.wait(20)\n"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 5,
+  "delivery_state": "done",
+  "sha256": "21c8bd3a55b57c40735a073220258ad0bba4c59a6c0acc16f76c995b1e1132fc",
+  "final_size_bytes": 4850
+ },
+ "svg_images/black_hole.svg": {
+  "asset": "svg_images/black_hole.svg",
+  "name": "black_hole.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Black hole spiral",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:03:51.570862+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/clacks/question/CompareToGalacticMass.py",
+   "matches": [
+    {
+     "line": 406,
+     "context": "        self.show_mass()\n        self.show_galactic_black_holes()\n        self.show_total_count()\n\n    def add_digits_of_pi(self):"
+    },
+    {
+     "line": 535,
+     "context": "\n    def show_galactic_black_holes(self):\n        black_hole = SVGMobject(file_name=\"black_hole\")\n        black_hole.set_color(BLACK)\n        black_hole.set_sheen(0.2, UL)"
+    },
+    {
+     "line": 536,
+     "context": "    def show_galactic_black_holes(self):\n        black_hole = SVGMobject(file_name=\"black_hole\")\n        black_hole.set_color(BLACK)\n        black_hole.set_sheen(0.2, UL)\n        black_hole.set_height(1)"
+    },
+    {
+     "line": 537,
+     "context": "        black_hole = SVGMobject(file_name=\"black_hole\")\n        black_hole.set_color(BLACK)\n        black_hole.set_sheen(0.2, UL)\n        black_hole.set_height(1)\n        black_holes = VGroup(*["
+    },
+    {
+     "line": 538,
+     "context": "        black_hole.set_color(BLACK)\n        black_hole.set_sheen(0.2, UL)\n        black_hole.set_height(1)\n        black_holes = VGroup(*[\n            black_hole.copy() for k in range(10)"
+    },
+    {
+     "line": 539,
+     "context": "        black_hole.set_sheen(0.2, UL)\n        black_hole.set_height(1)\n        black_holes = VGroup(*[\n            black_hole.copy() for k in range(10)\n        ])"
+    },
+    {
+     "line": 540,
+     "context": "        black_hole.set_height(1)\n        black_holes = VGroup(*[\n            black_hole.copy() for k in range(10)\n        ])\n        black_holes.arrange_in_grid(5, 2)"
+    },
+    {
+     "line": 541,
+     "context": "        black_holes = VGroup(*[\n            black_hole.copy() for k in range(10)\n        ])\n        black_holes.arrange_in_grid(5, 2)\n        black_holes.to_corner(DR)"
+    },
+    {
+     "line": 543,
+     "context": "        ])\n        black_holes.arrange_in_grid(5, 2)\n        black_holes.to_corner(DR)\n        random.shuffle(black_holes.submobjects)\n        for bh in black_holes:"
+    },
+    {
+     "line": 544,
+     "context": "        black_holes.arrange_in_grid(5, 2)\n        black_holes.to_corner(DR)\n        random.shuffle(black_holes.submobjects)\n        for bh in black_holes:\n            bh.save_state()"
+    },
+    {
+     "line": 545,
+     "context": "        black_holes.to_corner(DR)\n        random.shuffle(black_holes.submobjects)\n        for bh in black_holes:\n            bh.save_state()\n            bh.scale(3)"
+    },
+    {
+     "line": 546,
+     "context": "        random.shuffle(black_holes.submobjects)\n        for bh in black_holes:\n            bh.save_state()\n            bh.scale(3)\n            bh.set_fill(GREY_D, 0)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "d7725c7f9f8a7517c635d46938519c17d7b89ea4633f416ba1147286f13dca60",
+  "final_size_bytes": 17894
+ },
+ "svg_images/brain.svg": {
+  "asset": "svg_images/brain.svg",
+  "name": "brain.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Brain (outline)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:03:51.581340+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/ReprogrammingThought.py",
+   "matches": [
+    {
+     "line": 239,
+     "context": "    def construct(self):\n        brain = SVGMobject(\"brain\")\n        brain.set_fill(GREY, 1)\n        brain.set_sheen(1, UL)\n        brain.set_stroke(width=0)"
+    },
+    {
+     "line": 240,
+     "context": "        brain = SVGMobject(\"brain\")\n        brain.set_fill(GREY, 1)\n        brain.set_sheen(1, UL)\n        brain.set_stroke(width=0)\n"
+    },
+    {
+     "line": 241,
+     "context": "        brain.set_fill(GREY, 1)\n        brain.set_sheen(1, UL)\n        brain.set_stroke(width=0)\n\n        arrow = DoubleArrow(ORIGIN, 3 * RIGHT)"
+    },
+    {
+     "line": 242,
+     "context": "        brain.set_sheen(1, UL)\n        brain.set_stroke(width=0)\n\n        arrow = DoubleArrow(ORIGIN, 3 * RIGHT)\n"
+    },
+    {
+     "line": 248,
+     "context": "\n        group = VGroup(brain, arrow, formula)\n        group.arrange(RIGHT)\n        group.center()\n"
+    },
+    {
+     "line": 264,
+     "context": "\n        brain_outline = brain.copy()\n        brain_outline.set_fill(opacity=0)\n        brain_outline.set_stroke(TEAL, 4)\n"
+    },
+    {
+     "line": 265,
+     "context": "        brain_outline = brain.copy()\n        brain_outline.set_fill(opacity=0)\n        brain_outline.set_stroke(TEAL, 4)\n\n        self.play(FadeIn(brain, RIGHT))"
+    },
+    {
+     "line": 266,
+     "context": "        brain_outline.set_fill(opacity=0)\n        brain_outline.set_stroke(TEAL, 4)\n\n        self.play(FadeIn(brain, RIGHT))\n        self.play("
+    },
+    {
+     "line": 268,
+     "context": "\n        self.play(FadeIn(brain, RIGHT))\n        self.play(\n            GrowFromCenter(arrow),\n            LaggedStartMap(FadeInFromDown, q_marks[0]),"
+    },
+    {
+     "line": 282,
+     "context": "\n        self.add(brain)\n        self.play(ShowCreationThenFadeOut(\n            brain_outline,\n            lag_ratio=0.01,"
+    },
+    {
+     "line": 284,
+     "context": "        self.play(ShowCreationThenFadeOut(\n            brain_outline,\n            lag_ratio=0.01,\n            run_time=2\n        ))"
+    },
+    {
+     "line": 291,
+     "context": "        bubble = ThoughtBubble()\n        bubble.next_to(brain, UR, SMALL_BUFF)\n        bubble.shift(2 * DOWN)\n\n        diagram = BayesDiagram(0.25, 0.8, 0.5)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "6c1d5bb7fcf31ee576a45a33d8f99eaf7dd2f688072aa33d6a630043eaf4b2d0",
+  "final_size_bytes": 657
+ },
+ "svg_images/gold_bars.svg": {
+  "asset": "svg_images/gold_bars.svg",
+  "name": "gold_bars.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Stack of gold bars",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:03:51.590123+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/StateGoal.py",
+   "matches": [
+    {
+     "line": 605,
+     "context": "    def get_gold(self):\n        gold = SVGMobject(file_name=\"gold_bars\")[0]\n        gold.set_stroke(width=0)\n        gold.set_fill(GOLD)\n        gold.set_sheen(0.5, UP)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 1,
+  "delivery_state": "done",
+  "sha256": "212d16e1a6a7928308231f58191a85d83cca05421d5345b3f51baf6c1e14ee0c",
+  "final_size_bytes": 369
+ },
+ "svg_images/google_logo.svg": {
+  "asset": "svg_images/google_logo.svg",
+  "name": "google_logo.svg",
+  "subject": "Own monochrome G, piece at index 5",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:45:16.657607+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/diffyq/part2/fourier_series/FourierGoogleG.py",
+   "matches": [
+    {
+     "line": 360,
+     "context": "    def get_shape(self):\n        g = SVGMobject(\"google_logo\")[5]\n        g.center()\n        self.add(g)\n        return g"
+    }
+   ]
+  },
+  "note": "Six pieces in the same bluish gray; index 5 = own G with a finial and a spur, five tiny auxiliary dots, no brand palette.",
+  "old_sha256": null,
+  "svg_paths": 6,
+  "delivery_state": "done",
+  "sha256": "1b8a3b67d340453d8b7a840270fcf8d7de3bf098e9c2f57ec5d093c04d521d12",
+  "final_size_bytes": 10343,
+  "refinement_state": "improved",
+  "refinement_note": "Six pieces in the same bluish gray; index 5 = own G with a finial and a spur, five tiny auxiliary dots, no brand palette.",
+  "refined_at": "2026-10-27T01:45:16.666783+00:00"
+ },
+ "svg_images/imo_2011_2_underline-01.svg": {
+  "asset": "svg_images/imo_2011_2_underline-01.svg",
+  "name": "imo_2011_2_underline-01.svg",
+  "subject": "Underlines that Grant drew over the statement of problem 2 (simple own shapes)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:12:06.533683+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/ReadQuestions.py",
+   "matches": [
+    {
+     "line": 12,
+     "context": "\n        lines = SVGMobject(\"imo_2011_2_underline-01\")\n        lines.set_width(FRAME_WIDTH - 1)\n        lines.move_to(0.1 * DOWN)\n        lines.set_stroke(TEAL, 3)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 11,
+  "delivery_state": "done",
+  "sha256": "f7fb20db02bcf1995dddb59eb214cc6893391a3e5276c1c5149a962abe17200f",
+  "final_size_bytes": 1711
+ },
+ "svg_images/magnifying_glass.svg": {
+  "asset": "svg_images/magnifying_glass.svg",
+  "name": "magnifying_glass.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Magnifying glass",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:01.121458+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/footnote/Rearrange.py",
+   "matches": [
+    {
+     "line": 586,
+     "context": "        # Replace symbols\n        mag = SVGMobject(file_name=\"magnifying_glass\")\n        mag.set_stroke(width=0)\n        mag.set_fill(GREY, 1)\n        mag.set_sheen(1, UL)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 2,
+  "delivery_state": "done",
+  "sha256": "7713edbcfc5cf216247042df53a76c75839ae78fb1e7c1aaf1fdf1bdb74c6f51",
+  "final_size_bytes": 5600
+ },
+ "svg_images/quixote.svg": {
+  "asset": "svg_images/quixote.svg",
+  "name": "quixote.svg",
+  "subject": "Engraving of Don Quixote (Doré, public domain) or own drawing",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:01.131063+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/QuixoteReference.py",
+   "matches": [
+    {
+     "line": 3,
+     "context": "\nclass QuixoteReference(Scene):\n    def construct(self):\n        rect = FullScreenFadeRectangle()\n        rect.set_fill([GREY_D, GREY])"
+    },
+    {
+     "line": 15,
+     "context": "\n        quixote = SVGMobject(\"quixote\")\n        quixote.flip()\n        quixote.set_height(4)\n        quixote.to_edge(LEFT)"
+    },
+    {
+     "line": 16,
+     "context": "        quixote = SVGMobject(\"quixote\")\n        quixote.flip()\n        quixote.set_height(4)\n        quixote.to_edge(LEFT)\n        quixote.set_stroke(BLACK, width=0)"
+    },
+    {
+     "line": 17,
+     "context": "        quixote.flip()\n        quixote.set_height(4)\n        quixote.to_edge(LEFT)\n        quixote.set_stroke(BLACK, width=0)\n        quixote.set_fill(BLACK, 1)"
+    },
+    {
+     "line": 18,
+     "context": "        quixote.set_height(4)\n        quixote.to_edge(LEFT)\n        quixote.set_stroke(BLACK, width=0)\n        quixote.set_fill(BLACK, 1)\n        quixote.align_to(windmill, DOWN)"
+    },
+    {
+     "line": 19,
+     "context": "        quixote.to_edge(LEFT)\n        quixote.set_stroke(BLACK, width=0)\n        quixote.set_fill(BLACK, 1)\n        quixote.align_to(windmill, DOWN)\n"
+    },
+    {
+     "line": 20,
+     "context": "        quixote.set_stroke(BLACK, width=0)\n        quixote.set_fill(BLACK, 1)\n        quixote.align_to(windmill, DOWN)\n\n        self.add(rect)"
+    },
+    {
+     "line": 21,
+     "context": "        quixote.set_fill(BLACK, 1)\n        quixote.align_to(windmill, DOWN)\n\n        self.add(rect)\n        # self.add(windmill)"
+    },
+    {
+     "line": 28,
+     "context": "            DrawBorderThenFill(\n                quixote,\n                stroke_width=1,\n            ),\n            lag_ratio=0.4,"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 5,
+  "delivery_state": "done",
+  "sha256": "5ecd36618073b969cf274cca2200c6ac42d9bcb76c15111f07009e8342c50101",
+  "final_size_bytes": 4169
+ },
+ "svg_images/rain.svg": {
+  "asset": "svg_images/rain.svg",
+  "name": "rain.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Rain cloud, outline",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:01.140165+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/WhenDiscreteChunksArentSoClean.py",
+   "matches": [
+    {
+     "line": 15,
+     "context": "\n        rain, sun = icon_templates = VGroup(\n            SVGMobject(\"rain_cloud\"),\n            SVGMobject(\"sunny\"),\n        )"
+    },
+    {
+     "line": 16,
+     "context": "        rain, sun = icon_templates = VGroup(\n            SVGMobject(\"rain_cloud\"),\n            SVGMobject(\"sunny\"),\n        )\n        for icon in icon_templates:"
+    },
+    {
+     "line": 23,
+     "context": "            icon.set_sheen(0.5, UL)\n        rain.set_color(BLUE_E)\n        sun.set_color(YELLOW)\n\n        partial_rects = VGroup()"
+    },
+    {
+     "line": 30,
+     "context": "        for i, square in enumerate(squares):\n            icon = rain.copy() if i < 40 else sun.copy()\n            icon.move_to(square)\n            icons.add(icon)\n"
+    },
+    {
+     "line": 50,
+     "context": "        p_label = VGroup(\n            OldTex(\"P\", \"(\", \"\\\\text{Rain}\", \")\", \"=\"),\n            DecimalNumber(40, unit=\"\\\\%\", num_decimal_places=2)\n        )\n        percentage = p_label[1]"
+    },
+    {
+     "line": 56,
+     "context": "        p_label.to_edge(UP)\n        p_label[0].set_color_by_tex(\"Rain\", BLUE)\n        percentage.align_to(p_label[0][0], DOWN)\n\n        alt_percentage = Integer(0, unit=\"\\\\%\")"
+    },
+    {
+     "line": 93,
+     "context": "        sun = icons[40].copy()\n        rain = icons[0].copy()\n        for mob, rect in [(rain, l_rect), (sun, r_rect)]:\n            mob.generate_target()\n            mob.target.set_stroke(BLACK, 3, background=True)"
+    },
+    {
+     "line": 94,
+     "context": "        rain = icons[0].copy()\n        for mob, rect in [(rain, l_rect), (sun, r_rect)]:\n            mob.generate_target()\n            mob.target.set_stroke(BLACK, 3, background=True)\n            mob.target.set_height(1)"
+    },
+    {
+     "line": 101,
+     "context": "            FadeIn(rects),\n            MoveToTarget(rain),\n            MoveToTarget(sun),\n            GrowFromCenter(brace),\n            p_label.shift,"
+    },
+    {
+     "line": 112,
+     "context": "        full_width = rects.get_width()\n        rain.add_updater(lambda m: m.move_to(l_rect))\n        sun.add_updater(lambda m: m.move_to(r_rect))\n        r_rect.add_updater(lambda m: m.set_width(\n            full_width - l_rect.get_width(),"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 4,
+  "delivery_state": "done",
+  "sha256": "ee8117fa97d3b41a95290883de397b9e13d03484010d1824d5d1813d01e15f99",
+  "final_size_bytes": 7703
+ },
+ "svg_images/rain_cloud.svg": {
+  "asset": "svg_images/rain_cloud.svg",
+  "name": "rain_cloud.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Filled cloud with drops",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:01.150010+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/WhenDiscreteChunksArentSoClean.py",
+   "matches": [
+    {
+     "line": 16,
+     "context": "        rain, sun = icon_templates = VGroup(\n            SVGMobject(\"rain_cloud\"),\n            SVGMobject(\"sunny\"),\n        )\n        for icon in icon_templates:"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 4,
+  "delivery_state": "done",
+  "sha256": "7956bf01ecf5cf4453b9a57337fc8544fb3a250ad1f0076233c9aa08e4e318be",
+  "final_size_bytes": 7693
+ },
+ "svg_images/santa_hat.svg": {
+  "asset": "svg_images/santa_hat.svg",
+  "name": "santa_hat.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Santa hat",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:01.159038+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/QA_2to21/HolidayStorePromotionTime.py",
+   "matches": [
+    {
+     "line": 31,
+     "context": "        hat = SVGMobject(\n            file_name = \"santa_hat\",\n            height = 0.5*pi.get_height()\n        )\n        hat.rotate(-np.pi/12)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 3,
+  "delivery_state": "done",
+  "sha256": "10e3a14681a26f517f522bba49a9c0405015290835dc39d5652d5c82c71f148a",
+  "final_size_bytes": 2540
+ },
+ "svg_images/science.svg": {
+  "asset": "svg_images/science.svg",
+  "name": "science.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Flask with bubbles",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:17.996137+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/StateGoal.py",
+   "matches": [
+    {
+     "line": 325,
+     "context": "        icons = VGroup(\n            SVGMobject(file_name=\"science\"),\n            SVGMobject(file_name=\"robot\"),\n        )\n        for icon in icons:"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 4,
+  "delivery_state": "done",
+  "sha256": "db497281a17f24fb6ffeb505513a3426767262de5a0130eab5d80300805563da",
+  "final_size_bytes": 4637
+ },
+ "svg_images/scientist.svg": {
+  "asset": "svg_images/scientist.svg",
+  "name": "scientist.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Scientist with a flask",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:18.020744+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/UsesOfBayesTheorem.py",
+   "matches": [
+    {
+     "line": 189,
+     "context": "\n        scientist = SVGMobject(file_name=\"scientist\")\n        programmer = SVGMobject(file_name=\"programmer\")\n        randy = Randolph().flip()\n"
+    },
+    {
+     "line": 193,
+     "context": "\n        people = VGroup(scientist, programmer, randy)\n        people.set_stroke(width=0)\n        for person in people:\n            person.set_height(2.5)"
+    },
+    {
+     "line": 213,
+     "context": "        # Add people\n        for person in [scientist, programmer]:\n            self.play(FadeIn(person, DOWN))\n            rhs_copy = rhs.copy()\n            rhs_copy.add_to_back("
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 4,
+  "delivery_state": "done",
+  "sha256": "8d2dfe85e1a6e92491dd020e4bb180698abf7325d3c22616a5b76ed66cb212e3",
+  "final_size_bytes": 2683
+ },
+ "svg_images/sunny.svg": {
+  "asset": "svg_images/sunny.svg",
+  "name": "sunny.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Sun with rays",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:18.029837+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/bayes/part1/WhenDiscreteChunksArentSoClean.py",
+   "matches": [
+    {
+     "line": 17,
+     "context": "            SVGMobject(\"rain_cloud\"),\n            SVGMobject(\"sunny\"),\n        )\n        for icon in icon_templates:\n            icon.set_width(0.6 * squares[0].get_width())"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 9,
+  "delivery_state": "done",
+  "sha256": "561419d995be6df29a91a5cbcc9b4207833a548c83645d4b3a82da29b917d5b1",
+  "final_size_bytes": 13712
+ },
+ "svg_images/windmill.svg": {
+  "asset": "svg_images/windmill.svg",
+  "name": "windmill.svg",
+  "subject": "Own icon drawn by code (make_visual_svgs.py): Windmill",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:18.039288+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/QuixoteReference.py",
+   "matches": [
+    {
+     "line": 8,
+     "context": "\n        windmill = SVGMobject(\"windmill\")\n        windmill.set_fill([GREY_BROWN, WHITE], 1)\n        windmill.set_stroke(width=0)\n        windmill.set_height(6)"
+    },
+    {
+     "line": 9,
+     "context": "        windmill = SVGMobject(\"windmill\")\n        windmill.set_fill([GREY_BROWN, WHITE], 1)\n        windmill.set_stroke(width=0)\n        windmill.set_height(6)\n        windmill.to_edge(RIGHT)"
+    },
+    {
+     "line": 10,
+     "context": "        windmill.set_fill([GREY_BROWN, WHITE], 1)\n        windmill.set_stroke(width=0)\n        windmill.set_height(6)\n        windmill.to_edge(RIGHT)\n        # windmill.to_edge(DOWN, buff=0)"
+    },
+    {
+     "line": 11,
+     "context": "        windmill.set_stroke(width=0)\n        windmill.set_height(6)\n        windmill.to_edge(RIGHT)\n        # windmill.to_edge(DOWN, buff=0)\n"
+    },
+    {
+     "line": 12,
+     "context": "        windmill.set_height(6)\n        windmill.to_edge(RIGHT)\n        # windmill.to_edge(DOWN, buff=0)\n\n        quixote = SVGMobject(\"quixote\")"
+    },
+    {
+     "line": 13,
+     "context": "        windmill.to_edge(RIGHT)\n        # windmill.to_edge(DOWN, buff=0)\n\n        quixote = SVGMobject(\"quixote\")\n        quixote.flip()"
+    },
+    {
+     "line": 21,
+     "context": "        quixote.set_fill(BLACK, 1)\n        quixote.align_to(windmill, DOWN)\n\n        self.add(rect)\n        # self.add(windmill)"
+    },
+    {
+     "line": 24,
+     "context": "        self.add(rect)\n        # self.add(windmill)\n        self.play(LaggedStart(\n            DrawBorderThenFill(windmill),\n            DrawBorderThenFill("
+    },
+    {
+     "line": 26,
+     "context": "        self.play(LaggedStart(\n            DrawBorderThenFill(windmill),\n            DrawBorderThenFill(\n                quixote,\n                stroke_width=1,"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 7,
+  "delivery_state": "done",
+  "sha256": "5f43618d224190910dbf41a841a59b5270ab93700c4926ed9920d257da3c73e0",
+  "final_size_bytes": 3304
+ },
+ "svg_images/windmill_fairytale.svg": {
+  "asset": "svg_images/windmill_fairytale.svg",
+  "name": "windmill_fairytale.svg",
+  "subject": "Italic text 'Once upon a time, there was a windmill...' composed by Grant (own text)",
+  "author": "own (code)",
+  "license": "CC0",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "page_url": "",
+  "changes": "Independent recreation from scratch; it is not derived from the original.",
+  "status": "generated",
+  "via": "code",
+  "recipe_version": "2019-own-v1",
+  "verified_at": "2026-10-27T01:04:18.048169+00:00",
+  "scene_review": {
+   "scene": "_work/_2019/windmill/WindmillFairyTale.py",
+   "matches": [
+    {
+     "line": 5,
+     "context": "    def construct(self):\n        paths = SVGMobject(file_name=\"windmill_fairytale\")\n\n        paths.set_height(FRAME_HEIGHT - 1)\n        paths.set_stroke(width=0)"
+    }
+   ]
+  },
+  "note": "Own code; size/mode or viewBox preserved. Scene usage reviewed.",
+  "old_sha256": null,
+  "svg_paths": 3,
+  "delivery_state": "done",
+  "sha256": "929395c74542a08919386b21df361418d59ff3fe6feb17d2e9c6480db99a6ed6",
+  "final_size_bytes": 73456
+ }
+}
